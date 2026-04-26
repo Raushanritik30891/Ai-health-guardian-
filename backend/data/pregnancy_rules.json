@@ -1,0 +1,207 @@
+{
+  "_schema_version": "1.0.0",
+  "_note": "Pregnancy categories from official US FDA labeling (DailyMed/openFDA) and European SmPC where available. Note: FDA replaced A/B/C/D/X categories with narrative PLLR labels in 2015 for new approvals; older medicines retain letter categories. Indian CDSCO follows broadly similar classification. Always verify against current Indian SmPC.",
+  "pregnancy_rules": [
+    {
+      "id": "PG001",
+      "medicine": "Atorvastatin",
+      "pregnancy_category": "X",
+      "risk_level": "CONTRAINDICATED",
+      "reason": "Statins may cause fetal harm. Cholesterol biosynthesis is critical for fetal development. Category X: risks outweigh any possible benefit.",
+      "trimester_specifics": "All trimesters",
+      "source_name": "DailyMed (Lipitor labeling) / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=atorvastatin"
+    },
+    {
+      "id": "PG002",
+      "medicine": "Telmisartan",
+      "pregnancy_category": "D (2nd/3rd trimester) / C (1st trimester)",
+      "risk_level": "CONTRAINDICATED (2nd and 3rd trimester)",
+      "reason": "ARBs acting on the renin-angiotensin system in 2nd and 3rd trimester can cause fetal renal dysfunction, oligohydramnios, neonatal renal failure, skull hypoplasia, and death.",
+      "trimester_specifics": "Discontinue as soon as pregnancy detected",
+      "source_name": "DailyMed (Micardis labeling) / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=telmisartan"
+    },
+    {
+      "id": "PG003",
+      "medicine": "Metformin",
+      "pregnancy_category": "B",
+      "risk_level": "USE WITH CAUTION — consult physician",
+      "reason": "Animal studies show no risk, but adequate human studies are lacking. Some guidelines (UK NICE) use metformin in gestational diabetes under supervision. Not first-line in India without physician oversight.",
+      "trimester_specifics": "Requires specialist supervision if used",
+      "source_name": "DailyMed (Glucophage labeling) / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=metformin"
+    },
+    {
+      "id": "PG004",
+      "medicine": "Paracetamol",
+      "pregnancy_category": "B",
+      "risk_level": "GENERALLY SAFE — first-line analgesic/antipyretic in pregnancy",
+      "reason": "Extensive human use data; no consistent evidence of teratogenicity. Preferred over NSAIDs and aspirin in pregnancy.",
+      "trimester_specifics": "Use minimum effective dose for shortest duration",
+      "source_name": "DailyMed / WHO Essential Medicines List",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=paracetamol"
+    },
+    {
+      "id": "PG005",
+      "medicine": "Aspirin (analgesic doses ≥325mg)",
+      "pregnancy_category": "C (1st/2nd trimester) / D (3rd trimester)",
+      "risk_level": "AVOID — especially in 3rd trimester",
+      "reason": "High-dose aspirin in 3rd trimester associated with premature closure of ductus arteriosus, neonatal bleeding, and prolonged labor.",
+      "trimester_specifics": "Low-dose (75-100mg) may be used under physician supervision for pre-eclampsia prevention",
+      "source_name": "DailyMed / FDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=aspirin"
+    },
+    {
+      "id": "PG006",
+      "medicine": "Ciprofloxacin",
+      "pregnancy_category": "C",
+      "risk_level": "AVOID unless no safer alternative",
+      "reason": "Animal studies show arthropathy in immature animals. Human data insufficient. Potential risk to developing cartilage.",
+      "trimester_specifics": "Avoid throughout pregnancy if alternatives exist",
+      "source_name": "DailyMed (Cipro labeling) / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ciprofloxacin"
+    },
+    {
+      "id": "PG007",
+      "medicine": "Levothyroxine",
+      "pregnancy_category": "A",
+      "risk_level": "SAFE — essential to maintain in pregnancy",
+      "reason": "Hypothyroidism untreated in pregnancy causes fetal neurological harm. Levothyroxine is physiological replacement and is safe; dose often needs increase during pregnancy.",
+      "trimester_specifics": "Monitor TSH every trimester; dose adjustments required",
+      "source_name": "DailyMed (Synthroid labeling) / ATA Guidelines",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=levothyroxine"
+    },
+    {
+      "id": "PG008",
+      "medicine": "Azithromycin",
+      "pregnancy_category": "B",
+      "risk_level": "GENERALLY CONSIDERED SAFE — use with caution",
+      "reason": "Animal studies show no fetal harm. Limited human data but widely used in pregnancy for certain indications.",
+      "trimester_specifics": "Use only when clearly needed",
+      "source_name": "DailyMed (Zithromax labeling)",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=azithromycin"
+    },
+    {
+      "id": "PG009",
+      "medicine": "Clopidogrel",
+      "pregnancy_category": "B",
+      "risk_level": "USE WITH CAUTION — limited human data",
+      "reason": "Animal studies show no fetal harm; human data limited. Use only if clearly needed.",
+      "trimester_specifics": "Generally discontinued before planned delivery",
+      "source_name": "DailyMed (Plavix labeling)",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=clopidogrel"
+    },
+    {
+      "id": "PG010",
+      "medicine": "Levetiracetam",
+      "pregnancy_category": "C (PLLR: risks described in labeling)",
+      "risk_level": "USE WITH CAUTION — epilepsy treatment must continue",
+      "reason": "Seizures during pregnancy pose serious maternal and fetal risks. Levetiracetam may be continued under neurologist supervision. Enroll in pregnancy registry.",
+      "trimester_specifics": "Folic acid supplementation recommended. Plasma levels may decrease in pregnancy; monitor.",
+      "source_name": "DailyMed (Keppra labeling) / UCB Pregnancy Registry",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=levetiracetam"
+    },
+    {
+      "id": "PG011",
+      "medicine": "Sodium Valproate",
+      "pregnancy_category": "D (PLLR: serious risk documented)",
+      "risk_level": "ABSOLUTELY CONTRAINDICATED — highest teratogenicity",
+      "reason": "Neural tube defects (1-2%), cardiac defects, cleft palate, neurodevelopmental disorders including autism and reduced IQ. Must not be used in women of childbearing potential without specialist review and Pregnancy Prevention Programme compliance.",
+      "trimester_specifics": "All trimesters. Patients must be counseled and enrolled in prevention program.",
+      "source_name": "FDA Black Box Warning / EMA SmPC",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=sodium+valproate"
+    },
+    {
+      "id": "PG012",
+      "medicine": "Methotrexate",
+      "pregnancy_category": "X",
+      "risk_level": "ABSOLUTELY CONTRAINDICATED",
+      "reason": "Methotrexate is a folate antagonist and potent teratogen. Associated with miscarriage, neural tube defects, skeletal abnormalities. FDA Pregnancy Category X.",
+      "trimester_specifics": "All trimesters. Contraception mandatory during use and for 3 months after stopping in both sexes.",
+      "source_name": "FDA Black Box Warning / DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=methotrexate"
+    },
+    {
+      "id": "PG013",
+      "medicine": "Carbamazepine",
+      "pregnancy_category": "D",
+      "risk_level": "HIGH RISK — avoid if alternatives exist",
+      "reason": "Carbamazepine causes neural tube defects (spina bifida), craniofacial defects, growth retardation. Risk is 2-3x baseline. Folic acid 5mg/day mandatory if used in pregnancy.",
+      "trimester_specifics": "All trimesters. Use only if seizure control otherwise impossible.",
+      "source_name": "DailyMed / SIGN Guidelines",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=carbamazepine"
+    },
+    {
+      "id": "PG014",
+      "medicine": "Warfarin",
+      "pregnancy_category": "D (1st trimester X — warfarin embryopathy)",
+      "risk_level": "CONTRAINDICATED especially 1st trimester and last weeks before delivery",
+      "reason": "1st trimester: warfarin embryopathy (nasal hypoplasia, stippled epiphyses, limb hypoplasia). Any trimester: fetal/neonatal bleeding. Near-term: neonatal haemorrhage.",
+      "trimester_specifics": "Switch to LMWH in 1st trimester and near delivery. May be acceptable mid-pregnancy for mechanical valves under specialist care.",
+      "source_name": "DailyMed / BNF",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=warfarin"
+    },
+    {
+      "id": "PG015",
+      "medicine": "Amiodarone",
+      "pregnancy_category": "D",
+      "risk_level": "AVOID — use only if no alternative",
+      "reason": "Neonatal thyroid dysfunction (hypothyroidism and hyperthyroidism) due to iodine content. Bradycardia, QT prolongation in fetus. Long half-life means effects can persist.",
+      "trimester_specifics": "All trimesters. Neonatal thyroid screening mandatory if exposed in pregnancy.",
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=amiodarone"
+    },
+    {
+      "id": "PG016",
+      "medicine": "Ramipril / ACE Inhibitors",
+      "pregnancy_category": "C (1st trimester) / D (2nd-3rd trimester)",
+      "risk_level": "CONTRAINDICATED in 2nd and 3rd trimester",
+      "reason": "ACE inhibitors in 2nd/3rd trimester cause fetal renal tubular dysplasia, oligohydramnios, neonatal anuric renal failure, skull hypoplasia.",
+      "trimester_specifics": "Discontinue immediately when pregnancy diagnosed. Switch to methyldopa or labetalol for hypertension in pregnancy.",
+      "source_name": "FDA / DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ramipril"
+    },
+    {
+      "id": "PG017",
+      "medicine": "Ibuprofen / NSAIDs",
+      "pregnancy_category": "C (before 30 weeks) / D (from 30 weeks)",
+      "risk_level": "AVOID — especially from 20 weeks onwards",
+      "reason": "NSAIDs from 20 weeks: fetal renal dysfunction causing oligohydramnios and potential limb contractures. From 30 weeks: premature closure of ductus arteriosus (pulmonary hypertension). From 32 weeks: CONTRAINDICATED.",
+      "trimester_specifics": "Avoid from 20 weeks if possible. Absolutely avoid from 30 weeks. Paracetamol is the safe alternative.",
+      "source_name": "FDA Drug Safety Communication 2020 / DailyMed",
+      "source_url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-recommends-avoiding-use-nsaids-pregnancy-20-weeks-or-later"
+    },
+    {
+      "id": "PG018",
+      "medicine": "Doxycycline",
+      "pregnancy_category": "D",
+      "risk_level": "CONTRAINDICATED",
+      "reason": "Tetracyclines deposit in developing teeth and bone: permanent yellow-brown discolouration of teeth, enamel hypoplasia, inhibition of bone growth.",
+      "trimester_specifics": "All trimesters. Safe alternatives include amoxicillin, azithromycin (with caution).",
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=doxycycline"
+    },
+    {
+      "id": "PG019",
+      "medicine": "Fluconazole (high dose / prolonged)",
+      "pregnancy_category": "D (high dose / multiple doses)",
+      "risk_level": "SINGLE LOW DOSE (150mg): probably low risk; HIGH DOSE / PROLONGED: CONTRAINDICATED",
+      "reason": "Multiple-dose or high-dose fluconazole associated with rare fetal skeletal and cardiac malformations. Single 150mg dose for vaginal candidiasis generally considered low risk but to be avoided if possible.",
+      "trimester_specifics": "Use only if topical treatment fails. Single dose only in 1st trimester if absolutely necessary.",
+      "source_name": "FDA Drug Safety Communication 2016 / DailyMed",
+      "source_url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-use-long-term-high-dose-diflucan-fluconazole-during-pregnancy"
+    },
+    {
+      "id": "PG020",
+      "medicine": "Albendazole",
+      "pregnancy_category": "C",
+      "risk_level": "CONTRAINDICATED in 1st trimester; avoid in pregnancy",
+      "reason": "Animal studies show embryotoxicity and teratogenicity. WHO recommends avoiding in first trimester; use only after risk-benefit assessment in 2nd/3rd trimester for systemic parasitic infections.",
+      "trimester_specifics": "Avoid 1st trimester. In later pregnancy for hydatid disease, may be necessary under specialist supervision.",
+      "source_name": "DailyMed / WHO EML",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=albendazole"
+    }
+  ],
+  "_total_records": 20
+}

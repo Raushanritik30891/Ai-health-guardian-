@@ -1,0 +1,77 @@
+{
+  "_file": "allergies.json",
+  "_schema_version": "1.0.0",
+  "_note": "Only allergy-based restrictions from official labeling and package inserts.",
+  "allergies": [
+    {
+      "id": "ALG001",
+      "medicine": "Amoxicillin / Amoxicillin-Clavulanate",
+      "allergy_type": "Penicillin allergy",
+      "severity": "ABSOLUTE CONTRAINDICATION",
+      "reaction": "Anaphylaxis, urticaria, angioedema, bronchospasm, anaphylactic shock",
+      "cross_reactivity_note": "Approximately 1-10% cross-reactivity with cephalosporins. Avoid all penicillin-class antibiotics in confirmed penicillin anaphylaxis.",
+      "source_name": "DailyMed (Augmentin labeling) / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=amoxicillin+clavulanate"
+    },
+    {
+      "id": "ALG002",
+      "medicine": "Cefixime",
+      "allergy_type": "Cephalosporin allergy",
+      "severity": "ABSOLUTE CONTRAINDICATION",
+      "reaction": "Anaphylaxis, rash, urticaria",
+      "cross_reactivity_note": "Cross-reactivity with penicillins possible. Take allergy history carefully.",
+      "source_name": "DailyMed (Suprax labeling)",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=cefixime"
+    },
+    {
+      "id": "ALG003",
+      "medicine": "Ciprofloxacin",
+      "allergy_type": "Fluoroquinolone allergy",
+      "severity": "ABSOLUTE CONTRAINDICATION",
+      "reaction": "Anaphylaxis, severe skin reactions (SJS/TEN), urticaria",
+      "cross_reactivity_note": "Cross-reactivity within fluoroquinolone class likely. Avoid all fluoroquinolones if hypersensitivity documented.",
+      "source_name": "DailyMed (Cipro labeling)",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ciprofloxacin"
+    },
+    {
+      "id": "ALG004",
+      "medicine": "Aspirin",
+      "allergy_type": "NSAID / Aspirin hypersensitivity",
+      "severity": "ABSOLUTE CONTRAINDICATION",
+      "reaction": "Urticaria, angioedema, bronchospasm, anaphylaxis, Samter's triad (aspirin-exacerbated respiratory disease)",
+      "cross_reactivity_note": "Patients with aspirin hypersensitivity may react to other NSAIDs. Aspirin-exacerbated respiratory disease common in asthmatic patients.",
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=aspirin"
+    },
+    {
+      "id": "ALG005",
+      "medicine": "Azithromycin",
+      "allergy_type": "Macrolide allergy",
+      "severity": "ABSOLUTE CONTRAINDICATION",
+      "reaction": "Anaphylaxis, severe skin reactions, hepatotoxicity",
+      "cross_reactivity_note": "Cross-reactivity within macrolide class (clarithromycin, erythromycin). Document allergy clearly.",
+      "source_name": "DailyMed (Zithromax labeling)",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=azithromycin"
+    },
+    {
+      "id": "ALG006",
+      "medicine": "Pantoprazole",
+      "allergy_type": "Proton pump inhibitor / benzimidazole allergy",
+      "severity": "ABSOLUTE CONTRAINDICATION",
+      "reaction": "Anaphylaxis, angioedema, serious skin reactions (SJS, TEN, DRESS)",
+      "cross_reactivity_note": "Cross-reactivity possible across PPI class (omeprazole, lansoprazole, rabeprazole).",
+      "source_name": "DailyMed (Protonix labeling)",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=pantoprazole"
+    },
+    {
+      "id": "ALG007",
+      "medicine": "Paracetamol",
+      "allergy_type": "Paracetamol hypersensitivity",
+      "severity": "ABSOLUTE CONTRAINDICATION",
+      "reaction": "Anaphylaxis, urticaria, bronchospasm (rare)",
+      "cross_reactivity_note": "True paracetamol allergy is rare but documented. Cross-reactivity with NSAIDs not expected.",
+      "source_name": "DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=paracetamol"
+    }
+  ]
+}

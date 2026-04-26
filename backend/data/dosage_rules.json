@@ -1,0 +1,410 @@
+[
+  {
+    "medicine": "Paracetamol (Crocin 500 / Dolo 650)",
+    "generic_name": "Paracetamol (Acetaminophen)",
+    "usual_single_dose": "500–1000 mg",
+    "max_daily_dose": "4000 mg/day (healthy adults); 2000 mg/day (liver disease/elderly)",
+    "frequency": "Every 4–6 hours as needed",
+    "warning_if_exceeded": "Severe hepatotoxicity and acute liver failure. Risk sharply increases above 4g/day or with concurrent alcohol use.",
+    "special_risk_groups": [
+      "Hepatic impairment: reduce dose or avoid",
+      "Chronic alcohol users: max 2g/day",
+      "Elderly: max 2–3g/day",
+      "Children: weight-based dosing (15 mg/kg/dose)"
+    ],
+    "source_name": "WHO Model Formulary + DailyMed",
+    "source_url": "https://apps.who.int/medicinedocs/en/d/Js2299e/4.1.html",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Ibuprofen (Brufen / Advil)",
+    "generic_name": "Ibuprofen",
+    "usual_single_dose": "200–400 mg",
+    "max_daily_dose": "1200 mg/day (OTC); 2400 mg/day (prescription)",
+    "frequency": "Every 6–8 hours",
+    "warning_if_exceeded": "GI bleeding, peptic ulcer, renal failure, increased cardiovascular events above OTC doses.",
+    "special_risk_groups": [
+      "Elderly: high GI and renal risk",
+      "Renal impairment: avoid or reduce",
+      "Third trimester pregnancy: contraindicated",
+      "Asthma: may trigger bronchospasm",
+      "Heart failure: avoid"
+    ],
+    "source_name": "DailyMed (FDA)",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dde4a038-cf5b-4e35-9a07-37ea8c22f95f",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Combiflam (Ibuprofen + Paracetamol)",
+    "generic_name": "Ibuprofen 400 mg + Paracetamol 325 mg",
+    "usual_single_dose": "1 tablet (Ibuprofen 400 mg + Paracetamol 325 mg)",
+    "max_daily_dose": "3 tablets/day (Ibuprofen 1200 mg + Paracetamol 975 mg)",
+    "frequency": "Every 8 hours",
+    "warning_if_exceeded": "Combined hepatotoxicity (paracetamol) + GI/renal risk (ibuprofen). Do not combine with other paracetamol-containing products.",
+    "special_risk_groups": [
+      "Elderly: high GI and renal risk from ibuprofen component",
+      "Liver disease: paracetamol component risk",
+      "Peptic ulcer disease: avoid ibuprofen",
+      "Pregnancy third trimester: avoid"
+    ],
+    "source_name": "Tata 1mg (package insert reference)",
+    "source_url": "https://www.1mg.com/drugs/combiflam-tablet-83258",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Aspirin (Ecosprin 75/150)",
+    "generic_name": "Acetylsalicylic acid",
+    "usual_single_dose": "75–150 mg (antiplatelet); 325–650 mg (analgesic/antipyretic)",
+    "max_daily_dose": "4000 mg/day (analgesic); 300 mg/day (antiplatelet)",
+    "frequency": "Once daily (antiplatelet); every 4–6 hours (analgesic)",
+    "warning_if_exceeded": "GI bleeding, Reye's syndrome in children, increased bleeding risk, tinnitus at high doses.",
+    "special_risk_groups": [
+      "Children under 16: contraindicated (Reye's syndrome)",
+      "Bleeding disorders: avoid",
+      "Peptic ulcer: use with caution",
+      "Third trimester pregnancy: contraindicated",
+      "Asthma: may trigger bronchospasm"
+    ],
+    "source_name": "WHO Essential Medicines",
+    "source_url": "https://www.who.int/publications/i/item/9789240001251",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Cetirizine (Zyrtec / Cetrizet)",
+    "generic_name": "Cetirizine hydrochloride",
+    "usual_single_dose": "10 mg",
+    "max_daily_dose": "10 mg/day (adults); 5 mg/day (renal impairment, elderly)",
+    "frequency": "Once daily (evening preferred)",
+    "warning_if_exceeded": "Excessive sedation, urinary retention, somnolence.",
+    "special_risk_groups": [
+      "Renal impairment: reduce to 5 mg every other day (CrCl 11–31 mL/min)",
+      "Elderly: increased sedation risk",
+      "Children 2–6 years: 2.5 mg once or twice daily"
+    ],
+    "source_name": "DailyMed (FDA)",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d53bb1cc-9b8b-4edb-a66b-d33c3cdfcbe0",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Metformin (Glycomet / Glucophage)",
+    "generic_name": "Metformin hydrochloride",
+    "usual_single_dose": "500–850 mg",
+    "max_daily_dose": "2550 mg/day (standard); some guidelines allow 3000 mg/day",
+    "frequency": "2–3 times daily with meals",
+    "warning_if_exceeded": "Lactic acidosis (rare but life-threatening), GI intolerance, vitamin B12 deficiency with chronic use.",
+    "special_risk_groups": [
+      "eGFR <30 mL/min: contraindicated",
+      "eGFR 30–45: use with caution, reduce dose",
+      "Contrast dye procedures: hold 48 hours before and after",
+      "Excessive alcohol: avoid (lactic acidosis risk)",
+      "Heart failure requiring pharmacological treatment: contraindicated"
+    ],
+    "source_name": "DailyMed (FDA)",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a9daa93-b3aa-4c18-bcff-9ee7b77f8a62",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Amlodipine (Amlokind / Amlong)",
+    "generic_name": "Amlodipine besylate",
+    "usual_single_dose": "5 mg",
+    "max_daily_dose": "10 mg/day",
+    "frequency": "Once daily",
+    "warning_if_exceeded": "Excessive hypotension, peripheral edema, reflex tachycardia.",
+    "special_risk_groups": [
+      "Hepatic impairment: start at 2.5 mg; titrate slowly",
+      "Elderly: start at 2.5 mg",
+      "Severe aortic stenosis: use with caution"
+    ],
+    "source_name": "DailyMed (FDA)",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=47a26a1c-1fbd-457d-8699-c2b3ea8b8975",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Azithromycin (Azithral / Zithromax)",
+    "generic_name": "Azithromycin dihydrate",
+    "usual_single_dose": "500 mg Day 1, then 250 mg Days 2–5",
+    "max_daily_dose": "500 mg/day",
+    "frequency": "Once daily",
+    "warning_if_exceeded": "QT interval prolongation, hepatotoxicity, CDiff colitis with prolonged use.",
+    "special_risk_groups": [
+      "Hepatic impairment: avoid in severe hepatic disease",
+      "QT prolongation risk (with other QT drugs): avoid combination",
+      "Myasthenia gravis: may worsen symptoms"
+    ],
+    "source_name": "DailyMed (FDA)",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b27a0b25-96ee-4d23-b0eb-1491bf56c8b8",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Amoxicillin (Novamox / Mox)",
+    "generic_name": "Amoxicillin trihydrate",
+    "usual_single_dose": "250–500 mg",
+    "max_daily_dose": "3000 mg/day (standard); up to 6000 mg/day in severe infections",
+    "frequency": "Every 8 hours",
+    "warning_if_exceeded": "Seizures (very high doses), antibiotic-associated diarrhea, C. difficile colitis.",
+    "special_risk_groups": [
+      "Penicillin allergy: absolute contraindication",
+      "Renal impairment: reduce dose if eGFR <30",
+      "Glandular fever (EBV): rash risk if prescribed inappropriately"
+    ],
+    "source_name": "DailyMed (FDA)",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5bca1fd4-eacc-4cdd-b9c5-4524c5cfce62",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Augmentin (Amoxicillin + Clavulanate)",
+    "generic_name": "Amoxicillin 500 mg + Clavulanate 125 mg",
+    "usual_single_dose": "625 mg (standard tablet: Amoxicillin 500 mg + Clavulanate 125 mg)",
+    "max_daily_dose": "1875 mg amoxicillin + 375 mg clavulanate per day (3 tablets)",
+    "frequency": "Every 8 hours (with food)",
+    "warning_if_exceeded": "Cholestatic jaundice and hepatic dysfunction (clavulanate-related), GI disturbance, C. diff.",
+    "special_risk_groups": [
+      "Hepatic impairment: contraindicated in history of Augmentin-related cholestasis",
+      "Penicillin allergy: absolute contraindication",
+      "Renal impairment: dose reduce based on GFR"
+    ],
+    "source_name": "DailyMed (FDA)",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9f804ef4-0e9c-4e65-8ccb-11b8df5c78ac",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Pantoprazole (Pan 40 / Pantodac)",
+    "generic_name": "Pantoprazole sodium sesquihydrate",
+    "usual_single_dose": "40 mg",
+    "max_daily_dose": "80 mg/day (standard); 240 mg/day (Zollinger-Ellison)",
+    "frequency": "Once daily (30–60 min before breakfast)",
+    "warning_if_exceeded": "Hypomagnesemia (prolonged use >1 year), C. diff risk, bone fractures with long-term use, vitamin B12 deficiency.",
+    "special_risk_groups": [
+      "Severe hepatic impairment: max 20 mg/day",
+      "Long-term use (>1 year): monitor B12, magnesium, bone density"
+    ],
+    "source_name": "DailyMed (FDA)",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6f2e66d7-cfd3-436d-9bc7-a9ebfac3e9de",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Omeprazole (Omez / Prilosec)",
+    "generic_name": "Omeprazole magnesium",
+    "usual_single_dose": "20 mg",
+    "max_daily_dose": "40 mg/day (standard); 120 mg/day (Zollinger-Ellison)",
+    "frequency": "Once daily before food",
+    "warning_if_exceeded": "Same class as pantoprazole: hypomagnesemia, C. diff, bone fractures, B12 deficiency with prolonged use.",
+    "special_risk_groups": [
+      "Hepatic impairment: max 20 mg/day",
+      "Concurrent clopidogrel: omeprazole inhibits CYP2C19 — reduces antiplatelet effect"
+    ],
+    "source_name": "DailyMed (FDA)",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b2b0a1c7-5bc2-4f3d-a5c4-3bcd50e9f6b7",
+    "confidence": "high"
+  },
+  {
+    "medicine": "ORS (WHO / Electral)",
+    "generic_name": "Oral Rehydration Salts",
+    "usual_single_dose": "200–400 mL per loose stool or episode of vomiting",
+    "max_daily_dose": "No fixed maximum; guided by dehydration assessment",
+    "frequency": "After each loose stool; sip continuously if vomiting",
+    "warning_if_exceeded": "Hypernatremia in infants if given in excess without plain water. Overhydration risk in renal failure.",
+    "special_risk_groups": [
+      "Renal failure: use with medical supervision",
+      "Infants under 6 months: should be given under medical guidance",
+      "Severe dehydration: IV fluids required; ORS is adjunct"
+    ],
+    "source_name": "WHO ORS Technical Notes",
+    "source_url": "https://www.who.int/publications/i/item/9241546794",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Warfarin (Warf / Coumadin)",
+    "generic_name": "Warfarin sodium",
+    "usual_single_dose": "2–5 mg (individualized by INR)",
+    "max_daily_dose": "Individualized; typically 2–10 mg/day; no absolute cap (INR-guided)",
+    "frequency": "Once daily at same time",
+    "warning_if_exceeded": "Life-threatening bleeding — intracranial hemorrhage, GI bleed, haemoptysis. INR must be monitored.",
+    "special_risk_groups": [
+      "Elderly: increased bleeding risk; lower target INR",
+      "Hepatic impairment: unpredictable response",
+      "Pregnancy: absolute contraindication in first trimester and near delivery",
+      "Many drug and food interactions: requires INR monitoring"
+    ],
+    "source_name": "DailyMed (FDA)",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0b3d0571-8c5e-4bc6-b3e5-89f09c6a08c1",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Levothyroxine (Thyronorm / Eltroxin)",
+    "generic_name": "Levothyroxine sodium",
+    "usual_single_dose": "25–200 mcg (dose individualized by TSH)",
+    "max_daily_dose": "Individualized; TSH-guided",
+    "frequency": "Once daily on empty stomach, 30–60 min before food",
+    "warning_if_exceeded": "Thyrotoxicosis: tachycardia, arrhythmia, bone loss, adrenal crisis in undiagnosed adrenal insufficiency.",
+    "special_risk_groups": [
+      "Cardiovascular disease: start very low (12.5–25 mcg), titrate slowly",
+      "Elderly: start at 12.5–25 mcg",
+      "Adrenal insufficiency: must treat before levothyroxine initiation",
+      "Pregnancy: TSH targets differ; require more frequent monitoring"
+    ],
+    "source_name": "DailyMed (FDA)",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c7d65d4f-8b0e-4a8c-9f16-1a3c2ea72e96",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Atorvastatin (Atorva / Lipitor)",
+    "generic_name": "Atorvastatin calcium",
+    "usual_single_dose": "10–80 mg",
+    "max_daily_dose": "80 mg/day",
+    "frequency": "Once daily (evening or bedtime preferred)",
+    "warning_if_exceeded": "Myopathy, rhabdomyolysis (especially at 80 mg), hepatotoxicity.",
+    "special_risk_groups": [
+      "Active liver disease: contraindicated",
+      "Pregnancy/breastfeeding: contraindicated",
+      "CYP3A4 inhibitors (e.g., clarithromycin, fluconazole): increase statin levels, myopathy risk"
+    ],
+    "source_name": "DailyMed (FDA)",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b24bee94-7a58-4660-a2e0-62e3bc49e1a1",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Metronidazole (Flagyl / Metrogyl)",
+    "generic_name": "Metronidazole",
+    "usual_single_dose": "400–500 mg",
+    "max_daily_dose": "4000 mg/day (short-term); 2000 mg/day (maintenance)",
+    "frequency": "Every 8 hours",
+    "warning_if_exceeded": "Neurotoxicity (peripheral neuropathy, encephalopathy) with prolonged use or high doses. Disulfiram-like reaction with alcohol.",
+    "special_risk_groups": [
+      "Hepatic impairment: reduce dose",
+      "First trimester pregnancy: avoid",
+      "Alcohol use: absolute contraindication during and 48 hours after treatment"
+    ],
+    "source_name": "DailyMed (FDA)",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2de0b3a8-5634-4c13-99c1-c0ffd37c3b74",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Ciprofloxacin (Ciplox / Cifran)",
+    "generic_name": "Ciprofloxacin hydrochloride",
+    "usual_single_dose": "250–500 mg",
+    "max_daily_dose": "1500 mg/day (oral)",
+    "frequency": "Every 12 hours",
+    "warning_if_exceeded": "QT prolongation, tendinopathy/tendon rupture (especially Achilles), peripheral neuropathy, CNS effects.",
+    "special_risk_groups": [
+      "Children and adolescents: avoid (arthropathy risk); only used in specific indications",
+      "Elderly: increased tendon rupture risk",
+      "Renal impairment: reduce dose",
+      "Concurrent corticosteroids: high tendon rupture risk"
+    ],
+    "source_name": "DailyMed (FDA)",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d5fb7e43-4b3d-4a88-85ef-0e1f2e09e97a",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Domperidone (Domstal / Motilium)",
+    "generic_name": "Domperidone maleate",
+    "usual_single_dose": "10 mg",
+    "max_daily_dose": "30 mg/day; duration max 1 week",
+    "frequency": "3 times daily, before meals",
+    "warning_if_exceeded": "QT prolongation and serious cardiac arrhythmias (especially with CYP3A4 inhibitors). Hyperprolactinaemia with long-term use.",
+    "special_risk_groups": [
+      "Hepatic impairment: contraindicated in moderate-severe disease",
+      "Cardiac disease/QT prolongation: contraindicated",
+      "Concurrent ketoconazole, clarithromycin: contraindicated"
+    ],
+    "source_name": "Tata 1mg (package insert reference)",
+    "source_url": "https://www.1mg.com/drugs/domstal-10-tablet-83543",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Montelukast (Montair / Singulair)",
+    "generic_name": "Montelukast sodium",
+    "usual_single_dose": "10 mg",
+    "max_daily_dose": "10 mg/day",
+    "frequency": "Once daily at bedtime",
+    "warning_if_exceeded": "Neuropsychiatric effects (agitation, depression, suicidal thinking) — FDA black box warning (2020).",
+    "special_risk_groups": [
+      "History of psychiatric disorders: prescribe with caution; monitor closely",
+      "Children: neuropsychiatric events reported — monitor behavior"
+    ],
+    "source_name": "openFDA",
+    "source_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:singulair",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Ranitidine (Zinetac) — note: largely withdrawn",
+    "generic_name": "Ranitidine hydrochloride",
+    "usual_single_dose": "150 mg",
+    "max_daily_dose": "300 mg/day",
+    "frequency": "Twice daily",
+    "warning_if_exceeded": "NDMA contamination concern (reason for global withdrawal in 2020). Headache, GI upset, confusion in elderly at high doses.",
+    "special_risk_groups": [
+      "WITHDRAWN from Indian and global markets by CDSCO/FDA in 2020 due to NDMA contamination",
+      "Renal impairment: reduce dose if used in approved alternative formulations"
+    ],
+    "source_name": "CDSCO India",
+    "source_url": "https://cdsco.gov.in/opencms/opencms/en/Drugs/Alerts/",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Iron (Ferrous Sulphate / Orofer)",
+    "generic_name": "Ferrous sulphate",
+    "usual_single_dose": "100–200 mg elemental iron/day (therapeutic)",
+    "max_daily_dose": "200 mg elemental iron/day",
+    "frequency": "Once or twice daily on empty stomach",
+    "warning_if_exceeded": "GI irritation, constipation, dark stools. Iron toxicity (acute overdose) is life-threatening, especially in children.",
+    "special_risk_groups": [
+      "Children: keep out of reach — acute iron overdose is a medical emergency",
+      "Thalassemia/hemochromatosis: iron supplementation contraindicated",
+      "First trimester pregnancy: use with caution"
+    ],
+    "source_name": "WHO Essential Medicines",
+    "source_url": "https://www.who.int/publications/i/item/9789240001251",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Calcium Carbonate (Shelcal / Calcimax)",
+    "generic_name": "Calcium carbonate",
+    "usual_single_dose": "500–1000 mg elemental calcium",
+    "max_daily_dose": "2500 mg elemental calcium/day (total dietary + supplemental)",
+    "frequency": "2–3 times daily with food",
+    "warning_if_exceeded": "Hypercalcemia, nephrolithiasis, milk-alkali syndrome, constipation. Impairs absorption of iron, thyroid medication, bisphosphonates.",
+    "special_risk_groups": [
+      "Renal calculi: use with caution",
+      "Hypercalcemia or hypercalciuria: contraindicated",
+      "Renal impairment: monitor serum calcium"
+    ],
+    "source_name": "DailyMed (FDA)",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3f9b20a1-41e8-4da8-9174-2ef4b4e7f1cc",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Loperamide (Imodium / Lopamide)",
+    "generic_name": "Loperamide hydrochloride",
+    "usual_single_dose": "4 mg initial, then 2 mg after each loose stool",
+    "max_daily_dose": "16 mg/day (OTC); up to 16 mg/day prescription",
+    "frequency": "As needed after each loose stool",
+    "warning_if_exceeded": "Serious cardiac events (QT prolongation, torsades) with doses > 16 mg/day; ileus with prolonged use.",
+    "special_risk_groups": [
+      "Children under 2 years: contraindicated",
+      "Bloody diarrhea/fever: avoid — may worsen infectious diarrhea",
+      "Concurrent QT-prolonging drugs: avoid"
+    ],
+    "source_name": "DailyMed (FDA)",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a2fe3b94-57ee-4a97-8c02-f5c7d1e08f5a",
+    "confidence": "high"
+  },
+  {
+    "medicine": "Clonazepam (Clonotril / Rivotril)",
+    "generic_name": "Clonazepam",
+    "usual_single_dose": "0.25–0.5 mg",
+    "max_daily_dose": "20 mg/day (seizures); 4 mg/day (panic disorder)",
+    "frequency": "2–3 times daily",
+    "warning_if_exceeded": "Respiratory depression, coma, dependence and withdrawal syndrome. Do NOT combine with opioids.",
+    "special_risk_groups": [
+      "Elderly: increased fall and sedation risk; start at 0.25 mg",
+      "Respiratory disease (COPD): avoid",
+      "Pregnancy: neonatal floppiness; withdrawal risk",
+      "Schedule H drug in India — requires prescription"
+    ],
+    "source_name": "DailyMed (FDA)",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5c5b8a2f-4e98-4b87-bcb7-3a1f8d9e2bc7",
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "_schema_version": "1.0.0",
+  "_note": "Only mappings confirmed by at least 2 independent sources (PMBJP catalog + Indian pharmacy catalog). Salt matches verified against official package inserts.",
+  "salt_mappings": [
+    {
+      "brand_name": "Crocin",
+      "normalized_name": "paracetamol",
+      "salt": "Paracetamol",
+      "strength": "500mg",
+      "same_salt_alternatives": ["Dolo 500", "Calpol", "Pyrigesic", "Panadol", "Metacin", "Fepanil"],
+      "jan_aushadhi_equivalent": "Paracetamol Tablet IP 500mg",
+      "language_aliases_hindi": ["पैरासिटामोल", "क्रोसिन", "बुखार की गोली"],
+      "source_name": "PMBJP Catalog + Tata 1mg",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "brand_name": "Dolo 650",
+      "normalized_name": "paracetamol_650",
+      "salt": "Paracetamol",
+      "strength": "650mg",
+      "same_salt_alternatives": ["Calpol 650", "Crocin 650", "Pyrigesic 650"],
+      "jan_aushadhi_equivalent": "Paracetamol Tablet IP 650mg",
+      "language_aliases_hindi": ["डोलो", "पैरासिटामोल 650"],
+      "source_name": "PMBJP Catalog + Tata 1mg",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "brand_name": "Glycomet",
+      "normalized_name": "metformin_500",
+      "salt": "Metformin Hydrochloride",
+      "strength": "500mg",
+      "same_salt_alternatives": ["Glucophage", "Obimet", "Carbophage", "Walaphage", "Gluformin"],
+      "jan_aushadhi_equivalent": "Metformin Hydrochloride Tablets IP 500mg",
+      "language_aliases_hindi": ["मेटफॉर्मिन", "ग्लाइकोमेट", "शुगर की गोली"],
+      "source_name": "PMBJP Catalog + PharmEasy",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "brand_name": "Ecosprin",
+      "normalized_name": "aspirin_75",
+      "salt": "Acetylsalicylic Acid",
+      "strength": "75mg",
+      "same_salt_alternatives": ["Loprin", "Aspicot", "Disprin", "Cardiopirin"],
+      "jan_aushadhi_equivalent": "Aspirin Tablet IP 75mg",
+      "language_aliases_hindi": ["एस्पिरिन", "एकोस्प्रिन"],
+      "source_name": "PMBJP Catalog + Netmeds",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "brand_name": "Atorva",
+      "normalized_name": "atorvastatin_10",
+      "salt": "Atorvastatin Calcium",
+      "strength": "10mg",
+      "same_salt_alternatives": ["Lipitor", "Storvas", "Tonact", "Atorlip", "Aztor", "Stator"],
+      "jan_aushadhi_equivalent": "Atorvastatin Tablet IP 10mg",
+      "language_aliases_hindi": ["एटोर्वास्टैटिन", "कोलेस्ट्रॉल की दवा"],
+      "source_name": "PMBJP Catalog + Tata 1mg",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "brand_name": "Telma",
+      "normalized_name": "telmisartan_40",
+      "salt": "Telmisartan",
+      "strength": "40mg",
+      "same_salt_alternatives": ["Telmikind", "Telsar", "Telsite", "Telsartan", "Micardis", "Telday"],
+      "jan_aushadhi_equivalent": "Telmisartan Tablet IP 40mg",
+      "language_aliases_hindi": ["तेलमिसर्टन", "बीपी की दवा"],
+      "source_name": "PMBJP Catalog + PharmEasy",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "brand_name": "Pan 40",
+      "normalized_name": "pantoprazole_40",
+      "salt": "Pantoprazole Sodium",
+      "strength": "40mg",
+      "same_salt_alternatives": ["Pantocid", "Nexpro", "Pantop", "Pantodac", "P-Zole", "Pantocar"],
+      "jan_aushadhi_equivalent": "Pantoprazole Tablet IP 40mg",
+      "language_aliases_hindi": ["पेंटोप्राजोल", "एसिडिटी की दवा", "पैन 40"],
+      "source_name": "PMBJP Catalog + Tata 1mg",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "brand_name": "Thyronorm",
+      "normalized_name": "levothyroxine_50",
+      "salt": "Levothyroxine Sodium",
+      "strength": "50mcg",
+      "same_salt_alternatives": ["Eltroxin", "Thyrox", "Levotas"],
+      "jan_aushadhi_equivalent": "Levothyroxine Tablet IP 50mcg",
+      "language_aliases_hindi": ["लेवोथायरोक्सिन", "थायराइड की दवा", "थायरोनॉर्म"],
+      "source_name": "PMBJP Catalog + Netmeds",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "brand_name": "Montair",
+      "normalized_name": "montelukast_10",
+      "salt": "Montelukast Sodium",
+      "strength": "10mg",
+      "same_salt_alternatives": ["Singulair", "Montek", "Romilast", "Montelo-10", "Telekast"],
+      "jan_aushadhi_equivalent": "Montelukast Tablet IP 10mg",
+      "language_aliases_hindi": ["मोंटेलुकास्ट", "दमे की दवा"],
+      "source_name": "PMBJP Catalog + Tata 1mg",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "brand_name": "Clopivas",
+      "normalized_name": "clopidogrel_75",
+      "salt": "Clopidogrel Bisulfate",
+      "strength": "75mg",
+      "same_salt_alternatives": ["Plavix", "Deplatt", "Clopilet", "Clopicard", "Plagril"],
+      "jan_aushadhi_equivalent": "Clopidogrel Tablet IP 75mg",
+      "language_aliases_hindi": ["क्लोपिडोग्रेल", "खून पतला करने की दवा"],
+      "source_name": "PMBJP Catalog + PharmEasy",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    }
+  ]
+}

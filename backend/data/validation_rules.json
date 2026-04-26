@@ -1,0 +1,142 @@
+{
+  "_schema_version": "1.0.0",
+  "_note": "Operational validation rules for the AI Health Guardian rule engine. Rules applied in priority order.",
+  "validation_rules": [
+    {
+      "id": "VR001",
+      "rule_name": "ocr_confidence_minimum",
+      "priority": 1,
+      "condition": "OCR confidence score < 0.70",
+      "action": "REJECT image. Return: 'Image quality too low to read safely. Please retake in better lighting or try manual entry.'",
+      "category": "INPUT_QUALITY"
+    },
+    {
+      "id": "VR002",
+      "rule_name": "expiry_date_not_found",
+      "priority": 2,
+      "condition": "No expiry date pattern matched in OCR output",
+      "action": "FLAG as 'Expiry date not readable'. Ask user to manually enter expiry date. Do not block medicine lookup.",
+      "category": "INPUT_QUALITY"
+    },
+    {
+      "id": "VR003",
+      "rule_name": "medicine_expired",
+      "priority": 3,
+      "condition": "Parsed expiry date < today's date",
+      "action": "BLOCK and warn: 'This medicine appears to be EXPIRED. Do not use. Please consult a pharmacist.'",
+      "category": "SAFETY_CRITICAL"
+    },
+    {
+      "id": "VR004",
+      "rule_name": "medicine_not_found_in_database",
+      "priority": 4,
+      "condition": "Scanned medicine name matches no record in medicines.json (after alias lookup)",
+      "action": "Ask user: 'We could not identify this medicine. Please enter the generic/salt name printed on the strip, or consult a pharmacist.'",
+      "category": "LOOKUP"
+    },
+    {
+      "id": "VR005",
+      "rule_name": "multiple_medicine_matches",
+      "priority": 5,
+      "condition": "Scanned medicine name matches 2 or more records with similarity score > 0.80",
+      "action": "Present all matches to user. Ask: 'Which medicine is this?' Show brand name, salt, strength. Wait for confirmation before proceeding.",
+      "category": "LOOKUP"
+    },
+    {
+      "id": "VR006",
+      "rule_name": "drug_interaction_dangerous",
+      "priority": 6,
+      "condition": "Scanned medicine + any medicine in user profile has interaction severity = 'dangerous' in interactions.json",
+      "action": "WARN prominently in red: 'DANGER: This medicine may have a serious interaction with [medicine_b]. Please consult your doctor before taking.'",
+      "category": "SAFETY_CRITICAL"
+    },
+    {
+      "id": "VR007",
+      "rule_name": "drug_interaction_caution",
+      "priority": 7,
+      "condition": "Scanned medicine + any medicine in user profile has interaction severity = 'caution'",
+      "action": "WARN in amber: 'CAUTION: This medicine may interact with [medicine_b]. Monitor for [clinical_reason]. Consult your doctor if unsure.'",
+      "category": "SAFETY_WARNING"
+    },
+    {
+      "id": "VR008",
+      "rule_name": "contraindication_absolute",
+      "priority": 8,
+      "condition": "Scanned medicine has absolute contraindication for any condition in user's profile",
+      "action": "BLOCK: 'WARNING: This medicine is generally NOT recommended for people with [condition]. Please consult your doctor before use.'",
+      "category": "SAFETY_CRITICAL"
+    },
+    {
+      "id": "VR009",
+      "rule_name": "contraindication_caution",
+      "priority": 9,
+      "condition": "Scanned medicine has caution-level contraindication for user's condition",
+      "action": "WARN: 'CAUTION: People with [condition] should use this medicine carefully. A dose adjustment may be needed. Please check with your doctor.'",
+      "category": "SAFETY_WARNING"
+    },
+    {
+      "id": "VR010",
+      "rule_name": "pregnancy_contraindicated",
+      "priority": 10,
+      "condition": "User is pregnant AND medicine has pregnancy_safe = false OR pregnancy_rules.json risk_level = CONTRAINDICATED",
+      "action": "BLOCK: 'This medicine is NOT safe during pregnancy. Please consult your doctor or gynecologist immediately.'",
+      "category": "SAFETY_CRITICAL"
+    },
+    {
+      "id": "VR011",
+      "rule_name": "pregnancy_caution",
+      "priority": 11,
+      "condition": "User is pregnant AND medicine has pregnancy_rules.json risk_level contains 'CAUTION'",
+      "action": "WARN: 'Use of this medicine during pregnancy requires medical supervision. Please consult your doctor before taking.'",
+      "category": "SAFETY_WARNING"
+    },
+    {
+      "id": "VR012",
+      "rule_name": "allergy_contraindication",
+      "priority": 12,
+      "condition": "User has allergy in profile AND medicine's allergy_type in allergies.json matches user's documented allergy",
+      "action": "BLOCK: 'You have a documented allergy to [allergy_type]. This medicine should NOT be taken. Please consult your doctor for a safe alternative.'",
+      "category": "SAFETY_CRITICAL"
+    },
+    {
+      "id": "VR013",
+      "rule_name": "not_for_sale_detected",
+      "priority": 13,
+      "condition": "OCR output contains any keyword from not_for_sale_keywords.json",
+      "action": "FLAG: 'This medicine may be a government supply item and may not be intended for retail purchase. Please verify with your pharmacist or healthcare provider.'",
+      "category": "INFORMATIONAL"
+    },
+    {
+      "id": "VR014",
+      "rule_name": "interaction_confidence_low",
+      "priority": 14,
+      "condition": "Drug interaction found but confidence_level = MEDIUM or LOW",
+      "action": "Show interaction warning but mark as 'Uncertain interaction — please verify with your doctor or pharmacist'",
+      "category": "SAFETY_WARNING"
+    },
+    {
+      "id": "VR015",
+      "rule_name": "prescription_required_reminder",
+      "priority": 15,
+      "condition": "Scanned medicine has prescription_required = true",
+      "action": "INFORM: 'This is a prescription medicine. It should only be used under the supervision of a licensed doctor.'",
+      "category": "INFORMATIONAL"
+    },
+    {
+      "id": "VR016",
+      "rule_name": "cheaper_alternative_available",
+      "priority": 16,
+      "condition": "Scanned medicine exists in alternatives.json AND jan_aushadhi_equivalent is not null AND user preference is show_alternatives = true",
+      "action": "INFORM: 'A Jan Aushadhi equivalent is available for this medicine at significantly lower cost. Ask your pharmacist about [jan_aushadhi_equivalent].'",
+      "category": "COST_SAVINGS"
+    },
+    {
+      "id": "VR017",
+      "rule_name": "no_profile_loaded",
+      "priority": 17,
+      "condition": "User has not completed profile (conditions, allergies not set)",
+      "action": "WARN: 'Your health profile is incomplete. Safety checks may not be fully accurate. Please complete your profile for personalised safety analysis.'",
+      "category": "PROFILE"
+    }
+  ]
+}

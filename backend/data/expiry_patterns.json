@@ -1,0 +1,76 @@
+{
+  "_schema_version": "1.0.0",
+  "_note": "Expiry date formats observed on real Indian medicine packaging. Regex patterns are for use in OCR post-processing. All formats sourced from documented Indian pharmacopoeial labeling requirements and publicly visible medicine packaging.",
+  "expiry_patterns": [
+    {
+      "id": "EXP001",
+      "raw_pattern": "EXP 12/27",
+      "description": "Month/Year (numeric, 2-digit year) — most common format on Indian strips",
+      "regex": "EXP[:\\s.]*([0-1]?[0-9])[/\\-]([0-9]{2,4})",
+      "parse_logic": "Group 1 = month (01-12), Group 2 = year (2-digit or 4-digit). If 2-digit, prepend 20.",
+      "example_outputs": ["EXP 12/27", "EXP: 12/27", "EXP-12/27"],
+      "confidence_level": "HIGH"
+    },
+    {
+      "id": "EXP002",
+      "raw_pattern": "EXP: DEC 2027",
+      "description": "Month abbreviation + 4-digit year",
+      "regex": "EXP[:\\s.]*(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)[.\\s]*([0-9]{4})",
+      "parse_logic": "Group 1 = 3-letter month abbreviation, Group 2 = 4-digit year. Map abbreviation to month number.",
+      "example_outputs": ["EXP: DEC 2027", "EXP DEC 2027", "EXP.DEC.2027"],
+      "confidence_level": "HIGH"
+    },
+    {
+      "id": "EXP003",
+      "raw_pattern": "USE BEFORE AUG 2026",
+      "description": "'Use before' phrasing with month abbreviation + year",
+      "regex": "USE\\s?BEF[ORE]*[:\\s.]*(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)[.\\s]*([0-9]{4})",
+      "parse_logic": "Same month/year extraction as EXP002 but with 'USE BEFORE' prefix.",
+      "example_outputs": ["USE BEFORE AUG 2026", "USE BEF AUG 2026"],
+      "confidence_level": "HIGH"
+    },
+    {
+      "id": "EXP004",
+      "raw_pattern": "EXPIRY DATE: 08/2027",
+      "description": "Full phrase 'EXPIRY DATE' followed by MM/YYYY",
+      "regex": "EXPIRY\\s?DATE[:\\s.]*([0-1]?[0-9])[/\\-]([0-9]{4})",
+      "parse_logic": "Group 1 = month, Group 2 = 4-digit year.",
+      "example_outputs": ["EXPIRY DATE: 08/2027", "EXPIRY DATE 08-2027"],
+      "confidence_level": "HIGH"
+    },
+    {
+      "id": "EXP005",
+      "raw_pattern": "MFD: 06/2025 EXP: 05/2027",
+      "description": "Manufacture date and expiry date on same line",
+      "regex": "(?:MFD|MFG)[:\\s.]*([0-1]?[0-9])[/\\-]([0-9]{2,4})\\s*(?:EXP|EXPIRY)[:\\s.]*([0-1]?[0-9])[/\\-]([0-9]{2,4})",
+      "parse_logic": "Groups 1-2 = MFD month/year; Groups 3-4 = EXP month/year. Validate EXP > MFD.",
+      "example_outputs": ["MFD: 06/25 EXP: 05/27", "MFG 06/2025 EXP 05/2027"],
+      "confidence_level": "HIGH"
+    },
+    {
+      "id": "EXP006",
+      "raw_pattern": "EXP 2027-08",
+      "description": "ISO-like year-month format seen on some bulk packaging",
+      "regex": "EXP[:\\s.]*([0-9]{4})[\\-/]([0-1]?[0-9])",
+      "parse_logic": "Group 1 = year (4-digit), Group 2 = month.",
+      "example_outputs": ["EXP 2027-08", "EXP 2027/08"],
+      "confidence_level": "MEDIUM"
+    },
+    {
+      "id": "EXP007",
+      "raw_pattern": "समाप्ति: 12/2027",
+      "description": "Hindi Devanagari expiry label — 'Samapti' means expiry",
+      "regex": "(?:समाप्ति|एक्सपायरी)[:\\s.]*([0-1]?[0-9])[/\\-]([0-9]{2,4})",
+      "parse_logic": "Same month/year extraction. Requires Unicode-capable OCR.",
+      "example_outputs": ["समाप्ति: 12/2027", "एक्सपायरी: 12/27"],
+      "confidence_level": "MEDIUM",
+      "_note": "Requires Devanagari-capable OCR (Tesseract with Hindi training data or Google Vision)"
+    }
+  ],
+  "_ocr_implementation_notes": {
+    "recommended_ocr": "Google Vision API (best accuracy for Indian scripts) or Tesseract 4.x with eng+hin traineddata",
+    "confidence_threshold": 0.70,
+    "post_processing": "After OCR, apply regex patterns in priority order EXP001 → EXP002 → EXP003 → EXP004 → EXP005",
+    "date_validation": "Reject expiry dates more than 10 years in future or already past"
+  }
+}

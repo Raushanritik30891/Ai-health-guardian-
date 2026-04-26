@@ -1,0 +1,115 @@
+{
+  "_schema_version": "1.0.0",
+  "sources": [
+    {
+      "id": "SRC001",
+      "source_name": "DailyMed",
+      "source_type": "Government drug label database",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/",
+      "operator": "U.S. National Library of Medicine (NLM)",
+      "why_used": "Official FDA-approved drug labeling (package inserts / SmPC). Used for side effects, contraindications, interactions, pregnancy categories.",
+      "trust_level": "HIGHEST",
+      "access_method": "Public web search + REST API: https://dailymed.nlm.nih.gov/dailymed/services/v2/spls.json",
+      "api_available": true
+    },
+    {
+      "id": "SRC002",
+      "source_name": "openFDA",
+      "source_type": "Government drug safety database API",
+      "url": "https://api.fda.gov/drug/",
+      "operator": "U.S. Food and Drug Administration",
+      "why_used": "Drug adverse events, drug labeling, drug recall data. Used for interaction confirmation, contraindication confirmation.",
+      "trust_level": "HIGHEST",
+      "access_method": "REST API — https://api.fda.gov/drug/label.json",
+      "api_available": true
+    },
+    {
+      "id": "SRC003",
+      "source_name": "PMBJP — Pradhan Mantri Bhartiya Janaushadhi Pariyojana",
+      "source_type": "Indian Government generic medicine scheme catalog",
+      "url": "https://janaushadhi.gov.in/ProductList.aspx",
+      "operator": "Department of Pharmaceuticals, Government of India",
+      "why_used": "Official list of Jan Aushadhi generics with approved prices. Used for salt_mapping, alternatives, and Jan Aushadhi pricing.",
+      "trust_level": "HIGHEST",
+      "access_method": "PDF download from website. No public API documented.",
+      "api_available": false
+    },
+    {
+      "id": "SRC004",
+      "source_name": "CDSCO — Central Drugs Standard Control Organisation",
+      "source_type": "Indian national drug regulatory authority",
+      "url": "https://cdsco.gov.in/opencms/opencms/en/",
+      "operator": "Ministry of Health and Family Welfare, Government of India",
+      "why_used": "Indian-specific drug approvals, banned drugs list, Schedule H/H1/X classifications. Used for prescription_required field verification.",
+      "trust_level": "HIGHEST",
+      "access_method": "Web search. Partial data available at https://cdsco.gov.in/opencms/opencms/en/Drugs/Approved-drugs/",
+      "api_available": false
+    },
+    {
+      "id": "SRC005",
+      "source_name": "WHO Essential Medicines List (EML)",
+      "source_type": "International essential medicines reference",
+      "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2023.02",
+      "operator": "World Health Organization",
+      "why_used": "Global standard for essential medicines classification. Used to validate medicine importance and cross-check safety data.",
+      "trust_level": "HIGH",
+      "access_method": "PDF download",
+      "api_available": false
+    },
+    {
+      "id": "SRC006",
+      "source_name": "National Health Portal India",
+      "source_type": "Indian government health information portal",
+      "url": "https://www.nhp.gov.in/",
+      "operator": "Ministry of Health and Family Welfare, Government of India",
+      "why_used": "Disease definitions and India-specific health condition data. Used for diseases.json.",
+      "trust_level": "HIGH",
+      "access_method": "Web pages",
+      "api_available": false
+    },
+    {
+      "id": "SRC007",
+      "source_name": "Tata 1mg",
+      "source_type": "Indian pharmacy catalogue",
+      "url": "https://www.1mg.com",
+      "operator": "Tata 1mg Technologies Pvt Ltd",
+      "why_used": "Brand name mapping, salt mapping verification, indicative pricing. Treated as secondary source only — must be cross-verified with official sources.",
+      "trust_level": "MEDIUM (for pricing/brand mapping only)",
+      "access_method": "Public product pages",
+      "api_available": false
+    },
+    {
+      "id": "SRC008",
+      "source_name": "PharmEasy",
+      "source_type": "Indian pharmacy catalogue",
+      "url": "https://pharmeasy.in",
+      "operator": "API Holdings Pvt Ltd",
+      "why_used": "Secondary brand mapping and pricing verification.",
+      "trust_level": "MEDIUM (for pricing/brand mapping only)",
+      "access_method": "Public product pages",
+      "api_available": false
+    },
+    {
+      "id": "SRC009",
+      "source_name": "Netmeds",
+      "source_type": "Indian pharmacy catalogue",
+      "url": "https://www.netmeds.com",
+      "operator": "Reliance Retail",
+      "why_used": "Tertiary brand name and pricing cross-check.",
+      "trust_level": "MEDIUM (for pricing/brand mapping only)",
+      "access_method": "Public product pages",
+      "api_available": false
+    },
+    {
+      "id": "SRC010",
+      "source_name": "FDA Drug Safety Communications",
+      "source_type": "Regulatory safety alerts",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability",
+      "operator": "U.S. Food and Drug Administration",
+      "why_used": "High-priority drug safety warnings (QT prolongation, metformin/contrast, statin interactions). Used in interactions.json.",
+      "trust_level": "HIGHEST",
+      "access_method": "Public website",
+      "api_available": false
+    }
+  ]
+}

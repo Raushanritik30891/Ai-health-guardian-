@@ -1,0 +1,4812 @@
+{
+  "_schema_version": "1.0.0",
+  "_note": "Records seeded from known authoritative sources. Fields marked null indicate data not available in cited source. All records must be re-verified against live sources before production use.",
+  "_data_collection_instructions": {
+    "PMBJP": "https://janaushadhi.gov.in/ProductList.aspx — Download the official product catalog PDF",
+    "CDSCO": "https://cdsco.gov.in/opencms/opencms/en/Drugs/Approved-drugs/ — Search approved drug list",
+    "openFDA": "https://api.fda.gov/drug/label.json?search=openfda.route:oral&limit=100",
+    "DailyMed": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls.json"
+  },
+  "medicines": [
+    {
+      "id": "MED001",
+      "brand_name": "Crocin",
+      "generic_name": "Paracetamol",
+      "salt": "Paracetamol",
+      "strength": "500mg",
+      "dosage_form": "Tablet",
+      "category": "Analgesic / Antipyretic",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Fever",
+        "Mild to moderate pain",
+        "Headache",
+        "Body ache"
+      ],
+      "side_effects": [
+        "Nausea",
+        "Rash (rare)",
+        "Liver damage on overdose"
+      ],
+      "contraindications": [
+        "Severe hepatic impairment",
+        "Known hypersensitivity to paracetamol"
+      ],
+      "pregnancy_safe": true,
+      "kidney_risk": "Use with caution in severe renal impairment",
+      "liver_risk": "Contraindicated in severe hepatic impairment",
+      "searchable_aliases": [
+        "paracetamol",
+        "acetaminophen",
+        "crocin",
+        "calpol",
+        "panadol"
+      ],
+      "language_aliases_hindi": [
+        "बुखार की दवा",
+        "पैरासिटामोल",
+        "क्रोसिन"
+      ],
+      "source_name": "DailyMed / GSK India SmPC",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=paracetamol",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Crocin is a medical formulation containing Paracetamol as its active salt. It is classified under Analgesic / Antipyretic and is primarily prescribed for the management or treatment of Fever, Mild to moderate pain."
+    },
+    {
+      "id": "MED002",
+      "brand_name": "Augmentin",
+      "generic_name": "Amoxicillin + Clavulanate",
+      "salt": "Amoxicillin Clavulanate Potassium",
+      "strength": "625mg (500mg + 125mg)",
+      "dosage_form": "Tablet",
+      "category": "Antibiotic",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Bacterial infections",
+        "Respiratory tract infections",
+        "Urinary tract infections",
+        "Skin infections"
+      ],
+      "side_effects": [
+        "Diarrhea",
+        "Nausea",
+        "Vomiting",
+        "Skin rash",
+        "Hepatotoxicity (rare)"
+      ],
+      "contraindications": [
+        "Penicillin hypersensitivity",
+        "History of Augmentin-associated jaundice",
+        "Severe renal impairment (CrCl <30 mL/min) without dose adjustment"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "Dose reduction required in renal impairment",
+      "liver_risk": "Use with caution; monitor liver function",
+      "searchable_aliases": [
+        "augmentin",
+        "amoxyclav",
+        "amoxicillin clavulanate",
+        "clavam",
+        "moxclav"
+      ],
+      "language_aliases_hindi": [
+        "ऑगमेंटिन",
+        "एंटीबायोटिक"
+      ],
+      "source_name": "GSK India Prescribing Information / DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=amoxicillin+clavulanate",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Augmentin is a medical formulation containing Amoxicillin + Clavulanate as its active salt. It is classified under Antibiotic and is primarily prescribed for the management or treatment of Bacterial infections, Respiratory tract infections."
+    },
+    {
+      "id": "MED003",
+      "brand_name": "Metformin 500",
+      "generic_name": "Metformin Hydrochloride",
+      "salt": "Metformin Hydrochloride",
+      "strength": "500mg",
+      "dosage_form": "Tablet",
+      "category": "Antidiabetic (Biguanide)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "side_effects": [
+        "Nausea",
+        "Diarrhea",
+        "Abdominal pain",
+        "Lactic acidosis (rare but serious)",
+        "Vitamin B12 deficiency (long-term)"
+      ],
+      "contraindications": [
+        "eGFR < 30 mL/min/1.73m²",
+        "Metabolic acidosis",
+        "Diabetic ketoacidosis",
+        "Radiological contrast procedures"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "CONTRAINDICATED in severe renal impairment (eGFR <30)",
+      "liver_risk": "Avoid in hepatic impairment due to lactic acidosis risk",
+      "searchable_aliases": [
+        "metformin",
+        "glucophage",
+        "glycomet",
+        "obimet",
+        "carbophage"
+      ],
+      "language_aliases_hindi": [
+        "मेटफॉर्मिन",
+        "शुगर की दवा",
+        "डायबिटीज की गोली"
+      ],
+      "source_name": "DailyMed / openFDA / PMBJP Catalog",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=metformin",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Metformin 500 is a medical formulation containing Metformin Hydrochloride as its active salt. It is classified under Antidiabetic (Biguanide) and is primarily prescribed for the management or treatment of Type 2 Diabetes Mellitus."
+    },
+    {
+      "id": "MED004",
+      "brand_name": "Ecosprin",
+      "generic_name": "Aspirin",
+      "salt": "Acetylsalicylic Acid",
+      "strength": "75mg",
+      "dosage_form": "Tablet (Enteric Coated)",
+      "category": "Antiplatelet / NSAID",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Prevention of cardiovascular events",
+        "Antiplatelet therapy",
+        "Fever (higher doses)"
+      ],
+      "side_effects": [
+        "GI bleeding",
+        "Peptic ulcer",
+        "Tinnitus (high dose)",
+        "Reye's syndrome in children"
+      ],
+      "contraindications": [
+        "Active peptic ulcer",
+        "Bleeding disorders",
+        "Aspirin hypersensitivity",
+        "Children under 16 with viral illness",
+        "Last trimester of pregnancy"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Avoid in severe renal impairment",
+      "liver_risk": "Avoid in severe hepatic impairment",
+      "searchable_aliases": [
+        "aspirin",
+        "ecosprin",
+        "disprin",
+        "acetylsalicylic acid",
+        "loprin"
+      ],
+      "language_aliases_hindi": [
+        "एस्पिरिन",
+        "खून पतला करने की दवा"
+      ],
+      "source_name": "USV India Prescribing Information / DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=aspirin+75mg",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Ecosprin is a medical formulation containing Aspirin as its active salt. It is classified under Antiplatelet / NSAID and is primarily prescribed for the management or treatment of Prevention of cardiovascular events, Antiplatelet therapy."
+    },
+    {
+      "id": "MED005",
+      "brand_name": "Atorva",
+      "generic_name": "Atorvastatin",
+      "salt": "Atorvastatin Calcium",
+      "strength": "10mg",
+      "dosage_form": "Tablet",
+      "category": "Statin / Lipid-lowering",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Hypercholesterolemia",
+        "Prevention of cardiovascular disease",
+        "Hypertriglyceridemia"
+      ],
+      "side_effects": [
+        "Myopathy",
+        "Rhabdomyolysis (rare)",
+        "Elevated liver enzymes",
+        "Headache",
+        "Nausea"
+      ],
+      "contraindications": [
+        "Active liver disease",
+        "Unexplained persistent elevated serum transaminases",
+        "Pregnancy",
+        "Breastfeeding"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "No dose adjustment needed in renal impairment",
+      "liver_risk": "CONTRAINDICATED in active liver disease",
+      "searchable_aliases": [
+        "atorvastatin",
+        "atorva",
+        "lipitor",
+        "storvas",
+        "tonact",
+        "atorlip"
+      ],
+      "language_aliases_hindi": [
+        "एटोर्वास्टैटिन",
+        "कोलेस्ट्रॉल की दवा"
+      ],
+      "source_name": "Pfizer India / DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=atorvastatin",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Atorva is a medical formulation containing Atorvastatin as its active salt. It is classified under Statin / Lipid-lowering and is primarily prescribed for the management or treatment of Hypercholesterolemia, Prevention of cardiovascular disease."
+    },
+    {
+      "id": "MED006",
+      "brand_name": "Telma",
+      "generic_name": "Telmisartan",
+      "salt": "Telmisartan",
+      "strength": "40mg",
+      "dosage_form": "Tablet",
+      "category": "Antihypertensive (ARB)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Hypertension",
+        "Cardiovascular risk reduction in patients with established cardiovascular disease"
+      ],
+      "side_effects": [
+        "Dizziness",
+        "Hyperkalemia",
+        "Hypotension",
+        "Diarrhea",
+        "Sinusitis"
+      ],
+      "contraindications": [
+        "Pregnancy (2nd and 3rd trimester)",
+        "Diabetes + Aliskiren combination",
+        "Severe hepatic impairment",
+        "Biliary obstructive disorders"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Use with caution; monitor potassium and renal function",
+      "liver_risk": "CONTRAINDICATED in severe hepatic impairment",
+      "searchable_aliases": [
+        "telmisartan",
+        "telma",
+        "telmikind",
+        "telsar",
+        "telsartan",
+        "micardis"
+      ],
+      "language_aliases_hindi": [
+        "तेलमिसर्टन",
+        "बीपी की दवा",
+        "ब्लड प्रेशर टैबलेट"
+      ],
+      "source_name": "Glenmark India SmPC / DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=telmisartan",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Telma is a medical formulation containing Telmisartan as its active salt. It is classified under Antihypertensive (ARB) and is primarily prescribed for the management or treatment of Hypertension, Cardiovascular risk reduction in patients with established cardiovascular disease."
+    },
+    {
+      "id": "MED007",
+      "brand_name": "Pan",
+      "generic_name": "Pantoprazole Sodium",
+      "salt": "Pantoprazole Sodium",
+      "strength": "40mg",
+      "dosage_form": "Tablet (Enteric Coated)",
+      "category": "Proton Pump Inhibitor (PPI)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Gastroesophageal reflux disease (GERD)",
+        "Peptic ulcer disease",
+        "H. pylori eradication (combination)",
+        "Zollinger-Ellison syndrome"
+      ],
+      "side_effects": [
+        "Headache",
+        "Diarrhea",
+        "Nausea",
+        "Abdominal pain",
+        "Hypomagnesemia (long-term)",
+        "C. difficile-associated diarrhea"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to pantoprazole or benzimidazoles",
+        "Concomitant use with rilpivirine-containing products"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "Maximum 20mg/day in severe hepatic impairment",
+      "searchable_aliases": [
+        "pantoprazole",
+        "pan 40",
+        "pantocid",
+        "nexpro",
+        "pantop",
+        "protonix"
+      ],
+      "language_aliases_hindi": [
+        "पेंटोप्राजोल",
+        "एसिडिटी की दवा",
+        "पेट की दवा"
+      ],
+      "source_name": "Sun Pharma India SmPC / DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=pantoprazole",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Pan is a medical formulation containing Pantoprazole Sodium as its active salt. It is classified under Proton Pump Inhibitor (PPI) and is primarily prescribed for the management or treatment of Gastroesophageal reflux disease (GERD), Peptic ulcer disease."
+    },
+    {
+      "id": "MED008",
+      "brand_name": "Ciprofloxacin 500",
+      "generic_name": "Ciprofloxacin",
+      "salt": "Ciprofloxacin Hydrochloride",
+      "strength": "500mg",
+      "dosage_form": "Tablet",
+      "category": "Antibiotic (Fluoroquinolone)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Urinary tract infections",
+        "Respiratory tract infections",
+        "GI infections",
+        "Typhoid (adjunct)"
+      ],
+      "side_effects": [
+        "Nausea",
+        "Diarrhea",
+        "Tendinopathy / Tendon rupture",
+        "QT prolongation",
+        "Peripheral neuropathy",
+        "Photosensitivity"
+      ],
+      "contraindications": [
+        "Hypersensitivity to fluoroquinolones",
+        "Children and adolescents (growing age, unless no alternative)",
+        "Concomitant tizanidine use"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Dose reduction required in CrCl < 30 mL/min",
+      "liver_risk": "Use with caution in severe hepatic impairment",
+      "searchable_aliases": [
+        "ciprofloxacin",
+        "cipro",
+        "ciplox",
+        "cifran",
+        "quinflox"
+      ],
+      "language_aliases_hindi": [
+        "सिप्रोफ्लोक्सासिन",
+        "एंटीबायोटिक"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ciprofloxacin+500",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Ciprofloxacin 500 is a medical formulation containing Ciprofloxacin as its active salt. It is classified under Antibiotic (Fluoroquinolone) and is primarily prescribed for the management or treatment of Urinary tract infections, Respiratory tract infections."
+    },
+    {
+      "id": "MED009",
+      "brand_name": "Amlodipine 5",
+      "generic_name": "Amlodipine",
+      "salt": "Amlodipine Besilate",
+      "strength": "5mg",
+      "dosage_form": "Tablet",
+      "category": "Antihypertensive (Calcium Channel Blocker)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Hypertension",
+        "Stable and vasospastic angina"
+      ],
+      "side_effects": [
+        "Peripheral edema",
+        "Headache",
+        "Flushing",
+        "Dizziness",
+        "Palpitations"
+      ],
+      "contraindications": [
+        "Cardiogenic shock",
+        "Severe aortic stenosis",
+        "Unstable angina",
+        "Hypersensitivity to dihydropyridines"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "Initiate at lower dose in severe hepatic impairment",
+      "searchable_aliases": [
+        "amlodipine",
+        "amlong",
+        "stamlo",
+        "amlip",
+        "amlopin",
+        "norvasc"
+      ],
+      "language_aliases_hindi": [
+        "अम्लोडिपिन",
+        "बीपी की दवा"
+      ],
+      "source_name": "Pfizer India / DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=amlodipine",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Amlodipine 5 is a medical formulation containing Amlodipine as its active salt. It is classified under Antihypertensive (Calcium Channel Blocker) and is primarily prescribed for the management or treatment of Hypertension, Stable and vasospastic angina."
+    },
+    {
+      "id": "MED010",
+      "brand_name": "Levipil",
+      "generic_name": "Levetiracetam",
+      "salt": "Levetiracetam",
+      "strength": "500mg",
+      "dosage_form": "Tablet",
+      "category": "Antiepileptic",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Partial onset seizures",
+        "Myoclonic seizures",
+        "Primary generalized tonic-clonic seizures"
+      ],
+      "side_effects": [
+        "Somnolence",
+        "Behavioral changes",
+        "Irritability",
+        "Dizziness",
+        "Nasopharyngitis"
+      ],
+      "contraindications": [
+        "Hypersensitivity to levetiracetam or pyrrolidone derivatives"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "Dose reduction required in renal impairment (CrCl < 80 mL/min)",
+      "liver_risk": "No dose adjustment required in hepatic impairment",
+      "searchable_aliases": [
+        "levetiracetam",
+        "levipil",
+        "keppra",
+        "levroxa",
+        "epilive"
+      ],
+      "language_aliases_hindi": [
+        "लेवेटिरासेटम",
+        "मिर्गी की दवा"
+      ],
+      "source_name": "UCB India SmPC / DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=levetiracetam",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Levipil is a medical formulation containing Levetiracetam as its active salt. It is classified under Antiepileptic and is primarily prescribed for the management or treatment of Partial onset seizures, Myoclonic seizures."
+    },
+    {
+      "id": "MED011",
+      "brand_name": "Thyronorm",
+      "generic_name": "Levothyroxine Sodium",
+      "salt": "Levothyroxine Sodium",
+      "strength": "50mcg",
+      "dosage_form": "Tablet",
+      "category": "Thyroid Hormone",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Hypothyroidism",
+        "TSH suppression in thyroid cancer"
+      ],
+      "side_effects": [
+        "Tachycardia",
+        "Palpitations",
+        "Weight loss",
+        "Insomnia",
+        "Heat intolerance (signs of over-treatment)"
+      ],
+      "contraindications": [
+        "Untreated adrenal insufficiency",
+        "Thyrotoxicosis",
+        "Acute myocardial infarction"
+      ],
+      "pregnancy_safe": true,
+      "kidney_risk": "No specific renal dose adjustment documented",
+      "liver_risk": "Use with caution in hepatic impairment",
+      "searchable_aliases": [
+        "levothyroxine",
+        "thyronorm",
+        "eltroxin",
+        "thyrox",
+        "levotas"
+      ],
+      "language_aliases_hindi": [
+        "लेवोथायरोक्सिन",
+        "थायराइड की दवा"
+      ],
+      "source_name": "Abbott India SmPC / DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=levothyroxine",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Thyronorm is a medical formulation containing Levothyroxine Sodium as its active salt. It is classified under Thyroid Hormone and is primarily prescribed for the management or treatment of Hypothyroidism, TSH suppression in thyroid cancer."
+    },
+    {
+      "id": "MED012",
+      "brand_name": "Montair",
+      "generic_name": "Montelukast Sodium",
+      "salt": "Montelukast Sodium",
+      "strength": "10mg",
+      "dosage_form": "Tablet",
+      "category": "Leukotriene Receptor Antagonist",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Asthma prophylaxis",
+        "Allergic rhinitis",
+        "Exercise-induced bronchoconstriction"
+      ],
+      "side_effects": [
+        "Headache",
+        "Abdominal pain",
+        "Behavioral and mood changes (FDA Black Box Warning)",
+        "Suicidal ideation (rare)"
+      ],
+      "contraindications": [
+        "Hypersensitivity to montelukast"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "Use with caution in moderate to severe hepatic impairment",
+      "searchable_aliases": [
+        "montelukast",
+        "montair",
+        "singulair",
+        "montek",
+        "romilast"
+      ],
+      "language_aliases_hindi": [
+        "मोंटेलुकास्ट",
+        "दमे की दवा",
+        "एलर्जी की दवा"
+      ],
+      "source_name": "Cipla India SmPC / DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=montelukast",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Montair is a medical formulation containing Montelukast Sodium as its active salt. It is classified under Leukotriene Receptor Antagonist and is primarily prescribed for the management or treatment of Asthma prophylaxis, Allergic rhinitis."
+    },
+    {
+      "id": "MED013",
+      "brand_name": "Glycomet",
+      "generic_name": "Metformin Hydrochloride",
+      "salt": "Metformin Hydrochloride",
+      "strength": "850mg",
+      "dosage_form": "Tablet",
+      "category": "Antidiabetic (Biguanide)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "side_effects": [
+        "Nausea",
+        "Diarrhea",
+        "Abdominal distension",
+        "Lactic acidosis (rare)"
+      ],
+      "contraindications": [
+        "eGFR < 30 mL/min/1.73m²",
+        "Metabolic acidosis",
+        "Contrast procedures"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "CONTRAINDICATED in severe renal impairment",
+      "liver_risk": "Avoid in hepatic impairment",
+      "searchable_aliases": [
+        "metformin 850",
+        "glycomet",
+        "obimet 850",
+        "glyciphage"
+      ],
+      "language_aliases_hindi": [
+        "ग्लाइकोमेट",
+        "शुगर की गोली"
+      ],
+      "source_name": "USV India SmPC / DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=metformin+850",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Glycomet is a medical formulation containing Metformin Hydrochloride as its active salt. It is classified under Antidiabetic (Biguanide) and is primarily prescribed for the management or treatment of Type 2 Diabetes Mellitus."
+    },
+    {
+      "id": "MED014",
+      "brand_name": "Dolo 650",
+      "generic_name": "Paracetamol",
+      "salt": "Paracetamol",
+      "strength": "650mg",
+      "dosage_form": "Tablet",
+      "category": "Analgesic / Antipyretic",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Fever",
+        "Pain",
+        "COVID-19 symptom relief"
+      ],
+      "side_effects": [
+        "Hepatotoxicity on overdose",
+        "Rash (rare)"
+      ],
+      "contraindications": [
+        "Severe liver disease",
+        "Regular alcohol use"
+      ],
+      "pregnancy_safe": true,
+      "kidney_risk": "Reduce dosing interval in renal impairment",
+      "liver_risk": "Maximum 2g/day in chronic liver disease",
+      "searchable_aliases": [
+        "dolo 650",
+        "paracetamol 650",
+        "calpol 650",
+        "panadol 650"
+      ],
+      "language_aliases_hindi": [
+        "डोलो",
+        "पैरासिटामोल 650",
+        "बुखार की दवा"
+      ],
+      "source_name": "Micro Labs India SmPC / DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=paracetamol+650",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Dolo 650 is a medical formulation containing Paracetamol as its active salt. It is classified under Analgesic / Antipyretic and is primarily prescribed for the management or treatment of Fever, Pain."
+    },
+    {
+      "id": "MED015",
+      "brand_name": "Omez",
+      "generic_name": "Omeprazole",
+      "salt": "Omeprazole",
+      "strength": "20mg",
+      "dosage_form": "Capsule",
+      "category": "Proton Pump Inhibitor (PPI)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Peptic ulcer",
+        "GERD",
+        "H. pylori eradication",
+        "Dyspepsia"
+      ],
+      "side_effects": [
+        "Headache",
+        "Diarrhea",
+        "Abdominal pain",
+        "Hypomagnesemia",
+        "Fracture risk (long-term)"
+      ],
+      "contraindications": [
+        "Concomitant use with nelfinavir",
+        "Hypersensitivity to omeprazole or substituted benzimidazoles"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "Maximum 20mg/day in severe hepatic impairment",
+      "searchable_aliases": [
+        "omeprazole",
+        "omez",
+        "prilosec",
+        "ocid",
+        "omiflux"
+      ],
+      "language_aliases_hindi": [
+        "ओमेप्राजोल",
+        "एसिडिटी की दवा"
+      ],
+      "source_name": "Dr. Reddy's India SmPC / DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=omeprazole+20mg",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Omez is a medical formulation containing Omeprazole as its active salt. It is classified under Proton Pump Inhibitor (PPI) and is primarily prescribed for the management or treatment of Peptic ulcer, GERD."
+    },
+    {
+      "id": "MED016",
+      "brand_name": "Azithral",
+      "generic_name": "Azithromycin",
+      "salt": "Azithromycin Dihydrate",
+      "strength": "500mg",
+      "dosage_form": "Tablet",
+      "category": "Antibiotic (Macrolide)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Community-acquired pneumonia",
+        "Skin infections",
+        "STI (Chlamydia)",
+        "Typhoid (adjunct)"
+      ],
+      "side_effects": [
+        "Nausea",
+        "Diarrhea",
+        "Abdominal pain",
+        "QT prolongation",
+        "Hepatotoxicity (rare)"
+      ],
+      "contraindications": [
+        "Hypersensitivity to azithromycin or macrolides",
+        "Concomitant ergot alkaloids",
+        "Known QT prolongation"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required for mild-moderate renal impairment",
+      "liver_risk": "Avoid in severe hepatic disease",
+      "searchable_aliases": [
+        "azithromycin",
+        "azithral",
+        "zithromax",
+        "azax",
+        "azifast"
+      ],
+      "language_aliases_hindi": [
+        "एजिथ्रोमाइसिन",
+        "एंटीबायोटिक"
+      ],
+      "source_name": "Alembic India SmPC / DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=azithromycin+500",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Azithral is a medical formulation containing Azithromycin as its active salt. It is classified under Antibiotic (Macrolide) and is primarily prescribed for the management or treatment of Community-acquired pneumonia, Skin infections."
+    },
+    {
+      "id": "MED017",
+      "brand_name": "Clopivas",
+      "generic_name": "Clopidogrel",
+      "salt": "Clopidogrel Bisulfate",
+      "strength": "75mg",
+      "dosage_form": "Tablet",
+      "category": "Antiplatelet",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Acute coronary syndrome",
+        "Recent MI",
+        "Ischemic stroke",
+        "Peripheral arterial disease"
+      ],
+      "side_effects": [
+        "Bleeding",
+        "Bruising",
+        "GI bleeding",
+        "Rash",
+        "TTP (rare)"
+      ],
+      "contraindications": [
+        "Active pathological bleeding",
+        "Severe hepatic impairment",
+        "Hypersensitivity to clopidogrel"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "CONTRAINDICATED in severe hepatic impairment",
+      "searchable_aliases": [
+        "clopidogrel",
+        "clopivas",
+        "plavix",
+        "deplatt",
+        "clopilet"
+      ],
+      "language_aliases_hindi": [
+        "क्लोपिडोग्रेल",
+        "खून पतला करने की दवा"
+      ],
+      "source_name": "Cipla India SmPC / DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=clopidogrel+75",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Clopivas is a medical formulation containing Clopidogrel as its active salt. It is classified under Antiplatelet and is primarily prescribed for the management or treatment of Acute coronary syndrome, Recent MI."
+    },
+    {
+      "id": "MED018",
+      "brand_name": "Taxim-O",
+      "generic_name": "Cefixime",
+      "salt": "Cefixime",
+      "strength": "200mg",
+      "dosage_form": "Tablet",
+      "category": "Antibiotic (3rd Gen Cephalosporin)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "UTI",
+        "Otitis media",
+        "Tonsillopharyngitis",
+        "Uncomplicated gonorrhea",
+        "Typhoid"
+      ],
+      "side_effects": [
+        "Diarrhea",
+        "Nausea",
+        "Abdominal pain",
+        "Allergic reaction"
+      ],
+      "contraindications": [
+        "Hypersensitivity to cephalosporins",
+        "History of penicillin anaphylaxis (relative)"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "Dose reduction in CrCl < 60 mL/min",
+      "liver_risk": "No dose adjustment documented in hepatic impairment",
+      "searchable_aliases": [
+        "cefixime",
+        "taxim-o",
+        "mahacef",
+        "cefix",
+        "ceftas",
+        "zifi"
+      ],
+      "language_aliases_hindi": [
+        "सेफिक्साइम",
+        "एंटीबायोटिक"
+      ],
+      "source_name": "Alkem India SmPC / DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=cefixime+200",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Taxim-O is a medical formulation containing Cefixime as its active salt. It is classified under Antibiotic (3rd Gen Cephalosporin) and is primarily prescribed for the management or treatment of UTI, Otitis media."
+    },
+    {
+      "id": "MED019",
+      "brand_name": "Januvia",
+      "generic_name": "Sitagliptin",
+      "salt": "Sitagliptin Phosphate Monohydrate",
+      "strength": "100mg",
+      "dosage_form": "Tablet",
+      "category": "Antidiabetic (DPP-4 Inhibitor)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Type 2 Diabetes Mellitus (adjunct to diet and exercise)"
+      ],
+      "side_effects": [
+        "Nasopharyngitis",
+        "Upper respiratory tract infection",
+        "Headache",
+        "Pancreatitis (rare)",
+        "Joint pain"
+      ],
+      "contraindications": [
+        "Type 1 diabetes",
+        "Diabetic ketoacidosis",
+        "History of serious hypersensitivity to sitagliptin"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "Dose reduction required: 50mg for CrCl 30-50; 25mg for CrCl <30",
+      "liver_risk": "No dose adjustment required in mild-moderate hepatic impairment",
+      "searchable_aliases": [
+        "sitagliptin",
+        "januvia",
+        "istavel",
+        "tesavel"
+      ],
+      "language_aliases_hindi": [
+        "सिटाग्लिप्टिन",
+        "शुगर की दवा"
+      ],
+      "source_name": "MSD India / DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=sitagliptin",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Januvia is a medical formulation containing Sitagliptin as its active salt. It is classified under Antidiabetic (DPP-4 Inhibitor) and is primarily prescribed for the management or treatment of Type 2 Diabetes Mellitus (adjunct to diet and exercise)."
+    },
+    {
+      "id": "MED020",
+      "brand_name": "Rantac",
+      "generic_name": "Ranitidine",
+      "salt": "Ranitidine Hydrochloride",
+      "strength": "150mg",
+      "dosage_form": "Tablet",
+      "category": "H2 Blocker",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Peptic ulcer",
+        "GERD",
+        "Zollinger-Ellison syndrome"
+      ],
+      "side_effects": [
+        "Headache",
+        "Diarrhea",
+        "Constipation"
+      ],
+      "contraindications": [
+        "Known hypersensitivity to ranitidine"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "Dose reduction in renal impairment (CrCl <50 mL/min)",
+      "liver_risk": "Use with caution in hepatic impairment",
+      "searchable_aliases": [
+        "ranitidine",
+        "rantac",
+        "zinetac",
+        "aciloc"
+      ],
+      "language_aliases_hindi": [
+        "रैनिटिडिन",
+        "एसिडिटी की दवा"
+      ],
+      "source_name": "J B Chemicals India SmPC / DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ranitidine+150",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "MEDIUM",
+      "_note": "CDSCO suspended approvals for ranitidine in 2020 due to NDMA contamination. Check CDSCO for current status before inclusion in product.",
+      "description": "Rantac is a medical formulation containing Ranitidine as its active salt. It is classified under H2 Blocker and is primarily prescribed for the management or treatment of Peptic ulcer, GERD."
+    },
+    {
+      "id": "MED021",
+      "brand_name": "Ibugesic",
+      "generic_name": "Ibuprofen",
+      "salt": "Ibuprofen",
+      "strength": "400mg",
+      "dosage_form": "Tablet",
+      "category": "NSAID / Analgesic / Antipyretic",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Mild to moderate pain",
+        "Fever",
+        "Dysmenorrhoea",
+        "Rheumatoid arthritis",
+        "Osteoarthritis"
+      ],
+      "side_effects": [
+        "GI upset",
+        "Nausea",
+        "Peptic ulcer",
+        "GI bleeding",
+        "Renal impairment",
+        "Raised blood pressure",
+        "Fluid retention",
+        "Cardiovascular events (long-term high dose)"
+      ],
+      "contraindications": [
+        "Active peptic ulcer",
+        "Severe renal impairment",
+        "Severe hepatic impairment",
+        "3rd trimester of pregnancy",
+        "Aspirin hypersensitivity / NSAID hypersensitivity",
+        "Heart failure",
+        "Post-CABG"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "CONTRAINDICATED in severe renal impairment; can cause acute kidney injury",
+      "liver_risk": "Avoid in severe hepatic impairment",
+      "searchable_aliases": [
+        "ibuprofen",
+        "ibugesic",
+        "brufen",
+        "combiflam ibuprofen",
+        "advil",
+        "nurofen"
+      ],
+      "language_aliases_hindi": [
+        "इबुप्रोफेन",
+        "दर्द की दवा",
+        "बुखार की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ibuprofen+400",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Ibugesic is a medical formulation containing Ibuprofen as its active salt. It is classified under NSAID / Analgesic / Antipyretic and is primarily prescribed for the management or treatment of Mild to moderate pain, Fever."
+    },
+    {
+      "id": "MED022",
+      "brand_name": "Combiflam",
+      "generic_name": "Ibuprofen + Paracetamol",
+      "salt": "Ibuprofen 400mg + Paracetamol 325mg",
+      "strength": "400mg + 325mg",
+      "dosage_form": "Tablet",
+      "category": "NSAID + Analgesic Combination",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Fever",
+        "Musculoskeletal pain",
+        "Headache",
+        "Toothache",
+        "Dysmenorrhoea"
+      ],
+      "side_effects": [
+        "GI upset",
+        "Nausea",
+        "Peptic ulcer",
+        "Hepatotoxicity (overdose via paracetamol component)"
+      ],
+      "contraindications": [
+        "Active peptic ulcer",
+        "Renal impairment",
+        "Pregnancy (especially 3rd trimester)",
+        "NSAID hypersensitivity"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Avoid in renal impairment due to ibuprofen component",
+      "liver_risk": "Avoid in hepatic impairment due to paracetamol component",
+      "searchable_aliases": [
+        "combiflam",
+        "ibuprofen paracetamol",
+        "ibugesic plus"
+      ],
+      "language_aliases_hindi": [
+        "कॉम्बीफ्लेम",
+        "दर्द बुखार की दवा"
+      ],
+      "source_name": "Sanofi India SmPC / Tata 1mg product listing",
+      "source_url": "https://www.1mg.com/drugs/combiflam-tablet-7714",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Combiflam is a medical formulation containing Ibuprofen + Paracetamol as its active salt. It is classified under NSAID + Analgesic Combination and is primarily prescribed for the management or treatment of Fever, Musculoskeletal pain."
+    },
+    {
+      "id": "MED023",
+      "brand_name": "Diclofenac 50",
+      "generic_name": "Diclofenac Sodium",
+      "salt": "Diclofenac Sodium",
+      "strength": "50mg",
+      "dosage_form": "Tablet",
+      "category": "NSAID",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Osteoarthritis",
+        "Rheumatoid arthritis",
+        "Ankylosing spondylitis",
+        "Acute pain",
+        "Dysmenorrhoea"
+      ],
+      "side_effects": [
+        "GI ulceration",
+        "GI bleeding",
+        "Hepatotoxicity",
+        "Renal toxicity",
+        "Cardiovascular events",
+        "Elevated liver enzymes"
+      ],
+      "contraindications": [
+        "Active peptic ulcer",
+        "Severe hepatic impairment",
+        "Severe renal failure",
+        "3rd trimester pregnancy",
+        "Known NSAID hypersensitivity",
+        "Post-CABG"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "AVOID — NSAIDs can cause acute renal failure especially in volume-depleted patients",
+      "liver_risk": "Diclofenac has highest hepatotoxicity risk among common NSAIDs; contraindicated in severe hepatic impairment",
+      "searchable_aliases": [
+        "diclofenac",
+        "voveran",
+        "voltaren",
+        "diclomol",
+        "diclogesic",
+        "hifenac"
+      ],
+      "language_aliases_hindi": [
+        "डाइक्लोफेनेक",
+        "जोड़ों का दर्द की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=diclofenac+sodium+50",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Diclofenac 50 is a medical formulation containing Diclofenac Sodium as its active salt. It is classified under NSAID and is primarily prescribed for the management or treatment of Osteoarthritis, Rheumatoid arthritis."
+    },
+    {
+      "id": "MED024",
+      "brand_name": "Zerodol SP",
+      "generic_name": "Aceclofenac + Paracetamol + Serratiopeptidase",
+      "salt": "Aceclofenac 100mg + Paracetamol 325mg + Serratiopeptidase 15mg",
+      "strength": "100mg + 325mg + 15mg",
+      "dosage_form": "Tablet",
+      "category": "NSAID + Analgesic + Proteolytic Enzyme Combination",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Musculoskeletal pain",
+        "Post-operative inflammation",
+        "Dental pain",
+        "Sports injuries"
+      ],
+      "side_effects": [
+        "GI upset",
+        "Nausea",
+        "Hepatotoxicity (paracetamol/aceclofenac)",
+        "Peptic ulcer"
+      ],
+      "contraindications": [
+        "Active peptic ulcer",
+        "Hepatic impairment",
+        "Renal impairment",
+        "Pregnancy",
+        "NSAID hypersensitivity"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Avoid in renal impairment",
+      "liver_risk": "Avoid in hepatic impairment",
+      "searchable_aliases": [
+        "zerodol sp",
+        "aceclofenac paracetamol serratiopeptidase",
+        "hifenac sp",
+        "dolowin sp"
+      ],
+      "language_aliases_hindi": [
+        "जीरोडोल",
+        "दर्द की दवा"
+      ],
+      "source_name": "IPCA India SmPC / Tata 1mg",
+      "source_url": "https://www.1mg.com/drugs/zerodol-sp-tablet-30897",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Zerodol SP is a medical formulation containing Aceclofenac + Paracetamol + Serratiopeptidase as its active salt. It is classified under NSAID + Analgesic + Proteolytic Enzyme Combination and is primarily prescribed for the management or treatment of Musculoskeletal pain, Post-operative inflammation."
+    },
+    {
+      "id": "MED025",
+      "brand_name": "Metoprolol 25",
+      "generic_name": "Metoprolol Succinate",
+      "salt": "Metoprolol Succinate",
+      "strength": "25mg",
+      "dosage_form": "Tablet (Extended Release)",
+      "category": "Beta-1 Selective Adrenergic Blocker",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Hypertension",
+        "Angina pectoris",
+        "Heart failure",
+        "Arrhythmias",
+        "Post-MI"
+      ],
+      "side_effects": [
+        "Bradycardia",
+        "Fatigue",
+        "Dizziness",
+        "Cold extremities",
+        "Bronchoconstriction (less than non-selective)",
+        "Hypoglycaemia masking in diabetics"
+      ],
+      "contraindications": [
+        "Cardiogenic shock",
+        "Decompensated heart failure",
+        "Sick sinus syndrome",
+        "Severe peripheral arterial disease",
+        "Severe bronchial asthma / COPD",
+        "2nd or 3rd degree AV block"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "Dose reduction in severe hepatic impairment",
+      "searchable_aliases": [
+        "metoprolol",
+        "metpure xl",
+        "seloken xl",
+        "metolar xr",
+        "betaloc"
+      ],
+      "language_aliases_hindi": [
+        "मेटोप्रोलोल",
+        "दिल की दवा",
+        "बीपी की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=metoprolol+succinate",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Metoprolol 25 is a medical formulation containing Metoprolol Succinate as its active salt. It is classified under Beta-1 Selective Adrenergic Blocker and is primarily prescribed for the management or treatment of Hypertension, Angina pectoris."
+    },
+    {
+      "id": "MED026",
+      "brand_name": "Lasix",
+      "generic_name": "Furosemide",
+      "salt": "Furosemide",
+      "strength": "40mg",
+      "dosage_form": "Tablet",
+      "category": "Loop Diuretic",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Oedema (cardiac, renal, hepatic)",
+        "Hypertension",
+        "Acute pulmonary oedema"
+      ],
+      "side_effects": [
+        "Hypokalemia",
+        "Hyponatremia",
+        "Dehydration",
+        "Ototoxicity (high IV doses)",
+        "Hypocalcemia",
+        "Hyperuricemia"
+      ],
+      "contraindications": [
+        "Anuria",
+        "Severe hypovolemia",
+        "Hypersensitivity to furosemide or sulfonamides",
+        "Electrolyte depletion (uncorrected)"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "Use with caution; large doses may be needed in renal failure",
+      "liver_risk": "Use with caution in hepatic cirrhosis; risk of hepatic coma",
+      "searchable_aliases": [
+        "furosemide",
+        "frusemide",
+        "lasix",
+        "frusenex",
+        "frumox"
+      ],
+      "language_aliases_hindi": [
+        "फ्यूरोसेमाइड",
+        "पेशाब बढ़ाने की दवा",
+        "पानी की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=furosemide+40",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Lasix is a medical formulation containing Furosemide as its active salt. It is classified under Loop Diuretic and is primarily prescribed for the management or treatment of Oedema (cardiac, renal, hepatic), Hypertension."
+    },
+    {
+      "id": "MED027",
+      "brand_name": "Glimepiride 2",
+      "generic_name": "Glimepiride",
+      "salt": "Glimepiride",
+      "strength": "2mg",
+      "dosage_form": "Tablet",
+      "category": "Antidiabetic (Sulfonylurea)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "side_effects": [
+        "Hypoglycaemia",
+        "Weight gain",
+        "Nausea",
+        "Dizziness",
+        "Hyponatremia (rare)"
+      ],
+      "contraindications": [
+        "Type 1 diabetes",
+        "Diabetic ketoacidosis",
+        "Severe renal impairment",
+        "Severe hepatic impairment",
+        "Sulfonamide hypersensitivity",
+        "Pregnancy"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "CONTRAINDICATED in severe renal impairment; hypoglycaemia risk",
+      "liver_risk": "CONTRAINDICATED in severe hepatic impairment",
+      "searchable_aliases": [
+        "glimepiride",
+        "amaryl",
+        "glimpid",
+        "glimisave",
+        "zoryl"
+      ],
+      "language_aliases_hindi": [
+        "ग्लिमेपिराइड",
+        "शुगर की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=glimepiride+2",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Glimepiride 2 is a medical formulation containing Glimepiride as its active salt. It is classified under Antidiabetic (Sulfonylurea) and is primarily prescribed for the management or treatment of Type 2 Diabetes Mellitus."
+    },
+    {
+      "id": "MED028",
+      "brand_name": "Glycomet GP 2",
+      "generic_name": "Metformin + Glimepiride",
+      "salt": "Metformin Hydrochloride 500mg + Glimepiride 2mg",
+      "strength": "500mg + 2mg",
+      "dosage_form": "Tablet",
+      "category": "Antidiabetic Combination (Biguanide + Sulfonylurea)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Type 2 Diabetes Mellitus where monotherapy inadequate"
+      ],
+      "side_effects": [
+        "Hypoglycaemia",
+        "Lactic acidosis (metformin)",
+        "Weight gain",
+        "Nausea",
+        "GI disturbance"
+      ],
+      "contraindications": [
+        "Renal impairment (eGFR <30)",
+        "Hepatic impairment",
+        "Pregnancy",
+        "Diabetic ketoacidosis",
+        "Contrast procedures"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "CONTRAINDICATED in severe renal impairment (metformin component)",
+      "liver_risk": "CONTRAINDICATED in hepatic impairment",
+      "searchable_aliases": [
+        "metformin glimepiride",
+        "glycomet gp",
+        "glucoryl m",
+        "glimy m",
+        "amaryl m"
+      ],
+      "language_aliases_hindi": [
+        "मेटफॉर्मिन ग्लिमेपिराइड",
+        "शुगर की मिली-जुली दवा"
+      ],
+      "source_name": "USV India SmPC / Tata 1mg",
+      "source_url": "https://www.1mg.com/drugs/glycomet-gp-2-tablet-10-s-75742",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Glycomet GP 2 is a medical formulation containing Metformin + Glimepiride as its active salt. It is classified under Antidiabetic Combination (Biguanide + Sulfonylurea) and is primarily prescribed for the management or treatment of Type 2 Diabetes Mellitus where monotherapy inadequate."
+    },
+    {
+      "id": "MED029",
+      "brand_name": "Janumet 50/500",
+      "generic_name": "Sitagliptin + Metformin",
+      "salt": "Sitagliptin Phosphate 50mg + Metformin Hydrochloride 500mg",
+      "strength": "50mg + 500mg",
+      "dosage_form": "Tablet",
+      "category": "Antidiabetic Combination (DPP-4 Inhibitor + Biguanide)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Type 2 Diabetes Mellitus as add-on to diet/exercise or adjunct to other antidiabetics"
+      ],
+      "side_effects": [
+        "Nasopharyngitis",
+        "GI upset",
+        "Lactic acidosis (metformin component, rare)",
+        "Pancreatitis (rare)"
+      ],
+      "contraindications": [
+        "eGFR <45 mL/min",
+        "Metabolic acidosis",
+        "Contrast procedures",
+        "Serious hypersensitivity to sitagliptin"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Contraindicated in moderate-severe renal impairment (eGFR <45)",
+      "liver_risk": "Avoid in hepatic impairment",
+      "searchable_aliases": [
+        "sitagliptin metformin",
+        "janumet",
+        "istavel met",
+        "istamet"
+      ],
+      "language_aliases_hindi": [
+        "सिटाग्लिप्टिन मेटफॉर्मिन",
+        "शुगर की दवा"
+      ],
+      "source_name": "MSD India / DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=sitagliptin+metformin",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Janumet 50/500 is a medical formulation containing Sitagliptin + Metformin as its active salt. It is classified under Antidiabetic Combination (DPP-4 Inhibitor + Biguanide) and is primarily prescribed for the management or treatment of Type 2 Diabetes Mellitus as add-on to diet/exercise or adjunct to other antidiabetics."
+    },
+    {
+      "id": "MED030",
+      "brand_name": "Jardiance",
+      "generic_name": "Empagliflozin",
+      "salt": "Empagliflozin",
+      "strength": "10mg",
+      "dosage_form": "Tablet",
+      "category": "Antidiabetic (SGLT-2 Inhibitor)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Type 2 Diabetes Mellitus",
+        "Reduction of cardiovascular death in T2DM with CVD",
+        "Heart failure (reduced ejection fraction)"
+      ],
+      "side_effects": [
+        "Urinary tract infections",
+        "Genital mycotic infections",
+        "Polyuria",
+        "Euglycaemic DKA (rare)",
+        "Fournier's gangrene (rare)",
+        "Lower limb amputation risk"
+      ],
+      "contraindications": [
+        "eGFR <30 mL/min for glycaemic control",
+        "Type 1 diabetes",
+        "Recurrent UTIs",
+        "Hypersensitivity to empagliflozin"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Do not initiate if eGFR <30; discontinue if eGFR falls <30 during treatment",
+      "liver_risk": "Use with caution in severe hepatic impairment (limited data)",
+      "searchable_aliases": [
+        "empagliflozin",
+        "jardiance",
+        "empagli",
+        "empaglu"
+      ],
+      "language_aliases_hindi": [
+        "एम्पाग्लिफ्लोजिन",
+        "शुगर की दवा"
+      ],
+      "source_name": "Boehringer Ingelheim / DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=empagliflozin",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Jardiance is a medical formulation containing Empagliflozin as its active salt. It is classified under Antidiabetic (SGLT-2 Inhibitor) and is primarily prescribed for the management or treatment of Type 2 Diabetes Mellitus, Reduction of cardiovascular death in T2DM with CVD."
+    },
+    {
+      "id": "MED031",
+      "brand_name": "Ramipril 5",
+      "generic_name": "Ramipril",
+      "salt": "Ramipril",
+      "strength": "5mg",
+      "dosage_form": "Capsule",
+      "category": "Antihypertensive (ACE Inhibitor)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Hypertension",
+        "Heart failure post-MI",
+        "Diabetic nephropathy",
+        "Cardiovascular risk reduction (HOPE trial indication)"
+      ],
+      "side_effects": [
+        "Dry cough (very common)",
+        "Hyperkalemia",
+        "First-dose hypotension",
+        "Angioedema (rare but serious)",
+        "Renal impairment"
+      ],
+      "contraindications": [
+        "Pregnancy (all trimesters)",
+        "History of angioedema with ACE inhibitor",
+        "Bilateral renal artery stenosis",
+        "Concomitant aliskiren in diabetes/renal impairment"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Monitor renal function closely; dose reduction in CrCl <60 mL/min",
+      "liver_risk": "Use with caution in hepatic impairment",
+      "searchable_aliases": [
+        "ramipril",
+        "cardace",
+        "hopace",
+        "ramace",
+        "tritace"
+      ],
+      "language_aliases_hindi": [
+        "रेमिप्रिल",
+        "बीपी की दवा",
+        "दिल की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ramipril+5",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Ramipril 5 is a medical formulation containing Ramipril as its active salt. It is classified under Antihypertensive (ACE Inhibitor) and is primarily prescribed for the management or treatment of Hypertension, Heart failure post-MI."
+    },
+    {
+      "id": "MED032",
+      "brand_name": "Enalapril 5",
+      "generic_name": "Enalapril Maleate",
+      "salt": "Enalapril Maleate",
+      "strength": "5mg",
+      "dosage_form": "Tablet",
+      "category": "Antihypertensive (ACE Inhibitor)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Hypertension",
+        "Symptomatic heart failure",
+        "Asymptomatic left ventricular dysfunction"
+      ],
+      "side_effects": [
+        "Dry cough",
+        "First-dose hypotension",
+        "Hyperkalemia",
+        "Angioedema",
+        "Renal impairment"
+      ],
+      "contraindications": [
+        "Pregnancy",
+        "History of ACE inhibitor-associated angioedema",
+        "Bilateral renal artery stenosis",
+        "Concomitant aliskiren in diabetes"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Dose reduction required in renal impairment",
+      "liver_risk": "Use with caution",
+      "searchable_aliases": [
+        "enalapril",
+        "enam",
+        "envas",
+        "enacard",
+        "vasotec"
+      ],
+      "language_aliases_hindi": [
+        "एनालाप्रिल",
+        "बीपी की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=enalapril+5",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Enalapril 5 is a medical formulation containing Enalapril Maleate as its active salt. It is classified under Antihypertensive (ACE Inhibitor) and is primarily prescribed for the management or treatment of Hypertension, Symptomatic heart failure."
+    },
+    {
+      "id": "MED033",
+      "brand_name": "Amoxil 500",
+      "generic_name": "Amoxicillin",
+      "salt": "Amoxicillin Trihydrate",
+      "strength": "500mg",
+      "dosage_form": "Capsule",
+      "category": "Antibiotic (Penicillin)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Respiratory tract infections",
+        "UTI",
+        "Skin infections",
+        "H. pylori eradication (combination)",
+        "Dental infections"
+      ],
+      "side_effects": [
+        "Diarrhea",
+        "Nausea",
+        "Rash",
+        "Anaphylaxis (rare)",
+        "Pseudomembranous colitis"
+      ],
+      "contraindications": [
+        "Penicillin hypersensitivity",
+        "Infectious mononucleosis (risk of rash)"
+      ],
+      "pregnancy_safe": true,
+      "kidney_risk": "Dose reduction in severe renal impairment (CrCl <30 mL/min)",
+      "liver_risk": "Use with caution in hepatic impairment",
+      "searchable_aliases": [
+        "amoxicillin",
+        "amoxil",
+        "mox",
+        "novamox",
+        "wymox",
+        "alphamox"
+      ],
+      "language_aliases_hindi": [
+        "अमोक्सिसिलिन",
+        "एंटीबायोटिक"
+      ],
+      "source_name": "DailyMed / openFDA / WHO EML",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=amoxicillin+500",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Amoxil 500 is a medical formulation containing Amoxicillin as its active salt. It is classified under Antibiotic (Penicillin) and is primarily prescribed for the management or treatment of Respiratory tract infections, UTI."
+    },
+    {
+      "id": "MED034",
+      "brand_name": "Doxycycline 100",
+      "generic_name": "Doxycycline",
+      "salt": "Doxycycline Hyclate",
+      "strength": "100mg",
+      "dosage_form": "Capsule",
+      "category": "Antibiotic (Tetracycline)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Atypical pneumonia (Mycoplasma, Chlamydia)",
+        "Malaria prophylaxis",
+        "Rickettsial infections",
+        "Brucellosis",
+        "Leptospirosis",
+        "Acne"
+      ],
+      "side_effects": [
+        "Photosensitivity",
+        "GI upset",
+        "Oesophageal ulceration",
+        "Discolouration of teeth (children)",
+        "Hepatotoxicity (rare)"
+      ],
+      "contraindications": [
+        "Pregnancy (all trimesters)",
+        "Children under 8 years (teeth/bone effects)",
+        "Hypersensitivity to tetracyclines"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Relatively safe in renal impairment (no dose adjustment usually needed)",
+      "liver_risk": "Use with caution in hepatic impairment; avoid in severe disease",
+      "searchable_aliases": [
+        "doxycycline",
+        "doxt",
+        "doxy 1",
+        "biodoxi",
+        "liqfacilin",
+        "microdox"
+      ],
+      "language_aliases_hindi": [
+        "डॉक्सीसाइक्लिन",
+        "एंटीबायोटिक"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=doxycycline+100",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Doxycycline 100 is a medical formulation containing Doxycycline as its active salt. It is classified under Antibiotic (Tetracycline) and is primarily prescribed for the management or treatment of Atypical pneumonia (Mycoplasma, Chlamydia), Malaria prophylaxis."
+    },
+    {
+      "id": "MED035",
+      "brand_name": "Metronidazole 400",
+      "generic_name": "Metronidazole",
+      "salt": "Metronidazole",
+      "strength": "400mg",
+      "dosage_form": "Tablet",
+      "category": "Antiprotozoal / Antibacterial (Nitroimidazole)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Amoebiasis",
+        "Giardiasis",
+        "Bacterial vaginosis",
+        "Anaerobic bacterial infections",
+        "H. pylori eradication",
+        "Trichomoniasis"
+      ],
+      "side_effects": [
+        "Metallic taste",
+        "Nausea",
+        "Dizziness",
+        "Peripheral neuropathy (prolonged use)",
+        "Disulfiram-like reaction with alcohol"
+      ],
+      "contraindications": [
+        "1st trimester of pregnancy (relative)",
+        "Alcohol use (disulfiram reaction)",
+        "Hypersensitivity to nitroimidazoles",
+        "Organic brain disease"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required in mild-moderate renal impairment",
+      "liver_risk": "Reduce dose in severe hepatic impairment (risk of accumulation)",
+      "searchable_aliases": [
+        "metronidazole",
+        "flagyl",
+        "metrogyl",
+        "metron",
+        "aristogyl"
+      ],
+      "language_aliases_hindi": [
+        "मेट्रोनिडाज़ोल",
+        "पेट के कीड़े की दवा"
+      ],
+      "source_name": "DailyMed / openFDA / WHO EML",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=metronidazole+400",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Metronidazole 400 is a medical formulation containing Metronidazole as its active salt. It is classified under Antiprotozoal / Antibacterial (Nitroimidazole) and is primarily prescribed for the management or treatment of Amoebiasis, Giardiasis."
+    },
+    {
+      "id": "MED036",
+      "brand_name": "Cetirizine 10",
+      "generic_name": "Cetirizine Hydrochloride",
+      "salt": "Cetirizine Hydrochloride",
+      "strength": "10mg",
+      "dosage_form": "Tablet",
+      "category": "Antihistamine (2nd Generation)",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Allergic rhinitis (seasonal and perennial)",
+        "Urticaria",
+        "Allergic conjunctivitis",
+        "Skin allergies"
+      ],
+      "side_effects": [
+        "Somnolence (less than 1st gen)",
+        "Dry mouth",
+        "Fatigue",
+        "Headache"
+      ],
+      "contraindications": [
+        "Hypersensitivity to cetirizine or hydroxyzine",
+        "End-stage renal disease (on dialysis)"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "Dose reduction required in renal impairment",
+      "liver_risk": "No dose adjustment required",
+      "searchable_aliases": [
+        "cetirizine",
+        "cetzine",
+        "alerid",
+        "okacet",
+        "zyrtec",
+        "cetcip"
+      ],
+      "language_aliases_hindi": [
+        "सेटिरिज़ीन",
+        "एलर्जी की दवा",
+        "खुजली की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=cetirizine+10",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Cetirizine 10 is a medical formulation containing Cetirizine Hydrochloride as its active salt. It is classified under Antihistamine (2nd Generation) and is primarily prescribed for the management or treatment of Allergic rhinitis (seasonal and perennial), Urticaria."
+    },
+    {
+      "id": "MED037",
+      "brand_name": "Levocetirizine 5",
+      "generic_name": "Levocetirizine Dihydrochloride",
+      "salt": "Levocetirizine Dihydrochloride",
+      "strength": "5mg",
+      "dosage_form": "Tablet",
+      "category": "Antihistamine (2nd Generation)",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Allergic rhinitis",
+        "Chronic idiopathic urticaria",
+        "Allergic dermatitis"
+      ],
+      "side_effects": [
+        "Somnolence",
+        "Fatigue",
+        "Dry mouth",
+        "Headache"
+      ],
+      "contraindications": [
+        "End-stage renal disease (CrCl <10 mL/min)",
+        "Hypersensitivity to levocetirizine or cetirizine"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "Dose reduction required based on CrCl",
+      "liver_risk": "No dose adjustment required",
+      "searchable_aliases": [
+        "levocetirizine",
+        "levocet",
+        "xyzal",
+        "lcz",
+        "lezyncet"
+      ],
+      "language_aliases_hindi": [
+        "लेवोसेटिरिज़िन",
+        "एलर्जी की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=levocetirizine+5",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Levocetirizine 5 is a medical formulation containing Levocetirizine Dihydrochloride as its active salt. It is classified under Antihistamine (2nd Generation) and is primarily prescribed for the management or treatment of Allergic rhinitis, Chronic idiopathic urticaria."
+    },
+    {
+      "id": "MED038",
+      "brand_name": "Albendazole 400",
+      "generic_name": "Albendazole",
+      "salt": "Albendazole",
+      "strength": "400mg",
+      "dosage_form": "Tablet",
+      "category": "Anthelmintic",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Intestinal worms (pinworm, hookworm, roundworm, whipworm)",
+        "Hydatid disease",
+        "Neurocysticercosis (specialist use)"
+      ],
+      "side_effects": [
+        "Nausea",
+        "Abdominal pain",
+        "Elevated liver enzymes",
+        "Headache",
+        "Bone marrow suppression (prolonged therapy)"
+      ],
+      "contraindications": [
+        "Pregnancy",
+        "Hypersensitivity to benzimidazoles"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "No dose adjustment documented",
+      "liver_risk": "Monitor liver enzymes; discontinue if significant elevation",
+      "searchable_aliases": [
+        "albendazole",
+        "zentel",
+        "bandy",
+        "noworm",
+        "almox"
+      ],
+      "language_aliases_hindi": [
+        "अल्बेंडाज़ोल",
+        "कीड़े की दवा"
+      ],
+      "source_name": "DailyMed / WHO EML",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=albendazole+400",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Albendazole 400 is a medical formulation containing Albendazole as its active salt. It is classified under Anthelmintic and is primarily prescribed for the management or treatment of Intestinal worms (pinworm, hookworm, roundworm, whipworm), Hydatid disease."
+    },
+    {
+      "id": "MED039",
+      "brand_name": "ORS Sachet",
+      "generic_name": "Oral Rehydration Salts",
+      "salt": "Sodium Chloride + Potassium Chloride + Sodium Citrate + Glucose",
+      "strength": "Per WHO/UNICEF formulation",
+      "dosage_form": "Powder for oral solution",
+      "category": "Rehydration / Electrolyte",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Dehydration due to diarrhoea",
+        "Vomiting",
+        "Heat exhaustion",
+        "Cholera (adjunct)"
+      ],
+      "side_effects": [
+        "Hypernatremia (if over-concentrated)",
+        "Vomiting (if taken too fast)"
+      ],
+      "contraindications": [
+        "Severe dehydration requiring IV fluids",
+        "Intestinal obstruction",
+        "Unconscious patient"
+      ],
+      "pregnancy_safe": true,
+      "kidney_risk": "Use with caution in renal impairment (monitor electrolytes)",
+      "liver_risk": "No specific risk",
+      "searchable_aliases": [
+        "ors",
+        "oral rehydration salts",
+        "electral",
+        "pedialyte",
+        "electrobion"
+      ],
+      "language_aliases_hindi": [
+        "ओआरएस",
+        "नमक शक्कर का घोल",
+        "दस्त की दवा"
+      ],
+      "source_name": "WHO EML / National Health Portal India",
+      "source_url": "https://www.nhp.gov.in/healthlyliving/oral-rehydration-therapy",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "ORS Sachet is a medical formulation containing Oral Rehydration Salts as its active salt. It is classified under Rehydration / Electrolyte and is primarily prescribed for the management or treatment of Dehydration due to diarrhoea, Vomiting."
+    },
+    {
+      "id": "MED040",
+      "brand_name": "Zinc 20",
+      "generic_name": "Zinc Sulphate",
+      "salt": "Zinc Sulphate Monohydrate",
+      "strength": "20mg (elemental zinc)",
+      "dosage_form": "Tablet / Dispersible Tablet",
+      "category": "Mineral Supplement / Antidiarrhoeal adjunct",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Adjunct treatment of diarrhoea in children (WHO recommendation)",
+        "Zinc deficiency"
+      ],
+      "side_effects": [
+        "Nausea",
+        "Vomiting",
+        "Metallic taste"
+      ],
+      "contraindications": [
+        "Hypersensitivity to zinc salts"
+      ],
+      "pregnancy_safe": true,
+      "kidney_risk": "Use with caution in renal impairment",
+      "liver_risk": "No specific risk",
+      "searchable_aliases": [
+        "zinc sulphate",
+        "zinc 20",
+        "zincovit",
+        "zinctab",
+        "zinconia"
+      ],
+      "language_aliases_hindi": [
+        "जिंक",
+        "जस्ता"
+      ],
+      "source_name": "WHO EML / National Health Portal India",
+      "source_url": "https://www.nhp.gov.in/",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Zinc 20 is a medical formulation containing Zinc Sulphate as its active salt. It is classified under Mineral Supplement / Antidiarrhoeal adjunct and is primarily prescribed for the management or treatment of Adjunct treatment of diarrhoea in children (WHO recommendation), Zinc deficiency."
+    },
+    {
+      "id": "MED041",
+      "brand_name": "Telma H",
+      "generic_name": "Telmisartan + Hydrochlorothiazide",
+      "salt": "Telmisartan 40mg + Hydrochlorothiazide 12.5mg",
+      "strength": "40mg + 12.5mg",
+      "dosage_form": "Tablet",
+      "category": "Antihypertensive Combination (ARB + Thiazide Diuretic)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Hypertension (where monotherapy inadequate)"
+      ],
+      "side_effects": [
+        "Dizziness",
+        "Hyperkalemia",
+        "Hyponatremia",
+        "Hypokalemia (HCT component)",
+        "Photosensitivity"
+      ],
+      "contraindications": [
+        "Pregnancy (2nd and 3rd trimester)",
+        "Severe hepatic impairment",
+        "Anuria",
+        "Bilateral renal artery stenosis",
+        "Sulfonamide allergy (HCT component)"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Use with caution; monitor potassium and creatinine",
+      "liver_risk": "CONTRAINDICATED in severe hepatic impairment",
+      "searchable_aliases": [
+        "telmisartan hydrochlorothiazide",
+        "telma h",
+        "telmikind h",
+        "telsar h"
+      ],
+      "language_aliases_hindi": [
+        "तेलमिसर्टन हाइड्रोक्लोरोथियाज़ाइड",
+        "बीपी की मिली-जुली दवा"
+      ],
+      "source_name": "Glenmark India SmPC / DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=telmisartan+hydrochlorothiazide",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Telma H is a medical formulation containing Telmisartan + Hydrochlorothiazide as its active salt. It is classified under Antihypertensive Combination (ARB + Thiazide Diuretic) and is primarily prescribed for the management or treatment of Hypertension (where monotherapy inadequate)."
+    },
+    {
+      "id": "MED042",
+      "brand_name": "Amlokind AT",
+      "generic_name": "Amlodipine + Atenolol",
+      "salt": "Amlodipine 5mg + Atenolol 50mg",
+      "strength": "5mg + 50mg",
+      "dosage_form": "Tablet",
+      "category": "Antihypertensive Combination (CCB + Beta-Blocker)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Hypertension",
+        "Stable angina"
+      ],
+      "side_effects": [
+        "Bradycardia",
+        "Peripheral edema",
+        "Fatigue",
+        "Dizziness",
+        "Cold extremities"
+      ],
+      "contraindications": [
+        "Cardiogenic shock",
+        "AV block (2nd/3rd degree)",
+        "Severe COPD/asthma",
+        "Severe aortic stenosis",
+        "Pregnancy"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Dose reduction for atenolol component in renal impairment",
+      "liver_risk": "Use with caution",
+      "searchable_aliases": [
+        "amlodipine atenolol",
+        "amlokind at",
+        "stamlo beta",
+        "tenolol am"
+      ],
+      "language_aliases_hindi": [
+        "अम्लोडिपिन एटेनोलोल",
+        "बीपी की दवा"
+      ],
+      "source_name": "Mankind India SmPC / Tata 1mg",
+      "source_url": "https://www.1mg.com/drugs/amlokind-at-tablet-10s-80547",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Amlokind AT is a medical formulation containing Amlodipine + Atenolol as its active salt. It is classified under Antihypertensive Combination (CCB + Beta-Blocker) and is primarily prescribed for the management or treatment of Hypertension, Stable angina."
+    },
+    {
+      "id": "MED043",
+      "brand_name": "Rosuvastatin 10",
+      "generic_name": "Rosuvastatin",
+      "salt": "Rosuvastatin Calcium",
+      "strength": "10mg",
+      "dosage_form": "Tablet",
+      "category": "Statin / Lipid-lowering",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Hypercholesterolaemia",
+        "Mixed dyslipidaemia",
+        "Prevention of cardiovascular events"
+      ],
+      "side_effects": [
+        "Myopathy",
+        "Rhabdomyolysis (rare)",
+        "Elevated liver enzymes",
+        "Proteinuria",
+        "Headache"
+      ],
+      "contraindications": [
+        "Active liver disease",
+        "Pregnancy",
+        "Breastfeeding",
+        "Severe renal impairment (10mg max dose)",
+        "Concomitant cyclosporine"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Do not exceed 10mg/day in severe renal impairment",
+      "liver_risk": "CONTRAINDICATED in active liver disease",
+      "searchable_aliases": [
+        "rosuvastatin",
+        "rozavel",
+        "crestor",
+        "rosuvas",
+        "roseday"
+      ],
+      "language_aliases_hindi": [
+        "रोसुवास्टैटिन",
+        "कोलेस्ट्रॉल की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=rosuvastatin+10",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Rosuvastatin 10 is a medical formulation containing Rosuvastatin as its active salt. It is classified under Statin / Lipid-lowering and is primarily prescribed for the management or treatment of Hypercholesterolaemia, Mixed dyslipidaemia."
+    },
+    {
+      "id": "MED044",
+      "brand_name": "Warfarin 2",
+      "generic_name": "Warfarin Sodium",
+      "salt": "Warfarin Sodium",
+      "strength": "2mg",
+      "dosage_form": "Tablet",
+      "category": "Anticoagulant (Vitamin K Antagonist)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Deep vein thrombosis",
+        "Pulmonary embolism",
+        "Atrial fibrillation stroke prevention",
+        "Mechanical heart valves"
+      ],
+      "side_effects": [
+        "Bleeding (major risk)",
+        "Skin necrosis (rare)",
+        "Purple toe syndrome (rare)",
+        "Hair loss"
+      ],
+      "contraindications": [
+        "Pregnancy",
+        "Active bleeding",
+        "Severe hepatic impairment",
+        "Recent neurosurgery",
+        "Uncontrolled hypertension"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Careful monitoring; INR more variable in renal impairment",
+      "liver_risk": "CONTRAINDICATED in severe hepatic impairment (clotting factors reduced)",
+      "searchable_aliases": [
+        "warfarin",
+        "warf",
+        "coumadin",
+        "sofarin",
+        "uniwarfin"
+      ],
+      "language_aliases_hindi": [
+        "वारफेरिन",
+        "खून पतला करने की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=warfarin+2",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Warfarin 2 is a medical formulation containing Warfarin Sodium as its active salt. It is classified under Anticoagulant (Vitamin K Antagonist) and is primarily prescribed for the management or treatment of Deep vein thrombosis, Pulmonary embolism."
+    },
+    {
+      "id": "MED045",
+      "brand_name": "Alprazolam 0.25",
+      "generic_name": "Alprazolam",
+      "salt": "Alprazolam",
+      "strength": "0.25mg",
+      "dosage_form": "Tablet",
+      "category": "Benzodiazepine / Anxiolytic",
+      "prescription_required": true,
+      "otc": false,
+      "cdsco_schedule": "Schedule H1",
+      "uses": [
+        "Generalized anxiety disorder",
+        "Panic disorder"
+      ],
+      "side_effects": [
+        "Sedation",
+        "Cognitive impairment",
+        "Dependence / withdrawal",
+        "Respiratory depression",
+        "Anterograde amnesia"
+      ],
+      "contraindications": [
+        "Myasthenia gravis",
+        "Severe respiratory insufficiency",
+        "Sleep apnoea",
+        "Severe hepatic impairment",
+        "Pregnancy (especially 1st trimester)",
+        "Alcohol/CNS depressant combination"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "No specific renal dose adjustment, but use with caution",
+      "liver_risk": "Use with caution; risk of accumulation in hepatic impairment",
+      "searchable_aliases": [
+        "alprazolam",
+        "alprax",
+        "restyl",
+        "trika",
+        "alzolam",
+        "xanax"
+      ],
+      "language_aliases_hindi": [
+        "अल्प्राज़ोलम",
+        "नींद की दवा",
+        "चिंता की दवा"
+      ],
+      "source_name": "DailyMed / CDSCO Schedule H1 list",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=alprazolam",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Alprazolam 0.25 is a medical formulation containing Alprazolam as its active salt. It is classified under Benzodiazepine / Anxiolytic and is primarily prescribed for the management or treatment of Generalized anxiety disorder, Panic disorder."
+    },
+    {
+      "id": "MED046",
+      "brand_name": "Clonazepam 0.5",
+      "generic_name": "Clonazepam",
+      "salt": "Clonazepam",
+      "strength": "0.5mg",
+      "dosage_form": "Tablet",
+      "category": "Benzodiazepine / Antiepileptic",
+      "prescription_required": true,
+      "otc": false,
+      "cdsco_schedule": "Schedule H",
+      "uses": [
+        "Epilepsy (absence, myoclonic, Lennox-Gastaut)",
+        "Panic disorder",
+        "Restless legs syndrome"
+      ],
+      "side_effects": [
+        "Sedation",
+        "Ataxia",
+        "Dependence",
+        "Respiratory depression",
+        "Hypotonia"
+      ],
+      "contraindications": [
+        "Severe hepatic disease",
+        "Myasthenia gravis",
+        "Acute narrow-angle glaucoma",
+        "Respiratory depression",
+        "Sleep apnoea"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "No specific dose adjustment",
+      "liver_risk": "Avoid in severe hepatic impairment",
+      "searchable_aliases": [
+        "clonazepam",
+        "clonotril",
+        "lonazep",
+        "melzap",
+        "rivotril"
+      ],
+      "language_aliases_hindi": [
+        "क्लोनाज़ेपाम",
+        "मिर्गी की दवा",
+        "नींद की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=clonazepam",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Clonazepam 0.5 is a medical formulation containing Clonazepam as its active salt. It is classified under Benzodiazepine / Antiepileptic and is primarily prescribed for the management or treatment of Epilepsy (absence, myoclonic, Lennox-Gastaut), Panic disorder."
+    },
+    {
+      "id": "MED047",
+      "brand_name": "Phenytoin 100",
+      "generic_name": "Phenytoin Sodium",
+      "salt": "Phenytoin Sodium",
+      "strength": "100mg",
+      "dosage_form": "Tablet",
+      "category": "Antiepileptic (Hydantoin)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Tonic-clonic seizures",
+        "Partial seizures",
+        "Status epilepticus (IV)"
+      ],
+      "side_effects": [
+        "Nystagmus",
+        "Ataxia",
+        "Gingival hyperplasia",
+        "Hirsutism",
+        "Megaloblastic anaemia",
+        "Teratogenicity"
+      ],
+      "contraindications": [
+        "Hypersensitivity to hydantoins",
+        "Sinus bradycardia",
+        "SA/AV block",
+        "Adams-Stokes syndrome"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "Reduce dose in hepatic impairment; extensively metabolized by CYP2C9",
+      "searchable_aliases": [
+        "phenytoin",
+        "eptoin",
+        "dilantin",
+        "phenytek"
+      ],
+      "language_aliases_hindi": [
+        "फिनीटोइन",
+        "मिर्गी की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=phenytoin+100",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Phenytoin 100 is a medical formulation containing Phenytoin Sodium as its active salt. It is classified under Antiepileptic (Hydantoin) and is primarily prescribed for the management or treatment of Tonic-clonic seizures, Partial seizures."
+    },
+    {
+      "id": "MED048",
+      "brand_name": "Carbamazepine 200",
+      "generic_name": "Carbamazepine",
+      "salt": "Carbamazepine",
+      "strength": "200mg",
+      "dosage_form": "Tablet",
+      "category": "Antiepileptic / Mood Stabilizer",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Epilepsy (partial and generalized tonic-clonic)",
+        "Trigeminal neuralgia",
+        "Bipolar disorder"
+      ],
+      "side_effects": [
+        "Dizziness",
+        "Diplopia",
+        "Ataxia",
+        "Hyponatremia",
+        "Bone marrow suppression",
+        "SJS/TEN (especially in HLA-B*1502 carriers — Asian populations)"
+      ],
+      "contraindications": [
+        "Hypersensitivity to carbamazepine or tricyclics",
+        "AV block",
+        "Bone marrow depression",
+        "Porphyria",
+        "MAOI use"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "No significant dose adjustment required",
+      "liver_risk": "Use with caution; liver function monitoring required",
+      "searchable_aliases": [
+        "carbamazepine",
+        "tegretol",
+        "mazetol",
+        "tegrital",
+        "zen"
+      ],
+      "language_aliases_hindi": [
+        "कार्बामाज़ेपाइन",
+        "मिर्गी की दवा"
+      ],
+      "_india_note": "HLA-B*1502 screening recommended for Asian patients before initiation — high SJS/TEN risk in South-East Asian populations per FDA and CDSCO advisory",
+      "source_name": "DailyMed / FDA Safety Alert / CDSCO Advisory",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=carbamazepine+200",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Carbamazepine 200 is a medical formulation containing Carbamazepine as its active salt. It is classified under Antiepileptic / Mood Stabilizer and is primarily prescribed for the management or treatment of Epilepsy (partial and generalized tonic-clonic), Trigeminal neuralgia."
+    },
+    {
+      "id": "MED049",
+      "brand_name": "Valproate 500",
+      "generic_name": "Sodium Valproate",
+      "salt": "Sodium Valproate",
+      "strength": "500mg",
+      "dosage_form": "Tablet (Enteric Coated)",
+      "category": "Antiepileptic / Mood Stabilizer",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Generalized epilepsy",
+        "Partial seizures",
+        "Bipolar disorder",
+        "Migraine prophylaxis"
+      ],
+      "side_effects": [
+        "Weight gain",
+        "Tremor",
+        "Alopecia",
+        "Hepatotoxicity",
+        "Pancreatitis",
+        "Teratogenicity (neural tube defects)",
+        "Polycystic ovary syndrome"
+      ],
+      "contraindications": [
+        "Hepatic impairment",
+        "Known urea cycle disorders",
+        "Pregnancy (highest teratogenicity risk of antiepileptics — neural tube defects, neurodevelopmental effects)",
+        "Personal/family history of severe hepatic dysfunction"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "No significant renal dose adjustment",
+      "liver_risk": "CONTRAINDICATED in hepatic impairment",
+      "searchable_aliases": [
+        "sodium valproate",
+        "valproic acid",
+        "valparin",
+        "encorate",
+        "epilex",
+        "depakote"
+      ],
+      "language_aliases_hindi": [
+        "सोडियम वैल्प्रोएट",
+        "मिर्गी की दवा"
+      ],
+      "_india_note": "Valproate in Pregnancy Prevention Programme: must not be used in women of childbearing age without effective contraception and specialist supervision",
+      "source_name": "DailyMed / EMA SmPC / FDA Black Box Warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=sodium+valproate",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Valproate 500 is a medical formulation containing Sodium Valproate as its active salt. It is classified under Antiepileptic / Mood Stabilizer and is primarily prescribed for the management or treatment of Generalized epilepsy, Partial seizures."
+    },
+    {
+      "id": "MED050",
+      "brand_name": "Sertraline 50",
+      "generic_name": "Sertraline Hydrochloride",
+      "salt": "Sertraline Hydrochloride",
+      "strength": "50mg",
+      "dosage_form": "Tablet",
+      "category": "Antidepressant (SSRI)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Major depressive disorder",
+        "OCD",
+        "Panic disorder",
+        "PTSD",
+        "Social anxiety disorder",
+        "Premenstrual dysphoric disorder"
+      ],
+      "side_effects": [
+        "Nausea",
+        "Diarrhoea",
+        "Insomnia",
+        "Sexual dysfunction",
+        "Serotonin syndrome (rare)",
+        "QT prolongation (rare)",
+        "Suicidal ideation in <25 years (Black Box Warning)"
+      ],
+      "contraindications": [
+        "MAOIs (14-day washout required)",
+        "Pimozide concomitant use",
+        "Disulfiram (oral solution contains alcohol)"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "Use lower doses in hepatic impairment",
+      "searchable_aliases": [
+        "sertraline",
+        "serta",
+        "zoloft",
+        "daxid",
+        "serlift",
+        "serenata"
+      ],
+      "language_aliases_hindi": [
+        "सेर्ट्रालिन",
+        "डिप्रेशन की दवा",
+        "मानसिक दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=sertraline+50",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Sertraline 50 is a medical formulation containing Sertraline Hydrochloride as its active salt. It is classified under Antidepressant (SSRI) and is primarily prescribed for the management or treatment of Major depressive disorder, OCD."
+    },
+    {
+      "id": "MED051",
+      "brand_name": "Amitriptyline 10",
+      "generic_name": "Amitriptyline Hydrochloride",
+      "salt": "Amitriptyline Hydrochloride",
+      "strength": "10mg",
+      "dosage_form": "Tablet",
+      "category": "Tricyclic Antidepressant (TCA)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Depression",
+        "Neuropathic pain",
+        "Migraine prophylaxis",
+        "Fibromyalgia",
+        "Enuresis in children"
+      ],
+      "side_effects": [
+        "Anticholinergic effects (dry mouth, urinary retention, constipation)",
+        "Sedation",
+        "Cardiac arrhythmia",
+        "Orthostatic hypotension",
+        "Weight gain"
+      ],
+      "contraindications": [
+        "Recent MI",
+        "Arrhythmias",
+        "Mania",
+        "MAOIs within 14 days",
+        "Liver disease (severe)",
+        "Closed-angle glaucoma",
+        "Urinary retention"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No specific dose adjustment",
+      "liver_risk": "Avoid in severe hepatic impairment",
+      "searchable_aliases": [
+        "amitriptyline",
+        "tryptomer",
+        "elavil",
+        "eltrip",
+        "sarotena"
+      ],
+      "language_aliases_hindi": [
+        "एमिट्रिप्टिलाइन",
+        "डिप्रेशन की दवा",
+        "नस दर्द की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=amitriptyline+10",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Amitriptyline 10 is a medical formulation containing Amitriptyline Hydrochloride as its active salt. It is classified under Tricyclic Antidepressant (TCA) and is primarily prescribed for the management or treatment of Depression, Neuropathic pain."
+    },
+    {
+      "id": "MED052",
+      "brand_name": "Ondansetron 4",
+      "generic_name": "Ondansetron Hydrochloride",
+      "salt": "Ondansetron Hydrochloride",
+      "strength": "4mg",
+      "dosage_form": "Tablet",
+      "category": "Antiemetic (5-HT3 Antagonist)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Nausea and vomiting due to chemotherapy",
+        "Post-operative nausea and vomiting",
+        "Radiation-induced nausea"
+      ],
+      "side_effects": [
+        "Headache",
+        "Constipation",
+        "QT prolongation (higher doses)",
+        "Serotonin syndrome (rare)",
+        "Dizziness"
+      ],
+      "contraindications": [
+        "Congenital long QT syndrome",
+        "Concomitant QT-prolonging drugs",
+        "Apomorphine concomitant use",
+        "Hypersensitivity to ondansetron"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "Maximum 8mg/day in severe hepatic impairment",
+      "searchable_aliases": [
+        "ondansetron",
+        "emeset",
+        "ondem",
+        "zofran",
+        "vomifin",
+        "ondan"
+      ],
+      "language_aliases_hindi": [
+        "ओन्डेन्सेट्रॉन",
+        "उल्टी की दवा",
+        "जी मिचलाने की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ondansetron+4",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Ondansetron 4 is a medical formulation containing Ondansetron Hydrochloride as its active salt. It is classified under Antiemetic (5-HT3 Antagonist) and is primarily prescribed for the management or treatment of Nausea and vomiting due to chemotherapy, Post-operative nausea and vomiting."
+    },
+    {
+      "id": "MED053",
+      "brand_name": "Domperidone 10",
+      "generic_name": "Domperidone",
+      "salt": "Domperidone Maleate",
+      "strength": "10mg",
+      "dosage_form": "Tablet",
+      "category": "Prokinetic / Antiemetic (Dopamine Antagonist)",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Nausea and vomiting",
+        "Gastroparesis",
+        "Functional dyspepsia"
+      ],
+      "side_effects": [
+        "QT prolongation",
+        "Galactorrhoea",
+        "Dry mouth",
+        "Headache",
+        "Extrapyramidal effects (rare)"
+      ],
+      "contraindications": [
+        "Prolactinoma",
+        "QT prolongation or risk factors",
+        "Concomitant QT-prolonging drugs",
+        "Severe hepatic impairment",
+        "GI obstruction or perforation"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "Reduce frequency in severe renal impairment",
+      "liver_risk": "CONTRAINDICATED in severe hepatic impairment",
+      "searchable_aliases": [
+        "domperidone",
+        "domstal",
+        "vomistop",
+        "motinorm",
+        "domperi"
+      ],
+      "language_aliases_hindi": [
+        "डॉम्पेरिडोन",
+        "उल्टी की दवा",
+        "पेट दर्द की दवा"
+      ],
+      "source_name": "EMA SmPC / DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=domperidone",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Domperidone 10 is a medical formulation containing Domperidone as its active salt. It is classified under Prokinetic / Antiemetic (Dopamine Antagonist) and is primarily prescribed for the management or treatment of Nausea and vomiting, Gastroparesis."
+    },
+    {
+      "id": "MED054",
+      "brand_name": "Rifampicin 450",
+      "generic_name": "Rifampicin",
+      "salt": "Rifampicin",
+      "strength": "450mg",
+      "dosage_form": "Capsule",
+      "category": "Antitubercular / Antibiotic",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Tuberculosis (first-line)",
+        "Leprosy",
+        "Prophylaxis of H. influenzae type b and meningococcal disease"
+      ],
+      "side_effects": [
+        "Orange-red discolouration of body fluids (urine, saliva, tears)",
+        "Hepatotoxicity",
+        "GI upset",
+        "Thrombocytopenia",
+        "Flu-like syndrome (intermittent dosing)"
+      ],
+      "contraindications": [
+        "Severe hepatic impairment",
+        "Hypersensitivity to rifamycins",
+        "Concurrent use with saquinavir/ritonavir combinations"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required for renal impairment",
+      "liver_risk": "CONTRAINDICATED in severe hepatic impairment; strong enzyme inducer affecting many co-medications",
+      "searchable_aliases": [
+        "rifampicin",
+        "rifampin",
+        "rimactane",
+        "rifadin",
+        "r-cin"
+      ],
+      "language_aliases_hindi": [
+        "रिफैम्पिसिन",
+        "टीबी की दवा",
+        "क्षय रोग की दवा"
+      ],
+      "_india_note": "Strong CYP3A4/CYP2C9 inducer — dramatically reduces plasma levels of many drugs including oral contraceptives, warfarin, antiretrovirals, statins, and antifungals",
+      "source_name": "DailyMed / WHO EML / RNTCP Guidelines",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=rifampicin",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Rifampicin 450 is a medical formulation containing Rifampicin as its active salt. It is classified under Antitubercular / Antibiotic and is primarily prescribed for the management or treatment of Tuberculosis (first-line), Leprosy."
+    },
+    {
+      "id": "MED055",
+      "brand_name": "Isoniazid 300",
+      "generic_name": "Isoniazid",
+      "salt": "Isoniazid",
+      "strength": "300mg",
+      "dosage_form": "Tablet",
+      "category": "Antitubercular",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Tuberculosis (first-line treatment and prophylaxis)"
+      ],
+      "side_effects": [
+        "Peripheral neuropathy (pyridoxine B6 deficiency)",
+        "Hepatotoxicity",
+        "Drug-induced lupus",
+        "Optic neuritis"
+      ],
+      "contraindications": [
+        "Severe hepatic disease",
+        "Previous isoniazid-associated hepatic injury",
+        "Hypersensitivity to isoniazid"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment; monitor for peripheral neuropathy",
+      "liver_risk": "CONTRAINDICATED in severe hepatic disease; LFT monitoring required",
+      "searchable_aliases": [
+        "isoniazid",
+        "inh",
+        "isokin",
+        "laniazid",
+        "nydrazid"
+      ],
+      "language_aliases_hindi": [
+        "आइसोनियाज़िड",
+        "टीबी की दवा"
+      ],
+      "_india_note": "Pyridoxine (Vitamin B6) supplementation recommended to prevent peripheral neuropathy — standard practice in Indian TB programs",
+      "source_name": "DailyMed / WHO EML / RNTCP",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=isoniazid+300",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Isoniazid 300 is a medical formulation containing Isoniazid as its active salt. It is classified under Antitubercular and is primarily prescribed for the management or treatment of Tuberculosis (first-line treatment and prophylaxis)."
+    },
+    {
+      "id": "MED056",
+      "brand_name": "Hydroxychloroquine 200",
+      "generic_name": "Hydroxychloroquine Sulphate",
+      "salt": "Hydroxychloroquine Sulphate",
+      "strength": "200mg",
+      "dosage_form": "Tablet",
+      "category": "Antimalarial / DMARD",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Rheumatoid arthritis",
+        "Systemic lupus erythematosus (SLE)",
+        "Malaria prophylaxis and treatment"
+      ],
+      "side_effects": [
+        "Retinopathy (long-term cumulative toxicity)",
+        "GI upset",
+        "Skin pigmentation",
+        "Cardiomyopathy",
+        "QT prolongation"
+      ],
+      "contraindications": [
+        "Pre-existing retinopathy",
+        "Known hypersensitivity to 4-aminoquinolines",
+        "Long-term use without ophthalmological monitoring"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "Dose reduction in severe renal impairment",
+      "liver_risk": "Use with caution in hepatic impairment",
+      "searchable_aliases": [
+        "hydroxychloroquine",
+        "hcqs",
+        "plaquenil",
+        "dolquine",
+        "quinoric"
+      ],
+      "language_aliases_hindi": [
+        "हाइड्रोक्सीक्लोरोक्वीन",
+        "आर्थराइटिस की दवा",
+        "मलेरिया की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=hydroxychloroquine+200",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Hydroxychloroquine 200 is a medical formulation containing Hydroxychloroquine Sulphate as its active salt. It is classified under Antimalarial / DMARD and is primarily prescribed for the management or treatment of Rheumatoid arthritis, Systemic lupus erythematosus (SLE)."
+    },
+    {
+      "id": "MED057",
+      "brand_name": "Pregabalin 75",
+      "generic_name": "Pregabalin",
+      "salt": "Pregabalin",
+      "strength": "75mg",
+      "dosage_form": "Capsule",
+      "category": "Anticonvulsant / Neuropathic pain agent (Gabapentinoid)",
+      "prescription_required": true,
+      "otc": false,
+      "cdsco_schedule": "Schedule H1",
+      "uses": [
+        "Neuropathic pain (diabetic peripheral neuropathy, post-herpetic neuralgia)",
+        "Fibromyalgia",
+        "Partial-onset seizures (adjunctive)"
+      ],
+      "side_effects": [
+        "Dizziness",
+        "Somnolence",
+        "Peripheral oedema",
+        "Weight gain",
+        "Blurred vision",
+        "Dependence/abuse potential"
+      ],
+      "contraindications": [
+        "Hypersensitivity to pregabalin"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Dose reduction REQUIRED in all degrees of renal impairment (renally excreted)",
+      "liver_risk": "No dose adjustment required",
+      "searchable_aliases": [
+        "pregabalin",
+        "lyrica",
+        "pregalin",
+        "pregabid",
+        "nervigesic"
+      ],
+      "language_aliases_hindi": [
+        "प्रेगाबेलिन",
+        "नस दर्द की दवा",
+        "शुगर की नस दर्द"
+      ],
+      "source_name": "DailyMed / openFDA / CDSCO Schedule H1",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=pregabalin+75",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Pregabalin 75 is a medical formulation containing Pregabalin as its active salt. It is classified under Anticonvulsant / Neuropathic pain agent (Gabapentinoid) and is primarily prescribed for the management or treatment of Neuropathic pain (diabetic peripheral neuropathy, post-herpetic neuralgia), Fibromyalgia."
+    },
+    {
+      "id": "MED058",
+      "brand_name": "Gabapentin 300",
+      "generic_name": "Gabapentin",
+      "salt": "Gabapentin",
+      "strength": "300mg",
+      "dosage_form": "Capsule",
+      "category": "Anticonvulsant / Neuropathic pain agent",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Post-herpetic neuralgia",
+        "Partial seizures (adjunct)",
+        "Restless legs syndrome",
+        "Neuropathic pain"
+      ],
+      "side_effects": [
+        "Dizziness",
+        "Somnolence",
+        "Peripheral oedema",
+        "Ataxia",
+        "Fatigue"
+      ],
+      "contraindications": [
+        "Hypersensitivity to gabapentin"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "Dose reduction REQUIRED in renal impairment — renally excreted unchanged",
+      "liver_risk": "No dose adjustment required",
+      "searchable_aliases": [
+        "gabapentin",
+        "gabantin",
+        "neurontin",
+        "gabatin",
+        "gaba 300"
+      ],
+      "language_aliases_hindi": [
+        "गैबापेंटिन",
+        "नस दर्द की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=gabapentin+300",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Gabapentin 300 is a medical formulation containing Gabapentin as its active salt. It is classified under Anticonvulsant / Neuropathic pain agent and is primarily prescribed for the management or treatment of Post-herpetic neuralgia, Partial seizures (adjunct)."
+    },
+    {
+      "id": "MED059",
+      "brand_name": "Prednisolone 5",
+      "generic_name": "Prednisolone",
+      "salt": "Prednisolone",
+      "strength": "5mg",
+      "dosage_form": "Tablet",
+      "category": "Corticosteroid",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Asthma exacerbations",
+        "Rheumatoid arthritis",
+        "Inflammatory bowel disease",
+        "Allergic reactions",
+        "Autoimmune disorders"
+      ],
+      "side_effects": [
+        "Hyperglycaemia",
+        "Weight gain",
+        "Osteoporosis",
+        "Adrenal suppression",
+        "Hypertension",
+        "Peptic ulcer",
+        "Immunosuppression",
+        "Cushingoid features"
+      ],
+      "contraindications": [
+        "Systemic fungal infections",
+        "Live vaccines (during immunosuppressive doses)",
+        "Hypersensitivity to prednisolone"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No specific dose adjustment required",
+      "liver_risk": "Use with caution in hepatic impairment",
+      "searchable_aliases": [
+        "prednisolone",
+        "omnacortil",
+        "wysolone",
+        "deltacortril",
+        "predmet"
+      ],
+      "language_aliases_hindi": [
+        "प्रेडनिसोलोन",
+        "सूजन की दवा",
+        "स्टेरॉयड"
+      ],
+      "_india_note": "Widely misused OTC in India; CDSCO Schedule H. Can worsen diabetes, hypertension, peptic ulcers. Patients on TB treatment may need steroids for certain complications.",
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=prednisolone+5",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Prednisolone 5 is a medical formulation containing Prednisolone as its active salt. It is classified under Corticosteroid and is primarily prescribed for the management or treatment of Asthma exacerbations, Rheumatoid arthritis."
+    },
+    {
+      "id": "MED060",
+      "brand_name": "Calcium + D3 (Shelcal)",
+      "generic_name": "Calcium Carbonate + Vitamin D3",
+      "salt": "Calcium Carbonate 500mg + Cholecalciferol 250 IU",
+      "strength": "500mg + 250 IU",
+      "dosage_form": "Tablet",
+      "category": "Mineral / Vitamin Supplement",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Calcium and Vitamin D deficiency",
+        "Osteoporosis prevention",
+        "Adjunct in osteoporosis treatment"
+      ],
+      "side_effects": [
+        "Constipation",
+        "Nausea",
+        "Hypercalcaemia (overdose)",
+        "Kidney stones (excess use)"
+      ],
+      "contraindications": [
+        "Hypercalcaemia",
+        "Hypercalciuria",
+        "Severe renal impairment",
+        "Sarcoidosis",
+        "Hypervitaminosis D"
+      ],
+      "pregnancy_safe": true,
+      "kidney_risk": "AVOID in severe renal impairment (hypercalcaemia risk)",
+      "liver_risk": "No specific risk",
+      "searchable_aliases": [
+        "calcium carbonate vitamin d3",
+        "shelcal",
+        "calcimax",
+        "gemcal",
+        "oscal"
+      ],
+      "language_aliases_hindi": [
+        "कैल्शियम डी3",
+        "हड्डी की दवा",
+        "शेलकाल"
+      ],
+      "source_name": "DailyMed / WHO EML",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=calcium+carbonate+vitamin+d3",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Calcium + D3 (Shelcal) is a medical formulation containing Calcium Carbonate + Vitamin D3 as its active salt. It is classified under Mineral / Vitamin Supplement and is primarily prescribed for the management or treatment of Calcium and Vitamin D deficiency, Osteoporosis prevention."
+    },
+    {
+      "id": "MED061",
+      "brand_name": "Iron + Folic Acid (Ferrous Sulphate)",
+      "generic_name": "Ferrous Sulphate + Folic Acid",
+      "salt": "Ferrous Sulphate 200mg (equiv. 65mg elemental iron) + Folic Acid 0.5mg",
+      "strength": "200mg + 0.5mg",
+      "dosage_form": "Tablet",
+      "category": "Haematinic",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Iron deficiency anaemia",
+        "Megaloblastic anaemia",
+        "Anaemia in pregnancy"
+      ],
+      "side_effects": [
+        "GI upset",
+        "Constipation",
+        "Black stools",
+        "Nausea",
+        "Abdominal cramps"
+      ],
+      "contraindications": [
+        "Haemochromatosis",
+        "Haemolytic anaemia without iron deficiency",
+        "Iron overload disorders"
+      ],
+      "pregnancy_safe": true,
+      "kidney_risk": "Use with caution in renal impairment",
+      "liver_risk": "Avoid in liver disease with iron overload",
+      "searchable_aliases": [
+        "ferrous sulphate",
+        "folic acid",
+        "fer alac",
+        "autrin",
+        "haemifer",
+        "nifro"
+      ],
+      "language_aliases_hindi": [
+        "आयरन फोलिक एसिड",
+        "खून बढ़ाने की दवा",
+        "एनीमिया की दवा"
+      ],
+      "source_name": "WHO EML / National Health Portal India / PMBJP",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Iron + Folic Acid (Ferrous Sulphate) is a medical formulation containing Ferrous Sulphate + Folic Acid as its active salt. It is classified under Haematinic and is primarily prescribed for the management or treatment of Iron deficiency anaemia, Megaloblastic anaemia."
+    },
+    {
+      "id": "MED062",
+      "brand_name": "Folic Acid 5mg",
+      "generic_name": "Folic Acid",
+      "salt": "Folic Acid",
+      "strength": "5mg",
+      "dosage_form": "Tablet",
+      "category": "Vitamin B9 supplement",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Megaloblastic anaemia",
+        "Neural tube defect prevention in pregnancy",
+        "Methotrexate adjunct"
+      ],
+      "side_effects": [
+        "Generally well tolerated",
+        "Can mask B12 deficiency neurological symptoms (high doses)"
+      ],
+      "contraindications": [
+        "Pernicious anaemia (must not be used as sole treatment — will mask neurological effects)"
+      ],
+      "pregnancy_safe": true,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "No dose adjustment required",
+      "searchable_aliases": [
+        "folic acid",
+        "folacin",
+        "folate",
+        "folvite",
+        "folinorm"
+      ],
+      "language_aliases_hindi": [
+        "फोलिक एसिड",
+        "गर्भावस्था की दवा"
+      ],
+      "source_name": "WHO EML / PMBJP Catalog",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Folic Acid 5mg is a medical formulation containing Folic Acid as its active salt. It is classified under Vitamin B9 supplement and is primarily prescribed for the management or treatment of Megaloblastic anaemia, Neural tube defect prevention in pregnancy."
+    },
+    {
+      "id": "MED063",
+      "brand_name": "Vitamin B12 (Cobadex)",
+      "generic_name": "Cyanocobalamin",
+      "salt": "Cyanocobalamin",
+      "strength": "500mcg",
+      "dosage_form": "Tablet",
+      "category": "Vitamin B12 supplement",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Vitamin B12 deficiency",
+        "Megaloblastic anaemia",
+        "Peripheral neuropathy adjunct",
+        "Metformin-associated B12 depletion"
+      ],
+      "side_effects": [
+        "Diarrhoea (rare)",
+        "Generally well tolerated orally"
+      ],
+      "contraindications": [
+        "Leber's disease (optic nerve atrophy — cyanocobalamin contraindicated; use hydroxocobalamin instead)"
+      ],
+      "pregnancy_safe": true,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "No dose adjustment required",
+      "searchable_aliases": [
+        "cyanocobalamin",
+        "vitamin b12",
+        "cobadex",
+        "mecobalamin",
+        "methycobal",
+        "neurobion"
+      ],
+      "language_aliases_hindi": [
+        "विटामिन बी12",
+        "नस की दवा"
+      ],
+      "source_name": "DailyMed / WHO EML",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=cyanocobalamin",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Vitamin B12 (Cobadex) is a medical formulation containing Cyanocobalamin as its active salt. It is classified under Vitamin B12 supplement and is primarily prescribed for the management or treatment of Vitamin B12 deficiency, Megaloblastic anaemia."
+    },
+    {
+      "id": "MED064",
+      "brand_name": "Budesonide Inhaler",
+      "generic_name": "Budesonide",
+      "salt": "Budesonide",
+      "strength": "200mcg per actuation",
+      "dosage_form": "Metered Dose Inhaler (MDI)",
+      "category": "Inhaled Corticosteroid (ICS)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Asthma (prophylaxis)",
+        "COPD (in combination)"
+      ],
+      "side_effects": [
+        "Oral candidiasis",
+        "Dysphonia (hoarse voice)",
+        "Adrenal suppression (high doses)",
+        "Growth suppression in children (high doses)"
+      ],
+      "contraindications": [
+        "Acute bronchospasm (not for rescue)",
+        "Hypersensitivity to budesonide"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "Use with caution in severe hepatic impairment",
+      "searchable_aliases": [
+        "budesonide inhaler",
+        "pulmicort",
+        "budecort",
+        "budamate"
+      ],
+      "language_aliases_hindi": [
+        "बुडेसोनाइड इनहेलर",
+        "दमे का इनहेलर"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=budesonide+inhaler",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Budesonide Inhaler is a medical formulation containing Budesonide as its active salt. It is classified under Inhaled Corticosteroid (ICS) and is primarily prescribed for the management or treatment of Asthma (prophylaxis), COPD (in combination)."
+    },
+    {
+      "id": "MED065",
+      "brand_name": "Salbutamol Inhaler",
+      "generic_name": "Salbutamol (Albuterol)",
+      "salt": "Salbutamol Sulphate",
+      "strength": "100mcg per actuation",
+      "dosage_form": "Metered Dose Inhaler (MDI)",
+      "category": "Short-acting Beta-2 Agonist (SABA) — Bronchodilator",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Acute asthma attack (rescue)",
+        "COPD exacerbation (rescue)",
+        "Exercise-induced bronchoconstriction"
+      ],
+      "side_effects": [
+        "Tremor",
+        "Palpitations",
+        "Tachycardia",
+        "Hypokalemia (high doses)",
+        "Headache"
+      ],
+      "contraindications": [
+        "Hypersensitivity to salbutamol"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "No dose adjustment required",
+      "searchable_aliases": [
+        "salbutamol",
+        "albuterol",
+        "ventolin",
+        "asthalin",
+        "salbair",
+        "ventimax"
+      ],
+      "language_aliases_hindi": [
+        "सैल्बुटामोल इनहेलर",
+        "दमे की पंप",
+        "सांस का पंप"
+      ],
+      "source_name": "DailyMed / WHO EML",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=salbutamol+inhaler",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Salbutamol Inhaler is a medical formulation containing Salbutamol (Albuterol) as its active salt. It is classified under Short-acting Beta-2 Agonist (SABA) — Bronchodilator and is primarily prescribed for the management or treatment of Acute asthma attack (rescue), COPD exacerbation (rescue)."
+    },
+    {
+      "id": "MED066",
+      "brand_name": "Esomeprazole 40",
+      "generic_name": "Esomeprazole Magnesium",
+      "salt": "Esomeprazole Magnesium Trihydrate",
+      "strength": "40mg",
+      "dosage_form": "Capsule (Delayed Release)",
+      "category": "Proton Pump Inhibitor (PPI)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "GERD",
+        "H. pylori eradication",
+        "NSAID-associated ulcer prevention",
+        "Zollinger-Ellison syndrome"
+      ],
+      "side_effects": [
+        "Headache",
+        "Diarrhoea",
+        "Nausea",
+        "Abdominal pain",
+        "Hypomagnesaemia (long-term)",
+        "C. difficile"
+      ],
+      "contraindications": [
+        "Concomitant use with rilpivirine",
+        "Hypersensitivity to esomeprazole or substituted benzimidazoles"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "Maximum 20mg/day in severe hepatic impairment",
+      "searchable_aliases": [
+        "esomeprazole",
+        "nexium",
+        "raciper",
+        "sompraz",
+        "nexpro",
+        "nexovas"
+      ],
+      "language_aliases_hindi": [
+        "एसोमेप्राजोल",
+        "एसिडिटी की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=esomeprazole+40",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Esomeprazole 40 is a medical formulation containing Esomeprazole Magnesium as its active salt. It is classified under Proton Pump Inhibitor (PPI) and is primarily prescribed for the management or treatment of GERD, H. pylori eradication."
+    },
+    {
+      "id": "MED067",
+      "brand_name": "Digene",
+      "generic_name": "Aluminium Hydroxide + Magnesium Hydroxide + Simethicone",
+      "salt": "Aluminium Hydroxide 250mg + Magnesium Hydroxide 250mg + Simethicone 50mg",
+      "strength": "Per tablet",
+      "dosage_form": "Chewable Tablet / Suspension",
+      "category": "Antacid",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Acidity",
+        "Heartburn",
+        "Peptic ulcer (symptom relief)",
+        "Flatulence"
+      ],
+      "side_effects": [
+        "Constipation (aluminium component)",
+        "Diarrhoea (magnesium component)",
+        "Aluminium accumulation in renal failure"
+      ],
+      "contraindications": [
+        "Severe renal impairment (aluminium accumulation toxicity)",
+        "Hypophosphataemia"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "AVOID in severe renal impairment — aluminium toxicity risk",
+      "liver_risk": "No specific risk",
+      "searchable_aliases": [
+        "digene",
+        "aluminium hydroxide magnesium hydroxide",
+        "gelusil",
+        "mucaine",
+        "antacid"
+      ],
+      "language_aliases_hindi": [
+        "डाइजीन",
+        "एसिडिटी की दवा",
+        "पेट जलन की दवा"
+      ],
+      "source_name": "Abbott India SmPC / Tata 1mg",
+      "source_url": "https://www.1mg.com/drugs/digene-tablet-3630",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Digene is a medical formulation containing Aluminium Hydroxide + Magnesium Hydroxide + Simethicone as its active salt. It is classified under Antacid and is primarily prescribed for the management or treatment of Acidity, Heartburn."
+    },
+    {
+      "id": "MED068",
+      "brand_name": "Chloroquine 250",
+      "generic_name": "Chloroquine Phosphate",
+      "salt": "Chloroquine Phosphate",
+      "strength": "250mg (equiv. 150mg base)",
+      "dosage_form": "Tablet",
+      "category": "Antimalarial",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Malaria (P. vivax, P. malariae, P. ovale — where sensitive)",
+        "Amoebiasis (extraintestinal)"
+      ],
+      "side_effects": [
+        "GI upset",
+        "Pruritus (especially in dark-skinned patients)",
+        "QT prolongation",
+        "Retinopathy (long-term)",
+        "Haemolysis in G6PD deficiency"
+      ],
+      "contraindications": [
+        "Known retinal or visual field changes",
+        "Psoriasis",
+        "G6PD deficiency (relative)",
+        "Known QT prolongation"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "Reduce dose in severe renal impairment",
+      "liver_risk": "Use with caution in hepatic impairment",
+      "searchable_aliases": [
+        "chloroquine",
+        "lariago",
+        "malarex",
+        "resochin"
+      ],
+      "language_aliases_hindi": [
+        "क्लोरोक्वीन",
+        "मलेरिया की दवा"
+      ],
+      "source_name": "DailyMed / WHO EML",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=chloroquine+phosphate",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Chloroquine 250 is a medical formulation containing Chloroquine Phosphate as its active salt. It is classified under Antimalarial and is primarily prescribed for the management or treatment of Malaria (P. vivax, P. malariae, P. ovale — where sensitive), Amoebiasis (extraintestinal)."
+    },
+    {
+      "id": "MED069",
+      "brand_name": "Artemether + Lumefantrine",
+      "generic_name": "Artemether + Lumefantrine",
+      "salt": "Artemether 20mg + Lumefantrine 120mg",
+      "strength": "20mg + 120mg",
+      "dosage_form": "Tablet",
+      "category": "Antimalarial (ACT — Artemisinin Combination Therapy)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Uncomplicated Plasmodium falciparum malaria"
+      ],
+      "side_effects": [
+        "Headache",
+        "Dizziness",
+        "QT prolongation",
+        "Nausea",
+        "Palpitations"
+      ],
+      "contraindications": [
+        "Severe malaria (requires IV artesunate)",
+        "QT prolongation or risk factors",
+        "Hypersensitivity to artemether or lumefantrine"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "Use with caution in severe hepatic impairment",
+      "searchable_aliases": [
+        "artemether lumefantrine",
+        "coartem",
+        "lumartem",
+        "alfentor"
+      ],
+      "language_aliases_hindi": [
+        "आर्टेमेदर लुमेफ्रेंट्रिन",
+        "मलेरिया की दवा"
+      ],
+      "source_name": "WHO EML / DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=artemether+lumefantrine",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Artemether + Lumefantrine is a medical formulation containing Artemether + Lumefantrine as its active salt. It is classified under Antimalarial (ACT — Artemisinin Combination Therapy) and is primarily prescribed for the management or treatment of Uncomplicated Plasmodium falciparum malaria."
+    },
+    {
+      "id": "MED070",
+      "brand_name": "Tramadol 50",
+      "generic_name": "Tramadol Hydrochloride",
+      "salt": "Tramadol Hydrochloride",
+      "strength": "50mg",
+      "dosage_form": "Capsule",
+      "category": "Opioid Analgesic",
+      "prescription_required": true,
+      "otc": false,
+      "cdsco_schedule": "Schedule H",
+      "uses": [
+        "Moderate to severe pain",
+        "Post-operative pain"
+      ],
+      "side_effects": [
+        "Nausea",
+        "Vomiting",
+        "Dizziness",
+        "Constipation",
+        "Seizures (risk especially with SSRIs)",
+        "Serotonin syndrome",
+        "Respiratory depression",
+        "Dependence"
+      ],
+      "contraindications": [
+        "MAOIs (concurrent or within 14 days)",
+        "Epilepsy (significantly lowers seizure threshold)",
+        "Respiratory depression",
+        "Acute alcohol/opioid intoxication",
+        "Severe renal or hepatic impairment"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Reduce dose and frequency in renal impairment; avoid in severe impairment",
+      "liver_risk": "Reduce dose in hepatic impairment; avoid in severe disease",
+      "searchable_aliases": [
+        "tramadol",
+        "tramazac",
+        "contramal",
+        "ultram",
+        "tramasign"
+      ],
+      "language_aliases_hindi": [
+        "ट्रामाडोल",
+        "तेज दर्द की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=tramadol+50",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Tramadol 50 is a medical formulation containing Tramadol Hydrochloride as its active salt. It is classified under Opioid Analgesic and is primarily prescribed for the management or treatment of Moderate to severe pain, Post-operative pain."
+    },
+    {
+      "id": "MED071",
+      "brand_name": "Losartan 50",
+      "generic_name": "Losartan Potassium",
+      "salt": "Losartan Potassium",
+      "strength": "50mg",
+      "dosage_form": "Tablet",
+      "category": "Antihypertensive (ARB)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Hypertension",
+        "Diabetic nephropathy in Type 2 diabetes",
+        "Heart failure (intolerant to ACE inhibitors)",
+        "Stroke risk reduction in hypertension with LVH"
+      ],
+      "side_effects": [
+        "Dizziness",
+        "Hyperkalemia",
+        "Renal impairment",
+        "Hypotension",
+        "Diarrhea"
+      ],
+      "contraindications": [
+        "Pregnancy (2nd and 3rd trimester)",
+        "Concomitant aliskiren in diabetes/renal impairment",
+        "Hypersensitivity to losartan"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Monitor renal function and potassium; use with caution",
+      "liver_risk": "Initiate at lower dose in hepatic impairment (CYP2C9 metabolism)",
+      "searchable_aliases": [
+        "losartan",
+        "cosaar",
+        "losacar",
+        "repace",
+        "lozartan",
+        "cozaar"
+      ],
+      "language_aliases_hindi": [
+        "लोसार्टन",
+        "बीपी की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=losartan+50",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Losartan 50 is a medical formulation containing Losartan Potassium as its active salt. It is classified under Antihypertensive (ARB) and is primarily prescribed for the management or treatment of Hypertension, Diabetic nephropathy in Type 2 diabetes."
+    },
+    {
+      "id": "MED072",
+      "brand_name": "Spironolactone 25",
+      "generic_name": "Spironolactone",
+      "salt": "Spironolactone",
+      "strength": "25mg",
+      "dosage_form": "Tablet",
+      "category": "Potassium-Sparing Diuretic / Aldosterone Antagonist",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Heart failure",
+        "Hyperaldosteronism",
+        "Oedema (hepatic cirrhosis, nephrotic)",
+        "Resistant hypertension",
+        "Acne (off-label in women)"
+      ],
+      "side_effects": [
+        "Hyperkalemia",
+        "Gynecomastia",
+        "Menstrual irregularities",
+        "Dizziness",
+        "Renal impairment"
+      ],
+      "contraindications": [
+        "Hyperkalemia",
+        "Addison's disease",
+        "Severe renal impairment",
+        "Anuria",
+        "Concomitant potassium supplements or ARB/ACE inhibitor (risk of hyperkalemia)"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "CONTRAINDICATED in severe renal impairment due to hyperkalemia risk",
+      "liver_risk": "Used in hepatic cirrhosis (with caution); dose titrated to response",
+      "searchable_aliases": [
+        "spironolactone",
+        "aldactone",
+        "aldactide",
+        "spiromide"
+      ],
+      "language_aliases_hindi": [
+        "स्पाइरोनोलैक्टोन",
+        "पानी की दवा",
+        "दिल की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=spironolactone+25",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Spironolactone 25 is a medical formulation containing Spironolactone as its active salt. It is classified under Potassium-Sparing Diuretic / Aldosterone Antagonist and is primarily prescribed for the management or treatment of Heart failure, Hyperaldosteronism."
+    },
+    {
+      "id": "MED073",
+      "brand_name": "Bisoprolol 5",
+      "generic_name": "Bisoprolol Fumarate",
+      "salt": "Bisoprolol Fumarate",
+      "strength": "5mg",
+      "dosage_form": "Tablet",
+      "category": "Beta-1 Selective Adrenergic Blocker",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Hypertension",
+        "Stable heart failure",
+        "Angina",
+        "Arrhythmias"
+      ],
+      "side_effects": [
+        "Bradycardia",
+        "Fatigue",
+        "Cold extremities",
+        "Masking of hypoglycaemia",
+        "Bronchospasm (less common, beta-1 selective)"
+      ],
+      "contraindications": [
+        "Acute decompensated heart failure",
+        "Cardiogenic shock",
+        "2nd/3rd degree AV block",
+        "Severe peripheral arterial disease",
+        "Severe asthma / COPD"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required in mild-moderate renal impairment",
+      "liver_risk": "Dose reduction in severe hepatic impairment",
+      "searchable_aliases": [
+        "bisoprolol",
+        "concor",
+        "biselect",
+        "corbis",
+        "biscor"
+      ],
+      "language_aliases_hindi": [
+        "बिसोप्रोलोल",
+        "दिल की दवा",
+        "बीपी की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=bisoprolol+5",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Bisoprolol 5 is a medical formulation containing Bisoprolol Fumarate as its active salt. It is classified under Beta-1 Selective Adrenergic Blocker and is primarily prescribed for the management or treatment of Hypertension, Stable heart failure."
+    },
+    {
+      "id": "MED074",
+      "brand_name": "Digoxin 0.25",
+      "generic_name": "Digoxin",
+      "salt": "Digoxin",
+      "strength": "0.25mg",
+      "dosage_form": "Tablet",
+      "category": "Cardiac Glycoside",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Heart failure (reduced ejection fraction)",
+        "Atrial fibrillation (rate control)"
+      ],
+      "side_effects": [
+        "Digoxin toxicity: nausea, vomiting, visual disturbances (xanthopsia), arrhythmias",
+        "Bradycardia",
+        "AV block"
+      ],
+      "contraindications": [
+        "Ventricular fibrillation",
+        "WPW syndrome",
+        "Intermittent complete heart block",
+        "Hypertrophic obstructive cardiomyopathy (with outflow obstruction)",
+        "Hypersensitivity to digoxin"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "CRITICAL — digoxin is renally eliminated; severe renal impairment dramatically increases toxicity risk. Dose reduction mandatory. Monitor digoxin levels.",
+      "liver_risk": "No specific hepatic dose adjustment",
+      "searchable_aliases": [
+        "digoxin",
+        "lanoxin",
+        "cardigox",
+        "digicor"
+      ],
+      "language_aliases_hindi": [
+        "डाइजॉक्सिन",
+        "दिल की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=digoxin",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Digoxin 0.25 is a medical formulation containing Digoxin as its active salt. It is classified under Cardiac Glycoside and is primarily prescribed for the management or treatment of Heart failure (reduced ejection fraction), Atrial fibrillation (rate control)."
+    },
+    {
+      "id": "MED075",
+      "brand_name": "Aceclofenac 100",
+      "generic_name": "Aceclofenac",
+      "salt": "Aceclofenac",
+      "strength": "100mg",
+      "dosage_form": "Tablet",
+      "category": "NSAID",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Osteoarthritis",
+        "Rheumatoid arthritis",
+        "Ankylosing spondylitis",
+        "Musculoskeletal pain"
+      ],
+      "side_effects": [
+        "GI upset",
+        "Dyspepsia",
+        "Elevated liver enzymes",
+        "Peptic ulcer (risk)"
+      ],
+      "contraindications": [
+        "Active peptic ulcer",
+        "Severe renal impairment",
+        "Severe hepatic impairment",
+        "3rd trimester pregnancy",
+        "NSAID/aspirin hypersensitivity",
+        "Post-CABG"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Avoid in moderate-severe renal impairment",
+      "liver_risk": "Hepatotoxicity reported; contraindicated in severe hepatic impairment",
+      "searchable_aliases": [
+        "aceclofenac",
+        "hifenac",
+        "zerodol",
+        "dolowin",
+        "aclonac",
+        "gesic"
+      ],
+      "language_aliases_hindi": [
+        "एसीक्लोफेनेक",
+        "दर्द की दवा",
+        "जोड़ दर्द की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=aceclofenac+100",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Aceclofenac 100 is a medical formulation containing Aceclofenac as its active salt. It is classified under NSAID and is primarily prescribed for the management or treatment of Osteoarthritis, Rheumatoid arthritis."
+    },
+    {
+      "id": "MED076",
+      "brand_name": "Mefenamic Acid 500",
+      "generic_name": "Mefenamic Acid",
+      "salt": "Mefenamic Acid",
+      "strength": "500mg",
+      "dosage_form": "Capsule",
+      "category": "NSAID (Fenamate)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Dysmenorrhoea",
+        "Mild to moderate pain"
+      ],
+      "side_effects": [
+        "GI upset",
+        "Diarrhoea",
+        "Haemolytic anaemia",
+        "Renal impairment"
+      ],
+      "contraindications": [
+        "Active peptic ulcer",
+        "Renal impairment",
+        "Hepatic impairment",
+        "3rd trimester pregnancy",
+        "Epilepsy (may aggravate)",
+        "Inflammatory bowel disease"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Avoid in renal impairment",
+      "liver_risk": "Avoid in hepatic impairment",
+      "searchable_aliases": [
+        "mefenamic acid",
+        "meftal",
+        "ponstan",
+        "mefigesic"
+      ],
+      "language_aliases_hindi": [
+        "मेफेनैमिक एसिड",
+        "पीरियड दर्द की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=mefenamic+acid+500",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Mefenamic Acid 500 is a medical formulation containing Mefenamic Acid as its active salt. It is classified under NSAID (Fenamate) and is primarily prescribed for the management or treatment of Dysmenorrhoea, Mild to moderate pain."
+    },
+    {
+      "id": "MED077",
+      "brand_name": "Fluconazole 150",
+      "generic_name": "Fluconazole",
+      "salt": "Fluconazole",
+      "strength": "150mg",
+      "dosage_form": "Capsule",
+      "category": "Antifungal (Triazole)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Vaginal candidiasis (single dose 150mg)",
+        "Oropharyngeal candidiasis",
+        "Cryptococcal meningitis",
+        "Tinea infections"
+      ],
+      "side_effects": [
+        "Nausea",
+        "Headache",
+        "Abdominal pain",
+        "QT prolongation",
+        "Hepatotoxicity"
+      ],
+      "contraindications": [
+        "Concomitant drugs that prolong QT (terfenadine, cisapride, pimozide)",
+        "Hypersensitivity to azole antifungals"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Dose reduction in renal impairment (renally excreted)",
+      "liver_risk": "Hepatotoxicity reported; use with caution",
+      "searchable_aliases": [
+        "fluconazole",
+        "forcan",
+        "syscan",
+        "diflucan",
+        "candid"
+      ],
+      "language_aliases_hindi": [
+        "फ्लुकोनाजोल",
+        "फंगल की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=fluconazole+150",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Fluconazole 150 is a medical formulation containing Fluconazole as its active salt. It is classified under Antifungal (Triazole) and is primarily prescribed for the management or treatment of Vaginal candidiasis (single dose 150mg), Oropharyngeal candidiasis."
+    },
+    {
+      "id": "MED078",
+      "brand_name": "Loperamide 2",
+      "generic_name": "Loperamide Hydrochloride",
+      "salt": "Loperamide Hydrochloride",
+      "strength": "2mg",
+      "dosage_form": "Capsule",
+      "category": "Antidiarrhoeal (Opioid Receptor Agonist — peripheral)",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Acute non-specific diarrhoea",
+        "Chronic diarrhoea in inflammatory bowel disease"
+      ],
+      "side_effects": [
+        "Constipation",
+        "Abdominal cramping",
+        "Nausea",
+        "QT prolongation (overdose/high doses)"
+      ],
+      "contraindications": [
+        "Bloody diarrhoea",
+        "Severe colitis / toxic megacolon risk",
+        "Abdominal distension",
+        "Children under 2 years",
+        "Bacterial enterocolitis (Salmonella, Campylobacter, C. difficile — may worsen)"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "Use with caution in hepatic impairment",
+      "searchable_aliases": [
+        "loperamide",
+        "lopamide",
+        "eldoper",
+        "imodium",
+        "entershield"
+      ],
+      "language_aliases_hindi": [
+        "लोपेरामाइड",
+        "दस्त की दवा"
+      ],
+      "source_name": "DailyMed / WHO EML",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=loperamide+2",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Loperamide 2 is a medical formulation containing Loperamide Hydrochloride as its active salt. It is classified under Antidiarrhoeal (Opioid Receptor Agonist — peripheral) and is primarily prescribed for the management or treatment of Acute non-specific diarrhoea, Chronic diarrhoea in inflammatory bowel disease."
+    },
+    {
+      "id": "MED079",
+      "brand_name": "Chlorpheniramine 4",
+      "generic_name": "Chlorpheniramine Maleate",
+      "salt": "Chlorpheniramine Maleate",
+      "strength": "4mg",
+      "dosage_form": "Tablet",
+      "category": "Antihistamine (1st Generation)",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Allergic rhinitis",
+        "Urticaria",
+        "Insect bites",
+        "Common cold symptomatic relief"
+      ],
+      "side_effects": [
+        "Significant sedation",
+        "Dry mouth",
+        "Urinary retention",
+        "Constipation",
+        "Blurred vision"
+      ],
+      "contraindications": [
+        "Glaucoma (narrow-angle)",
+        "Prostatic hypertrophy",
+        "Urinary retention",
+        "MAOIs",
+        "Epilepsy"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "Use with caution",
+      "liver_risk": "Use with caution in hepatic impairment",
+      "searchable_aliases": [
+        "chlorpheniramine",
+        "chlorphen",
+        "piriton",
+        "pheneramine",
+        "ctm"
+      ],
+      "language_aliases_hindi": [
+        "क्लोरफेनीरामिन",
+        "खुजली की दवा",
+        "एलर्जी की दवा",
+        "सर्दी की दवा"
+      ],
+      "source_name": "DailyMed / WHO EML",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=chlorpheniramine+4",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Chlorpheniramine 4 is a medical formulation containing Chlorpheniramine Maleate as its active salt. It is classified under Antihistamine (1st Generation) and is primarily prescribed for the management or treatment of Allergic rhinitis, Urticaria."
+    },
+    {
+      "id": "MED080",
+      "brand_name": "Cough Syrup DM (Benadryl)",
+      "generic_name": "Dextromethorphan + Diphenhydramine (formulations vary)",
+      "salt": "Diphenhydramine Hydrochloride (common Indian Benadryl formulation)",
+      "strength": "14.08mg per 5ml (Diphenhydramine)",
+      "dosage_form": "Syrup",
+      "category": "Antihistamine / Antitussive",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Dry cough",
+        "Allergic rhinitis",
+        "Common cold symptoms"
+      ],
+      "side_effects": [
+        "Sedation",
+        "Dry mouth",
+        "Dizziness",
+        "Urinary retention"
+      ],
+      "contraindications": [
+        "Children under 2 years (risk of respiratory depression)",
+        "Concurrent CNS depressants/alcohol",
+        "MAOIs",
+        "Prostatic hypertrophy",
+        "Glaucoma"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "Use with caution",
+      "liver_risk": "Use with caution",
+      "searchable_aliases": [
+        "benadryl",
+        "diphenhydramine",
+        "cough syrup",
+        "khansi ki dawai"
+      ],
+      "language_aliases_hindi": [
+        "बेनाड्रिल",
+        "खांसी की दवा"
+      ],
+      "_india_note": "Indian Benadryl formulation contains Diphenhydramine (unlike US version). Confirm active ingredient on label before safety check.",
+      "source_name": "Johnson & Johnson India SmPC / Tata 1mg",
+      "source_url": "https://www.1mg.com/drugs/benadryl-dr-cough-syrup-66943",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "MEDIUM",
+      "description": "Cough Syrup DM (Benadryl) is a medical formulation containing Dextromethorphan + Diphenhydramine (formulations vary) as its active salt. It is classified under Antihistamine / Antitussive and is primarily prescribed for the management or treatment of Dry cough, Allergic rhinitis."
+    },
+    {
+      "id": "MED081",
+      "brand_name": "Doxylamine + B6 (Unisom variant used in India)",
+      "generic_name": "Doxylamine Succinate + Pyridoxine",
+      "salt": "Doxylamine Succinate 10mg + Pyridoxine HCl 10mg",
+      "strength": "10mg + 10mg",
+      "dosage_form": "Tablet",
+      "category": "Antiemetic / Antihistamine",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Nausea and vomiting of pregnancy (NVP / morning sickness)"
+      ],
+      "side_effects": [
+        "Sedation",
+        "Dry mouth",
+        "Dizziness"
+      ],
+      "contraindications": [
+        "MAOIs",
+        "Hypersensitivity to doxylamine or pyridoxine"
+      ],
+      "pregnancy_safe": true,
+      "kidney_risk": "No specific dose adjustment",
+      "liver_risk": "Use with caution",
+      "searchable_aliases": [
+        "doxylamine pyridoxine",
+        "bonjesta",
+        "diclegis",
+        "doxinate"
+      ],
+      "language_aliases_hindi": [
+        "गर्भावस्था उल्टी की दवा"
+      ],
+      "source_name": "DailyMed / FDA (Diclegis labeling)",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=doxylamine+pyridoxine",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Doxylamine + B6 (Unisom variant used in India) is a medical formulation containing Doxylamine Succinate + Pyridoxine as its active salt. It is classified under Antiemetic / Antihistamine and is primarily prescribed for the management or treatment of Nausea and vomiting of pregnancy (NVP / morning sickness)."
+    },
+    {
+      "id": "MED082",
+      "brand_name": "Methotrexate 2.5",
+      "generic_name": "Methotrexate",
+      "salt": "Methotrexate",
+      "strength": "2.5mg",
+      "dosage_form": "Tablet",
+      "category": "DMARD / Antineoplastic",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Rheumatoid arthritis",
+        "Psoriasis",
+        "Psoriatic arthritis"
+      ],
+      "side_effects": [
+        "Hepatotoxicity",
+        "Bone marrow suppression",
+        "Pulmonary toxicity",
+        "Megaloblastic anaemia",
+        "Mucositis"
+      ],
+      "contraindications": [
+        "Pregnancy",
+        "Breastfeeding",
+        "Severe hepatic or renal impairment",
+        "Active infection",
+        "Immunodeficiency",
+        "Significant anaemia/thrombocytopenia"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "CONTRAINDICATED in significant renal impairment — renally eliminated; toxicity risk markedly increased",
+      "liver_risk": "CONTRAINDICATED in pre-existing liver disease",
+      "searchable_aliases": [
+        "methotrexate",
+        "folitrax",
+        "imutrex",
+        "biotrexate"
+      ],
+      "language_aliases_hindi": [
+        "मेथोट्रेक्सेट",
+        "आर्थराइटिस की दवा"
+      ],
+      "_india_note": "HIGH ALERT MEDICATION. Weekly dosing only (NOT daily) for RA/psoriasis — daily dosing can be fatal. Folic acid co-supplementation mandatory.",
+      "source_name": "DailyMed / openFDA — Black Box Warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=methotrexate+2.5",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Methotrexate 2.5 is a medical formulation containing Methotrexate as its active salt. It is classified under DMARD / Antineoplastic and is primarily prescribed for the management or treatment of Rheumatoid arthritis, Psoriasis."
+    },
+    {
+      "id": "MED083",
+      "brand_name": "Topiramate 50",
+      "generic_name": "Topiramate",
+      "salt": "Topiramate",
+      "strength": "50mg",
+      "dosage_form": "Tablet",
+      "category": "Antiepileptic",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Partial-onset seizures",
+        "Generalized tonic-clonic seizures",
+        "Migraine prophylaxis"
+      ],
+      "side_effects": [
+        "Cognitive impairment ('Dopamax')",
+        "Kidney stones (carbonic anhydrase inhibition)",
+        "Weight loss",
+        "Paraesthesia",
+        "Acute angle-closure glaucoma"
+      ],
+      "contraindications": [
+        "Hypersensitivity to topiramate",
+        "Metabolic acidosis with concomitant metformin (increases risk)",
+        "Nephrolithiasis history (relative)"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Dose reduction in renal impairment; nephrolithiasis risk",
+      "liver_risk": "Use with caution in hepatic impairment",
+      "searchable_aliases": [
+        "topiramate",
+        "topamax",
+        "topaz",
+        "epitomax"
+      ],
+      "language_aliases_hindi": [
+        "टोपिरामेट",
+        "मिर्गी की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=topiramate+50",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Topiramate 50 is a medical formulation containing Topiramate as its active salt. It is classified under Antiepileptic and is primarily prescribed for the management or treatment of Partial-onset seizures, Generalized tonic-clonic seizures."
+    },
+    {
+      "id": "MED084",
+      "brand_name": "Alendronate 70",
+      "generic_name": "Alendronate Sodium",
+      "salt": "Alendronate Sodium Trihydrate",
+      "strength": "70mg",
+      "dosage_form": "Tablet",
+      "category": "Bisphosphonate / Antiosteoporotic",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Postmenopausal osteoporosis",
+        "Steroid-induced osteoporosis",
+        "Paget's disease"
+      ],
+      "side_effects": [
+        "Oesophageal ulceration (if not taken correctly)",
+        "GI upset",
+        "Hypocalcaemia",
+        "Atypical femoral fractures (long-term)",
+        "Osteonecrosis of jaw (rare)"
+      ],
+      "contraindications": [
+        "Oesophageal abnormalities (achalasia, stricture)",
+        "Inability to sit or stand upright for 30 min",
+        "Hypocalcaemia",
+        "Severe renal impairment (CrCl <35 mL/min)"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "CONTRAINDICATED in severe renal impairment (CrCl <35 mL/min)",
+      "liver_risk": "No dose adjustment required",
+      "searchable_aliases": [
+        "alendronate",
+        "fosamax",
+        "alen",
+        "alendromax",
+        "osteofos"
+      ],
+      "language_aliases_hindi": [
+        "एलेन्ड्रोनेट",
+        "हड्डी की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=alendronate+70",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Alendronate 70 is a medical formulation containing Alendronate Sodium as its active salt. It is classified under Bisphosphonate / Antiosteoporotic and is primarily prescribed for the management or treatment of Postmenopausal osteoporosis, Steroid-induced osteoporosis."
+    },
+    {
+      "id": "MED085",
+      "brand_name": "Lisinopril 10",
+      "generic_name": "Lisinopril",
+      "salt": "Lisinopril",
+      "strength": "10mg",
+      "dosage_form": "Tablet",
+      "category": "Antihypertensive (ACE Inhibitor)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Hypertension",
+        "Heart failure",
+        "Post-MI LV dysfunction",
+        "Diabetic nephropathy"
+      ],
+      "side_effects": [
+        "Dry cough",
+        "First-dose hypotension",
+        "Hyperkalemia",
+        "Angioedema (rare but life-threatening)",
+        "Renal impairment"
+      ],
+      "contraindications": [
+        "Pregnancy",
+        "History of ACE inhibitor angioedema",
+        "Bilateral renal artery stenosis",
+        "Concomitant aliskiren in diabetes"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Dose reduction in renal impairment; monitor eGFR and potassium",
+      "liver_risk": "No specific dose adjustment",
+      "searchable_aliases": [
+        "lisinopril",
+        "listril",
+        "linvas",
+        "zestril",
+        "lipril"
+      ],
+      "language_aliases_hindi": [
+        "लिसिनोप्रिल",
+        "बीपी की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=lisinopril+10",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Lisinopril 10 is a medical formulation containing Lisinopril as its active salt. It is classified under Antihypertensive (ACE Inhibitor) and is primarily prescribed for the management or treatment of Hypertension, Heart failure."
+    },
+    {
+      "id": "MED086",
+      "brand_name": "Nifedipine 10",
+      "generic_name": "Nifedipine",
+      "salt": "Nifedipine",
+      "strength": "10mg",
+      "dosage_form": "Capsule (immediate release) / Tablet (modified release)",
+      "category": "Antihypertensive (Dihydropyridine Calcium Channel Blocker)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Hypertension (modified release preferred)",
+        "Angina pectoris",
+        "Raynaud's phenomenon"
+      ],
+      "side_effects": [
+        "Peripheral oedema",
+        "Flushing",
+        "Headache",
+        "Reflex tachycardia (immediate release)",
+        "Gingival hyperplasia"
+      ],
+      "contraindications": [
+        "Cardiogenic shock",
+        "Within 1 month of acute MI",
+        "Unstable angina (immediate release)",
+        "Breastfeeding"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "Dose reduction in hepatic impairment",
+      "searchable_aliases": [
+        "nifedipine",
+        "nicardia",
+        "calchek",
+        "depin",
+        "calcigard"
+      ],
+      "language_aliases_hindi": [
+        "निफेडिपिन",
+        "बीपी की दवा",
+        "एंजाइना की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=nifedipine+10",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Nifedipine 10 is a medical formulation containing Nifedipine as its active salt. It is classified under Antihypertensive (Dihydropyridine Calcium Channel Blocker) and is primarily prescribed for the management or treatment of Hypertension (modified release preferred), Angina pectoris."
+    },
+    {
+      "id": "MED087",
+      "brand_name": "Pantocid D",
+      "generic_name": "Pantoprazole + Domperidone",
+      "salt": "Pantoprazole 40mg + Domperidone 10mg (SR)",
+      "strength": "40mg + 10mg",
+      "dosage_form": "Capsule",
+      "category": "PPI + Prokinetic Combination",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "GERD with gastroparesis component",
+        "Functional dyspepsia"
+      ],
+      "side_effects": [
+        "Headache",
+        "QT prolongation (domperidone component)",
+        "GI upset"
+      ],
+      "contraindications": [
+        "QT prolongation",
+        "Severe hepatic impairment",
+        "Prolactinoma",
+        "Concomitant QT-prolonging drugs",
+        "Rilpivirine use"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No adjustment for pantoprazole; reduce domperidone frequency in severe renal impairment",
+      "liver_risk": "CONTRAINDICATED in severe hepatic impairment (domperidone component)",
+      "searchable_aliases": [
+        "pantoprazole domperidone",
+        "pantocid d",
+        "pan d",
+        "nexpro d",
+        "pantosec d"
+      ],
+      "language_aliases_hindi": [
+        "पेंटोप्राजोल डॉम्पेरिडोन",
+        "एसिडिटी उल्टी की दवा"
+      ],
+      "source_name": "Sun Pharma India SmPC / Tata 1mg",
+      "source_url": "https://www.1mg.com/drugs/pantocid-d-capsule-93073",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Pantocid D is a medical formulation containing Pantoprazole + Domperidone as its active salt. It is classified under PPI + Prokinetic Combination and is primarily prescribed for the management or treatment of GERD with gastroparesis component, Functional dyspepsia."
+    },
+    {
+      "id": "MED088",
+      "brand_name": "Ivermectin 12",
+      "generic_name": "Ivermectin",
+      "salt": "Ivermectin",
+      "strength": "12mg",
+      "dosage_form": "Tablet",
+      "category": "Antiparasitic",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Strongyloidiasis",
+        "Onchocerciasis",
+        "Scabies",
+        "Head lice (off-label)",
+        "Lymphatic filariasis (mass drug administration programs in India)"
+      ],
+      "side_effects": [
+        "Mazzotti reaction (fever, pruritis in onchocerciasis)",
+        "Dizziness",
+        "Nausea",
+        "CNS effects (rare — crossing BBB in high doses)"
+      ],
+      "contraindications": [
+        "Pregnancy (1st trimester)",
+        "Children under 15kg",
+        "CNS conditions that affect blood-brain barrier",
+        "Hypersensitivity to ivermectin"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "Use with caution in hepatic impairment",
+      "searchable_aliases": [
+        "ivermectin",
+        "ivecop",
+        "ivermac",
+        "scavista",
+        "mectizan"
+      ],
+      "language_aliases_hindi": [
+        "आइवरमेक्टिन",
+        "खुजली की दवा"
+      ],
+      "source_name": "DailyMed / WHO EML",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ivermectin",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Ivermectin 12 is a medical formulation containing Ivermectin as its active salt. It is classified under Antiparasitic and is primarily prescribed for the management or treatment of Strongyloidiasis, Onchocerciasis."
+    },
+    {
+      "id": "MED089",
+      "brand_name": "Vitamin D3 60000 IU",
+      "generic_name": "Cholecalciferol",
+      "salt": "Cholecalciferol",
+      "strength": "60000 IU",
+      "dosage_form": "Capsule / Sachet",
+      "category": "Vitamin D Supplement",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Vitamin D deficiency",
+        "Osteoporosis prevention",
+        "Adjunct in calcium therapy"
+      ],
+      "side_effects": [
+        "Hypercalcaemia (excessive use)",
+        "Hypercalciuria",
+        "Weakness",
+        "Nausea"
+      ],
+      "contraindications": [
+        "Hypercalcaemia",
+        "Hypervitaminosis D",
+        "Severe renal impairment",
+        "Sarcoidosis"
+      ],
+      "pregnancy_safe": true,
+      "kidney_risk": "AVOID in severe renal impairment — risk of hypercalcaemia",
+      "liver_risk": "No specific risk",
+      "searchable_aliases": [
+        "cholecalciferol",
+        "vitamin d3",
+        "calcirol",
+        "d3 must",
+        "uprise d3",
+        "dekristol"
+      ],
+      "language_aliases_hindi": [
+        "विटामिन डी3",
+        "हड्डी की दवा"
+      ],
+      "source_name": "DailyMed / WHO EML",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=cholecalciferol",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Vitamin D3 60000 IU is a medical formulation containing Cholecalciferol as its active salt. It is classified under Vitamin D Supplement and is primarily prescribed for the management or treatment of Vitamin D deficiency, Osteoporosis prevention."
+    },
+    {
+      "id": "MED090",
+      "brand_name": "Lactulose 10g/15ml",
+      "generic_name": "Lactulose",
+      "salt": "Lactulose",
+      "strength": "10g per 15ml",
+      "dosage_form": "Oral Solution",
+      "category": "Osmotic Laxative",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Constipation",
+        "Hepatic encephalopathy (higher doses)"
+      ],
+      "side_effects": [
+        "Flatulence",
+        "Bloating",
+        "Diarrhoea (high doses)",
+        "Abdominal cramps"
+      ],
+      "contraindications": [
+        "Galactosaemia",
+        "Intestinal obstruction",
+        "Galactose intolerance"
+      ],
+      "pregnancy_safe": true,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "Used therapeutically in hepatic encephalopathy — key treatment",
+      "searchable_aliases": [
+        "lactulose",
+        "duphalac",
+        "lactilol",
+        "livolac"
+      ],
+      "language_aliases_hindi": [
+        "लैक्टुलोज़",
+        "कब्ज की दवा"
+      ],
+      "source_name": "DailyMed / WHO EML",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=lactulose",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Lactulose 10g/15ml is a medical formulation containing Lactulose as its active salt. It is classified under Osmotic Laxative and is primarily prescribed for the management or treatment of Constipation, Hepatic encephalopathy (higher doses)."
+    },
+    {
+      "id": "MED091",
+      "brand_name": "Tamsulosin 0.4",
+      "generic_name": "Tamsulosin Hydrochloride",
+      "salt": "Tamsulosin Hydrochloride",
+      "strength": "0.4mg",
+      "dosage_form": "Capsule (Modified Release)",
+      "category": "Alpha-1 Adrenergic Blocker (selective uroselective)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Benign prostatic hyperplasia (BPH) — symptom relief",
+        "Ureteric stones (to facilitate passage)"
+      ],
+      "side_effects": [
+        "Dizziness",
+        "Retrograde ejaculation",
+        "Postural hypotension",
+        "Rhinitis",
+        "Intraoperative Floppy Iris Syndrome (inform ophthalmologist)"
+      ],
+      "contraindications": [
+        "Orthostatic hypotension",
+        "Severe hepatic impairment",
+        "Hypersensitivity to tamsulosin"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment in mild-moderate renal impairment; caution in severe",
+      "liver_risk": "CONTRAINDICATED in severe hepatic impairment",
+      "searchable_aliases": [
+        "tamsulosin",
+        "urimax",
+        "flomax",
+        "veltam",
+        "tamurex"
+      ],
+      "language_aliases_hindi": [
+        "टैम्सुलोसिन",
+        "प्रोस्टेट की दवा",
+        "पेशाब की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=tamsulosin+0.4",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Tamsulosin 0.4 is a medical formulation containing Tamsulosin Hydrochloride as its active salt. It is classified under Alpha-1 Adrenergic Blocker (selective uroselective) and is primarily prescribed for the management or treatment of Benign prostatic hyperplasia (BPH) — symptom relief, Ureteric stones (to facilitate passage)."
+    },
+    {
+      "id": "MED092",
+      "brand_name": "Finasteride 5",
+      "generic_name": "Finasteride",
+      "salt": "Finasteride",
+      "strength": "5mg",
+      "dosage_form": "Tablet",
+      "category": "5-Alpha Reductase Inhibitor",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Benign prostatic hyperplasia",
+        "Male pattern baldness (1mg, different indication)"
+      ],
+      "side_effects": [
+        "Sexual dysfunction (decreased libido, erectile dysfunction)",
+        "Ejaculation disorders",
+        "Gynaecomastia",
+        "Post-finasteride syndrome (debated)"
+      ],
+      "contraindications": [
+        "Women of childbearing age (teratogenic — exposure of male fetus to finasteride)",
+        "Children"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "Use with caution in hepatic impairment (hepatic metabolism)",
+      "searchable_aliases": [
+        "finasteride",
+        "proscar",
+        "finpecia",
+        "finax",
+        "propecia (1mg)"
+      ],
+      "language_aliases_hindi": [
+        "फिनास्टेराइड",
+        "प्रोस्टेट की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=finasteride+5",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Finasteride 5 is a medical formulation containing Finasteride as its active salt. It is classified under 5-Alpha Reductase Inhibitor and is primarily prescribed for the management or treatment of Benign prostatic hyperplasia, Male pattern baldness (1mg, different indication)."
+    },
+    {
+      "id": "MED093",
+      "brand_name": "Multivitamin (Becosules)",
+      "generic_name": "B-Complex + Vitamin C",
+      "salt": "Thiamine 10mg + Riboflavin 10mg + Pyridoxine 3mg + Cyanocobalamin 15mcg + Niacinamide 100mg + Pantothenic Acid 50mg + Folic Acid 1.5mg + Vitamin C 150mg + Biotin 100mcg",
+      "strength": "Per capsule",
+      "dosage_form": "Capsule",
+      "category": "Multivitamin",
+      "prescription_required": false,
+      "otc": true,
+      "uses": [
+        "Vitamin B complex deficiency",
+        "General nutritional supplementation",
+        "Post-illness recovery"
+      ],
+      "side_effects": [
+        "Generally well tolerated",
+        "Urine may appear bright yellow (riboflavin)",
+        "GI upset (excessive doses)"
+      ],
+      "contraindications": [
+        "Hypersensitivity to any component"
+      ],
+      "pregnancy_safe": true,
+      "kidney_risk": "No specific risk at recommended doses",
+      "liver_risk": "No specific risk",
+      "searchable_aliases": [
+        "becosules",
+        "multivitamin",
+        "b complex",
+        "bcomplex",
+        "bc forte"
+      ],
+      "language_aliases_hindi": [
+        "मल्टीविटामिन",
+        "बेकोसूल्स"
+      ],
+      "source_name": "Pfizer India / Tata 1mg",
+      "source_url": "https://www.1mg.com/drugs/becosules-capsule-2965",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "MEDIUM",
+      "description": "Multivitamin (Becosules) is a medical formulation containing B-Complex + Vitamin C as its active salt. It is classified under Multivitamin and is primarily prescribed for the management or treatment of Vitamin B complex deficiency, General nutritional supplementation."
+    },
+    {
+      "id": "MED094",
+      "brand_name": "Rabeprazole 20",
+      "generic_name": "Rabeprazole Sodium",
+      "salt": "Rabeprazole Sodium",
+      "strength": "20mg",
+      "dosage_form": "Tablet (Enteric Coated)",
+      "category": "Proton Pump Inhibitor (PPI)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "GERD",
+        "Peptic ulcer",
+        "H. pylori eradication",
+        "Hypersecretory conditions"
+      ],
+      "side_effects": [
+        "Headache",
+        "Diarrhoea",
+        "Nausea",
+        "Hypomagnesaemia (long-term)"
+      ],
+      "contraindications": [
+        "Concomitant rilpivirine",
+        "Hypersensitivity to rabeprazole or substituted benzimidazoles"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "Use with caution in severe hepatic impairment",
+      "searchable_aliases": [
+        "rabeprazole",
+        "razo",
+        "rablet",
+        "pariet",
+        "rekool"
+      ],
+      "language_aliases_hindi": [
+        "राबेप्राजोल",
+        "एसिडिटी की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=rabeprazole+20",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Rabeprazole 20 is a medical formulation containing Rabeprazole Sodium as its active salt. It is classified under Proton Pump Inhibitor (PPI) and is primarily prescribed for the management or treatment of GERD, Peptic ulcer."
+    },
+    {
+      "id": "MED095",
+      "brand_name": "Dapagliflozin 10",
+      "generic_name": "Dapagliflozin",
+      "salt": "Dapagliflozin Propanediol Monohydrate",
+      "strength": "10mg",
+      "dosage_form": "Tablet",
+      "category": "Antidiabetic (SGLT-2 Inhibitor)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Type 2 Diabetes Mellitus",
+        "Heart failure (HFrEF)",
+        "Chronic kidney disease (to reduce eGFR decline)"
+      ],
+      "side_effects": [
+        "Genital mycotic infections",
+        "UTI",
+        "Euglycaemic DKA (rare)",
+        "Hypotension",
+        "Polyuria"
+      ],
+      "contraindications": [
+        "eGFR <25 mL/min (for diabetes indication)",
+        "Type 1 diabetes",
+        "Recurrent UTIs"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Do not initiate for glycaemic control if eGFR <45; can continue for CKD indication per specialist guidance",
+      "liver_risk": "No dose adjustment required",
+      "searchable_aliases": [
+        "dapagliflozin",
+        "forxiga",
+        "dapamed",
+        "dapa"
+      ],
+      "language_aliases_hindi": [
+        "डैपाग्लिफ्लोजिन",
+        "शुगर की दवा"
+      ],
+      "source_name": "AstraZeneca / DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=dapagliflozin+10",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Dapagliflozin 10 is a medical formulation containing Dapagliflozin as its active salt. It is classified under Antidiabetic (SGLT-2 Inhibitor) and is primarily prescribed for the management or treatment of Type 2 Diabetes Mellitus, Heart failure (HFrEF)."
+    },
+    {
+      "id": "MED096",
+      "brand_name": "Acarbose 25",
+      "generic_name": "Acarbose",
+      "salt": "Acarbose",
+      "strength": "25mg",
+      "dosage_form": "Tablet",
+      "category": "Antidiabetic (Alpha-glucosidase Inhibitor)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Type 2 Diabetes Mellitus (adjunct)"
+      ],
+      "side_effects": [
+        "Flatulence",
+        "Diarrhoea",
+        "Abdominal bloating",
+        "Elevated liver enzymes (rare)"
+      ],
+      "contraindications": [
+        "Inflammatory bowel disease",
+        "Colonic ulceration",
+        "Partial intestinal obstruction",
+        "Severe renal impairment (CrCl <25 mL/min)",
+        "Hepatic impairment",
+        "Pregnancy"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "CONTRAINDICATED in severe renal impairment",
+      "liver_risk": "CONTRAINDICATED in hepatic impairment",
+      "searchable_aliases": [
+        "acarbose",
+        "glucobay",
+        "rebose",
+        "glucar"
+      ],
+      "language_aliases_hindi": [
+        "अकार्बोज",
+        "शुगर की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=acarbose",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Acarbose 25 is a medical formulation containing Acarbose as its active salt. It is classified under Antidiabetic (Alpha-glucosidase Inhibitor) and is primarily prescribed for the management or treatment of Type 2 Diabetes Mellitus (adjunct)."
+    },
+    {
+      "id": "MED097",
+      "brand_name": "Diltiazem 60",
+      "generic_name": "Diltiazem Hydrochloride",
+      "salt": "Diltiazem Hydrochloride",
+      "strength": "60mg",
+      "dosage_form": "Tablet",
+      "category": "Calcium Channel Blocker (Non-Dihydropyridine)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Angina pectoris",
+        "Hypertension",
+        "Atrial fibrillation / Flutter (rate control)",
+        "Paroxysmal SVT"
+      ],
+      "side_effects": [
+        "Bradycardia",
+        "AV block",
+        "Oedema",
+        "Flushing",
+        "Constipation"
+      ],
+      "contraindications": [
+        "Sick sinus syndrome",
+        "2nd/3rd degree AV block",
+        "Severe hypotension",
+        "Cardiogenic shock",
+        "Concomitant IV beta-blockers"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "Dose reduction in hepatic impairment",
+      "searchable_aliases": [
+        "diltiazem",
+        "dilzem",
+        "angizem",
+        "dilcontin",
+        "cardizem"
+      ],
+      "language_aliases_hindi": [
+        "डिल्टियाज़ेम",
+        "दिल की दवा",
+        "एंजाइना की दवा"
+      ],
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=diltiazem+60",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Diltiazem 60 is a medical formulation containing Diltiazem Hydrochloride as its active salt. It is classified under Calcium Channel Blocker (Non-Dihydropyridine) and is primarily prescribed for the management or treatment of Angina pectoris, Hypertension."
+    },
+    {
+      "id": "MED098",
+      "brand_name": "Amiodarone 200",
+      "generic_name": "Amiodarone Hydrochloride",
+      "salt": "Amiodarone Hydrochloride",
+      "strength": "200mg",
+      "dosage_form": "Tablet",
+      "category": "Antiarrhythmic (Class III)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Ventricular arrhythmias",
+        "Atrial fibrillation (rate and rhythm control)",
+        "Supraventricular tachycardia"
+      ],
+      "side_effects": [
+        "Pulmonary toxicity",
+        "Thyroid dysfunction (both hypo and hyper)",
+        "Hepatotoxicity",
+        "Corneal microdeposits",
+        "Photosensitivity",
+        "Peripheral neuropathy"
+      ],
+      "contraindications": [
+        "Sinus node disease / AV block without pacemaker",
+        "Thyroid dysfunction",
+        "Iodine hypersensitivity",
+        "Pregnancy",
+        "Breastfeeding"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "Contraindicated in severe hepatic impairment; hepatotoxicity risk",
+      "searchable_aliases": [
+        "amiodarone",
+        "cordarone",
+        "amiodar",
+        "tachyra"
+      ],
+      "language_aliases_hindi": [
+        "एमियोडेरोन",
+        "दिल की अनियमित धड़कन की दवा"
+      ],
+      "_india_note": "HIGH INTERACTION POTENTIAL — inhibits CYP2C9 and CYP3A4; markedly increases warfarin effect and digoxin levels",
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=amiodarone+200",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Amiodarone 200 is a medical formulation containing Amiodarone Hydrochloride as its active salt. It is classified under Antiarrhythmic (Class III) and is primarily prescribed for the management or treatment of Ventricular arrhythmias, Atrial fibrillation (rate and rhythm control)."
+    },
+    {
+      "id": "MED099",
+      "brand_name": "Clarithromycin 500",
+      "generic_name": "Clarithromycin",
+      "salt": "Clarithromycin",
+      "strength": "500mg",
+      "dosage_form": "Tablet",
+      "category": "Antibiotic (Macrolide)",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Community-acquired pneumonia",
+        "Sinusitis",
+        "H. pylori eradication (triple therapy)",
+        "Skin infections",
+        "MAC prophylaxis in HIV"
+      ],
+      "side_effects": [
+        "GI upset",
+        "Abnormal taste (metallic/bitter)",
+        "QT prolongation",
+        "Hepatotoxicity (rare)",
+        "Drug interactions via CYP3A4 inhibition"
+      ],
+      "contraindications": [
+        "Hypersensitivity to macrolides",
+        "History of QT prolongation or ventricular arrhythmia",
+        "Concomitant ergotamine/dihydroergotamine",
+        "Hypokalaemia",
+        "Severe hepatic impairment with renal impairment"
+      ],
+      "pregnancy_safe": false,
+      "kidney_risk": "Dose reduction in severe renal impairment (CrCl <30 mL/min)",
+      "liver_risk": "Avoid in severe hepatic impairment",
+      "searchable_aliases": [
+        "clarithromycin",
+        "claribid",
+        "klacid",
+        "clarimac",
+        "biaxin"
+      ],
+      "language_aliases_hindi": [
+        "क्लेरिथ्रोमाइसिन",
+        "एंटीबायोटिक"
+      ],
+      "_india_note": "Strong CYP3A4 inhibitor — interacts with statins (especially simvastatin, atorvastatin), warfarin, digoxin, colchicine",
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=clarithromycin+500",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Clarithromycin 500 is a medical formulation containing Clarithromycin as its active salt. It is classified under Antibiotic (Macrolide) and is primarily prescribed for the management or treatment of Community-acquired pneumonia, Sinusitis."
+    },
+    {
+      "id": "MED100",
+      "brand_name": "Nitroglycerine (Sorbitrate)",
+      "generic_name": "Isosorbide Dinitrate",
+      "salt": "Isosorbide Dinitrate",
+      "strength": "5mg",
+      "dosage_form": "Sublingual Tablet",
+      "category": "Nitrate / Vasodilator",
+      "prescription_required": true,
+      "otc": false,
+      "uses": [
+        "Acute angina pectoris (acute relief)",
+        "Prophylaxis of angina",
+        "Heart failure (combination therapy)"
+      ],
+      "side_effects": [
+        "Headache (very common)",
+        "Hypotension",
+        "Reflex tachycardia",
+        "Dizziness",
+        "Tolerance with continued use"
+      ],
+      "contraindications": [
+        "Concurrent PDE-5 inhibitors (sildenafil, tadalafil, vardenafil) — ABSOLUTE, can cause severe hypotension",
+        "Severe hypotension",
+        "Hypovolaemia",
+        "Obstructive cardiomyopathy"
+      ],
+      "pregnancy_safe": null,
+      "kidney_risk": "No dose adjustment required",
+      "liver_risk": "No dose adjustment required",
+      "searchable_aliases": [
+        "isosorbide dinitrate",
+        "isdn",
+        "sorbitrate",
+        "isoket",
+        "isordil"
+      ],
+      "language_aliases_hindi": [
+        "आइसोसोर्बाइड डाइनाइट्रेट",
+        "एंजाइना की दवा",
+        "सीने दर्द की दवा"
+      ],
+      "_india_note": "CRITICAL interaction: Absolute contraindication with PDE-5 inhibitors (sildenafil/Viagra, tadalafil/Cialis). Common in India to use both — must warn users.",
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=isosorbide+dinitrate",
+      "date_accessed": "2025-01-01",
+      "confidence_level": "HIGH",
+      "description": "Nitroglycerine (Sorbitrate) is a medical formulation containing Isosorbide Dinitrate as its active salt. It is classified under Nitrate / Vasodilator and is primarily prescribed for the management or treatment of Acute angina pectoris (acute relief), Prophylaxis of angina."
+    }
+  ],
+  "_missing_fields_note": "pregnancy_safe set null where official labeling does not give explicit pregnancy category. All records should be cross-verified against live CDSCO database before production deployment.",
+  "_records_count": 100,
+  "_total_target": 100,
+  "_completion_status": "COMPLETE — 100 records"
+}

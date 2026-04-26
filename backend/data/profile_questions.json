@@ -1,0 +1,94 @@
+{
+  "_file": "profile_questions.json",
+  "_schema_version": "1.0.0",
+  "_note": "Minimum fields required for medicine safety personalization. Only fields that materially change medicine safety assessment are included.",
+  "profile_questions": [
+    {
+      "field": "age",
+      "question": "What is your age?",
+      "type": "number",
+      "required": true,
+      "allowed_values": {"min": 0, "max": 120},
+      "safety_impact": "Affects dosing, paediatric/geriatric warnings"
+    },
+    {
+      "field": "sex",
+      "question": "What is your biological sex?",
+      "type": "single_select",
+      "required": true,
+      "allowed_values": ["Male", "Female", "Other / Prefer not to say"],
+      "safety_impact": "Pregnancy safety rules apply only to females; hormonal drug interactions differ"
+    },
+    {
+      "field": "pregnancy_status",
+      "question": "Are you currently pregnant?",
+      "type": "single_select",
+      "required": false,
+      "show_if": {"field": "sex", "value": "Female"},
+      "allowed_values": ["Yes", "No", "Not sure"],
+      "safety_impact": "CRITICAL — triggers pregnancy contraindication checks"
+    },
+    {
+      "field": "breastfeeding",
+      "question": "Are you currently breastfeeding?",
+      "type": "single_select",
+      "required": false,
+      "show_if": {"field": "sex", "value": "Female"},
+      "allowed_values": ["Yes", "No"],
+      "safety_impact": "Several drugs pass into breast milk; safety profiles differ"
+    },
+    {
+      "field": "conditions",
+      "question": "Do you have any of the following health conditions? (Select all that apply)",
+      "type": "multi_select",
+      "required": true,
+      "allowed_values": [
+        "Kidney Disease",
+        "Liver Disease",
+        "Diabetes",
+        "Hypertension",
+        "Heart Disease",
+        "Asthma / COPD",
+        "Epilepsy",
+        "Thyroid Disease",
+        "Peptic Ulcer",
+        "None of the above"
+      ],
+      "safety_impact": "CRITICAL — drives contraindication and drug-disease interaction checks"
+    },
+    {
+      "field": "allergies",
+      "question": "Are you allergic to any medicines? (Select all that apply)",
+      "type": "multi_select",
+      "required": true,
+      "allowed_values": [
+        "Penicillin / Amoxicillin",
+        "Cephalosporins",
+        "Sulfa drugs",
+        "NSAIDs / Aspirin",
+        "Fluoroquinolones (Cipro, Levoflox)",
+        "Macrolides (Azithromycin, Clarithromycin)",
+        "Paracetamol",
+        "Iodine / Contrast dye",
+        "None known"
+      ],
+      "safety_impact": "CRITICAL — drives allergy contraindication checks"
+    },
+    {
+      "field": "current_medicines",
+      "question": "Are you currently taking any medicines regularly?",
+      "type": "text_list",
+      "required": false,
+      "allowed_values": null,
+      "safety_impact": "Drives drug-drug interaction checks"
+    },
+    {
+      "field": "weight_kg",
+      "question": "What is your approximate weight (in kg)?",
+      "type": "number",
+      "required": false,
+      "allowed_values": {"min": 1, "max": 300},
+      "safety_impact": "Used for weight-based dosing calculations (paediatric, chemotherapy, anticoagulants)"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "_schema_version": "1.0.0",
+  "limits": [
+    {
+      "generic_name": "Paracetamol",
+      "max_daily_mg": 4000,
+      "max_single_dose_mg": 1000,
+      "warning": "Total paracetamol dose from all sources should not exceed 4g in 24 hours. Overdose causes severe liver damage.",
+      "warning_hindi": "24 घंटे में 4 ग्राम से अधिक पैरासिटामोल न लें। अधिक मात्रा लिवर को नुकसान पहुँचा सकती है।"
+    },
+    {
+      "generic_name": "Ibuprofen",
+      "max_daily_mg": 1200,
+      "max_single_dose_mg": 400,
+      "warning": "Exceeding 1200mg/day without prescription increases GI bleeding risk.",
+      "warning_hindi": "बिना डॉक्टर की सलाह के 1200 मिलीग्राम से अधिक न लें। यह ब्लीडिंग का खतरा बढ़ाता है।"
+    },
+    {
+      "generic_name": "Cetirizine",
+      "max_daily_mg": 10,
+      "max_single_dose_mg": 10,
+      "warning": "Max dose 10mg once daily. Higher doses cause severe drowsiness.",
+      "warning_hindi": "दिन में एक बार 10 मिलीग्राम ही लें। अधिक मात्रा से नींद आ सकती है।"
+    },
+    {
+      "generic_name": "Aspirin",
+      "max_daily_mg": 4000,
+      "max_single_dose_mg": 1000,
+      "warning": "Max daily limit 4g. High doses cause gastric irritation and tinnitus.",
+      "warning_hindi": "दैनिक सीमा 4 ग्राम है। अधिक मात्रा पेट में जलन पैदा कर सकती है।"
+    }
+  ]
+}

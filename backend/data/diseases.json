@@ -1,0 +1,90 @@
+{
+  "_file": "diseases.json",
+  "_schema_version": "1.0.0",
+  "diseases": [
+    {
+      "id": "DIS001",
+      "display_name": "Type 2 Diabetes",
+      "synonyms": ["diabetes", "sugar disease", "T2DM", "मधुमेह", "शुगर"],
+      "icd10": "E11",
+      "severity_impact_on_medicine_use": "HIGH — affects renal dosing (metformin, sitagliptin), glucose-altering drug interactions, contraindications for corticosteroids"
+    },
+    {
+      "id": "DIS002",
+      "display_name": "Hypertension",
+      "synonyms": ["high blood pressure", "BP", "उच्च रक्तचाप", "बीपी"],
+      "icd10": "I10",
+      "severity_impact_on_medicine_use": "HIGH — interacts with NSAIDs (reduce effect), affects ARB/ACE inhibitor safety, requires caution with decongestants"
+    },
+    {
+      "id": "DIS003",
+      "display_name": "Kidney Disease",
+      "synonyms": ["chronic kidney disease", "CKD", "renal impairment", "kidney failure", "गुर्दे की बीमारी"],
+      "icd10": "N18",
+      "severity_impact_on_medicine_use": "CRITICAL — metformin, NSAIDs, aminoglycosides, contrast agents contraindicated or dose-adjusted; many drugs require eGFR-based dosing"
+    },
+    {
+      "id": "DIS004",
+      "display_name": "Liver Disease",
+      "synonyms": ["hepatic impairment", "cirrhosis", "jaundice", "fatty liver", "जिगर की बीमारी", "लिवर की बीमारी"],
+      "icd10": "K74",
+      "severity_impact_on_medicine_use": "CRITICAL — statins, metformin, clopidogrel, telmisartan contraindicated; affects drug metabolism via CYP enzymes"
+    },
+    {
+      "id": "DIS005",
+      "display_name": "Asthma",
+      "synonyms": ["bronchial asthma", "दमा", "सांस की बीमारी"],
+      "icd10": "J45",
+      "severity_impact_on_medicine_use": "HIGH — aspirin/NSAIDs can trigger bronchospasm in aspirin-exacerbated respiratory disease; beta-blockers contraindicated"
+    },
+    {
+      "id": "DIS006",
+      "display_name": "Heart Disease",
+      "synonyms": ["cardiac disease", "coronary artery disease", "heart failure", "दिल की बीमारी"],
+      "icd10": "I25",
+      "severity_impact_on_medicine_use": "HIGH — QT-prolonging drugs (azithromycin, ciprofloxacin) require caution; NSAIDs increase cardiovascular risk"
+    },
+    {
+      "id": "DIS007",
+      "display_name": "Epilepsy",
+      "synonyms": ["seizures", "convulsions", "मिर्गी"],
+      "icd10": "G40",
+      "severity_impact_on_medicine_use": "HIGH — fluoroquinolones, tramadol lower seizure threshold; many antiepileptics interact with other drugs via CYP induction"
+    },
+    {
+      "id": "DIS008",
+      "display_name": "Thyroid Disease",
+      "synonyms": ["hypothyroidism", "hyperthyroidism", "thyroid", "थायराइड"],
+      "icd10": "E03 / E05",
+      "severity_impact_on_medicine_use": "MEDIUM — levothyroxine absorption affected by calcium, iron, PPIs; amiodarone and lithium affect thyroid function"
+    },
+    {
+      "id": "DIS009",
+      "display_name": "Peptic Ulcer",
+      "synonyms": ["stomach ulcer", "gastric ulcer", "duodenal ulcer", "पेट का अल्सर"],
+      "icd10": "K25",
+      "severity_impact_on_medicine_use": "HIGH — NSAIDs, aspirin, corticosteroids, bisphosphonates are contraindicated or need gastroprotection"
+    },
+    {
+      "id": "DIS010",
+      "display_name": "Pregnancy",
+      "synonyms": ["pregnant", "garbhavastha", "गर्भावस्था"],
+      "icd10": "Z34",
+      "severity_impact_on_medicine_use": "CRITICAL — many drugs contraindicated; teratogenicity risk; see pregnancy_rules.json for per-drug classifications"
+    },
+    {
+      "id": "DIS011",
+      "display_name": "Penicillin Allergy",
+      "synonyms": ["antibiotic allergy", "amoxicillin allergy", "पेनिसिलिन एलर्जी"],
+      "icd10": "Z88.0",
+      "severity_impact_on_medicine_use": "HIGH — all penicillin-class antibiotics contraindicated; cross-reactivity with cephalosporins possible"
+    },
+    {
+      "id": "DIS012",
+      "display_name": "COPD",
+      "synonyms": ["chronic obstructive pulmonary disease", "emphysema", "chronic bronchitis", "सीओपीडी"],
+      "icd10": "J44",
+      "severity_impact_on_medicine_use": "HIGH — beta-blockers contraindicated in severe COPD; opioids/sedatives may worsen respiratory depression"
+    }
+  ]
+}

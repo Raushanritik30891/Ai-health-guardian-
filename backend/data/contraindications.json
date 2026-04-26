@@ -1,0 +1,277 @@
+{
+  "_schema_version": "1.0.0",
+  "_note": "Only documented contraindications from official labeling. Source cited per record.",
+  "contraindications": [
+    {
+      "id": "CI001",
+      "medicine": "Metformin",
+      "condition": "Kidney Disease",
+      "severity": "ABSOLUTE",
+      "reason": "Metformin is renally cleared; severe renal impairment (eGFR <30) markedly increases risk of lactic acidosis due to drug accumulation.",
+      "source_name": "DailyMed (Glucophage labeling) / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=metformin"
+    },
+    {
+      "id": "CI002",
+      "medicine": "Metformin",
+      "condition": "Liver Disease",
+      "severity": "ABSOLUTE",
+      "reason": "Hepatic impairment reduces lactate clearance, increasing the risk of lactic acidosis in patients taking metformin.",
+      "source_name": "DailyMed (Glucophage labeling)",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=metformin"
+    },
+    {
+      "id": "CI003",
+      "medicine": "Aspirin",
+      "condition": "Peptic Ulcer",
+      "severity": "ABSOLUTE",
+      "reason": "Aspirin inhibits COX-1, reducing prostaglandin synthesis and gastric mucosal protection, exacerbating active peptic ulcers.",
+      "source_name": "DailyMed / USV India SmPC",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=aspirin"
+    },
+    {
+      "id": "CI004",
+      "medicine": "Aspirin",
+      "condition": "Pregnancy",
+      "severity": "ABSOLUTE (3rd trimester)",
+      "reason": "Inhibition of prostaglandin synthesis in 3rd trimester can cause premature closure of ductus arteriosus and delayed labour.",
+      "source_name": "DailyMed / WHO EML",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=aspirin"
+    },
+    {
+      "id": "CI005",
+      "medicine": "Atorvastatin",
+      "condition": "Liver Disease",
+      "severity": "ABSOLUTE",
+      "reason": "Atorvastatin is extensively metabolized in the liver; active liver disease or unexplained persistent elevated transaminases contraindicate use.",
+      "source_name": "DailyMed (Lipitor labeling) / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=atorvastatin"
+    },
+    {
+      "id": "CI006",
+      "medicine": "Atorvastatin",
+      "condition": "Pregnancy",
+      "severity": "ABSOLUTE",
+      "reason": "Statins may cause fetal harm; cholesterol is essential for fetal development. Category X in pregnancy.",
+      "source_name": "DailyMed (Lipitor labeling) / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=atorvastatin"
+    },
+    {
+      "id": "CI007",
+      "medicine": "Telmisartan",
+      "condition": "Pregnancy",
+      "severity": "ABSOLUTE (2nd and 3rd trimester)",
+      "reason": "Drugs acting on the RAS during 2nd and 3rd trimester can cause fetal renal dysfunction, oligohydramnios, skull hypoplasia, and neonatal death.",
+      "source_name": "DailyMed (Micardis labeling) / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=telmisartan"
+    },
+    {
+      "id": "CI008",
+      "medicine": "Telmisartan",
+      "condition": "Liver Disease",
+      "severity": "ABSOLUTE (severe)",
+      "reason": "Telmisartan is eliminated primarily via biliary/fecal route; severe hepatic impairment dramatically increases plasma levels.",
+      "source_name": "DailyMed (Micardis labeling)",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=telmisartan"
+    },
+    {
+      "id": "CI009",
+      "medicine": "Ciprofloxacin",
+      "condition": "Epilepsy",
+      "severity": "CAUTION",
+      "reason": "Fluoroquinolones can lower seizure threshold by antagonizing GABA-A receptors. Use with extreme caution in epileptic patients.",
+      "source_name": "DailyMed (Cipro labeling)",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ciprofloxacin"
+    },
+    {
+      "id": "CI010",
+      "medicine": "Montelukast",
+      "condition": "Asthma",
+      "severity": "NOTE",
+      "reason": "Not for acute bronchospasm; should not be used as monotherapy for exercise-induced bronchoconstriction if concurrent persistent asthma present.",
+      "source_name": "DailyMed (Singulair labeling)",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=montelukast"
+    },
+    {
+      "id": "CI011",
+      "medicine": "Paracetamol",
+      "condition": "Liver Disease",
+      "severity": "CAUTION",
+      "reason": "Risk of hepatotoxicity is increased in patients with hepatic impairment; maximum dose 2g/day in severe liver disease.",
+      "source_name": "DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=paracetamol"
+    },
+    {
+      "id": "CI012",
+      "medicine": "Clopidogrel",
+      "condition": "Liver Disease",
+      "severity": "ABSOLUTE (severe)",
+      "reason": "Clopidogrel is a prodrug requiring hepatic CYP2C19 activation; severe hepatic impairment increases bleeding risk.",
+      "source_name": "DailyMed (Plavix labeling) / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=clopidogrel"
+    },
+    {
+      "id": "CI013",
+      "medicine": "Sitagliptin",
+      "condition": "Kidney Disease",
+      "severity": "DOSE REDUCTION REQUIRED",
+      "reason": "Sitagliptin is renally excreted; dose must be reduced in patients with moderate-to-severe renal impairment to avoid toxicity.",
+      "source_name": "DailyMed (Januvia labeling) / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=sitagliptin"
+    },
+    {
+      "id": "CI014",
+      "medicine": "Levetiracetam",
+      "condition": "Kidney Disease",
+      "severity": "DOSE REDUCTION REQUIRED",
+      "reason": "Levetiracetam and its metabolite are renally eliminated; dose adjustment required for CrCl <80 mL/min.",
+      "source_name": "DailyMed (Keppra labeling)",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=levetiracetam"
+    },
+    {
+      "id": "CI015",
+      "medicine": "Azithromycin",
+      "condition": "Heart Disease",
+      "severity": "CAUTION",
+      "reason": "Azithromycin can prolong QT interval; avoid in patients with known QT prolongation, bradycardia, hypokalemia, or concomitant QT-prolonging drugs.",
+      "source_name": "FDA Drug Safety Communication / DailyMed",
+      "source_url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-azithromycin-zithromax-or-zmax-and-risk-potentially-fatal-heart"
+    },
+    {
+      "id": "CI016",
+      "medicine": "Amiodarone",
+      "condition": "Thyroid Disease",
+      "severity": "ABSOLUTE",
+      "reason": "Amiodarone contains 37% iodine by weight and can cause both hypothyroidism and hyperthyroidism. Contraindicated in thyroid dysfunction.",
+      "source_name": "DailyMed (Cordarone labeling)",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=amiodarone"
+    },
+    {
+      "id": "CI017",
+      "medicine": "Sodium Valproate",
+      "condition": "Pregnancy",
+      "severity": "ABSOLUTE",
+      "reason": "Highest teratogenicity risk among antiepileptics. Causes neural tube defects (1-2%), facial clefts, cardiac malformations, and neurodevelopmental disorders. EU Pregnancy Prevention Programme mandates specialist review.",
+      "source_name": "FDA Black Box Warning / EMA SmPC",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=sodium+valproate"
+    },
+    {
+      "id": "CI018",
+      "medicine": "Methotrexate",
+      "condition": "Pregnancy",
+      "severity": "ABSOLUTE",
+      "reason": "Methotrexate is a known teratogen and abortifacient. It inhibits folic acid-dependent DNA synthesis during organogenesis causing severe birth defects.",
+      "source_name": "FDA Black Box Warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=methotrexate"
+    },
+    {
+      "id": "CI019",
+      "medicine": "Methotrexate",
+      "condition": "Kidney Disease",
+      "severity": "ABSOLUTE",
+      "reason": "Methotrexate is renally eliminated; impaired renal clearance causes drug accumulation and severe bone marrow toxicity.",
+      "source_name": "DailyMed / openFDA Black Box Warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=methotrexate"
+    },
+    {
+      "id": "CI020",
+      "medicine": "Carbamazepine",
+      "condition": "Epilepsy",
+      "severity": "NOTE",
+      "reason": "Carbamazepine can worsen certain seizure types (absence, myoclonic). Always confirm seizure type before prescribing.",
+      "source_name": "DailyMed (Tegretol labeling)",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=carbamazepine"
+    },
+    {
+      "id": "CI021",
+      "medicine": "NSAIDs (Ibuprofen, Diclofenac, Aceclofenac, Mefenamic Acid)",
+      "condition": "Asthma",
+      "severity": "CAUTION — ABSOLUTE in aspirin-exacerbated respiratory disease",
+      "reason": "NSAIDs inhibit COX-1, redirecting arachidonic acid to leukotriene synthesis, triggering bronchospasm in ~10-20% of asthmatics (aspirin-exacerbated respiratory disease).",
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ibuprofen"
+    },
+    {
+      "id": "CI022",
+      "medicine": "Beta-blockers (Metoprolol, Bisoprolol, Atenolol)",
+      "condition": "Asthma",
+      "severity": "ABSOLUTE (non-selective) / CAUTION (cardioselective)",
+      "reason": "Beta-blockers block beta-2 receptors in bronchial smooth muscle, causing bronchoconstriction. Non-selective beta-blockers are contraindicated; cardioselective ones may be used cautiously.",
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=metoprolol"
+    },
+    {
+      "id": "CI023",
+      "medicine": "Digoxin",
+      "condition": "Kidney Disease",
+      "severity": "DOSE REDUCTION REQUIRED — toxic range is narrow",
+      "reason": "Digoxin has narrow therapeutic window and is eliminated renally. Even mild renal impairment can cause digoxin toxicity. Plasma level monitoring is mandatory.",
+      "source_name": "DailyMed (Lanoxin labeling)",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=digoxin"
+    },
+    {
+      "id": "CI024",
+      "medicine": "Tramadol",
+      "condition": "Epilepsy",
+      "severity": "ABSOLUTE",
+      "reason": "Tramadol lowers seizure threshold via opioid-independent mechanism. Contraindicated in patients with epilepsy.",
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=tramadol"
+    },
+    {
+      "id": "CI025",
+      "medicine": "Pregabalin / Gabapentin",
+      "condition": "Kidney Disease",
+      "severity": "DOSE REDUCTION REQUIRED",
+      "reason": "Both drugs are renally excreted unchanged. All degrees of renal impairment require dose reduction based on CrCl to avoid accumulation and toxicity.",
+      "source_name": "DailyMed (Lyrica labeling)",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=pregabalin"
+    },
+    {
+      "id": "CI026",
+      "medicine": "Prednisolone / Corticosteroids",
+      "condition": "Diabetes",
+      "severity": "CAUTION",
+      "reason": "Corticosteroids cause dose-dependent hyperglycaemia. Can unmask latent diabetes. Existing diabetics require enhanced glucose monitoring and dose adjustments.",
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=prednisolone"
+    },
+    {
+      "id": "CI027",
+      "medicine": "Prednisolone / Corticosteroids",
+      "condition": "Peptic Ulcer",
+      "severity": "CAUTION",
+      "reason": "Corticosteroids impair gastric mucosal defence. Co-administration with NSAIDs synergistically increases GI bleeding risk.",
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=prednisolone"
+    },
+    {
+      "id": "CI028",
+      "medicine": "Furosemide",
+      "condition": "Kidney Disease",
+      "severity": "CAUTION — may need higher doses",
+      "reason": "In severe renal impairment, response to furosemide is blunted; higher doses may be needed. Monitor electrolytes (hyponatremia, hypokalemia risk).",
+      "source_name": "DailyMed",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=furosemide"
+    },
+    {
+      "id": "CI029",
+      "medicine": "Doxycycline",
+      "condition": "Pregnancy",
+      "severity": "ABSOLUTE",
+      "reason": "Tetracyclines deposit in developing teeth and bone, causing permanent yellow-brown discolouration of teeth and inhibiting bone growth in the fetus.",
+      "source_name": "DailyMed / openFDA",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=doxycycline"
+    },
+    {
+      "id": "CI030",
+      "medicine": "Empagliflozin / Dapagliflozin (SGLT-2 inhibitors)",
+      "condition": "Kidney Disease",
+      "severity": "ABSOLUTE if eGFR <30 (diabetes indication)",
+      "reason": "SGLT-2 inhibitors require functional renal SGLT-2 transporters for glycaemic efficacy. Severely reduced in advanced CKD. Also risk of euglycaemic DKA.",
+      "source_name": "DailyMed (Jardiance/Farxiga labeling)",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=empagliflozin"
+    }
+  ],
+  "_total_records": 30
+}

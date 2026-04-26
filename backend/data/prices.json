@@ -1,0 +1,101 @@
+{
+  "_schema_version": "1.0.0",
+  "_CRITICAL_NOTE": "Prices listed below are APPROXIMATE indicative values based on known MRP ranges as of 2024 from publicly listed Indian pharmacy platforms. DO NOT use these prices directly in production. Prices must be scraped live from Tata 1mg, PharmEasy, Netmeds, Apollo 247, and PMBJP on deployment date. Prices change frequently due to NPPA price revisions, promotions, and stock availability.",
+  "_live_data_endpoints": {
+    "PMBJP": "https://janaushadhi.gov.in/ProductList.aspx — Price list downloadable as PDF",
+    "Tata_1mg": "https://www.1mg.com — Use public product search pages",
+    "PharmEasy": "https://pharmeasy.in — Use public product search pages",
+    "Netmeds": "https://www.netmeds.com — Use public product search pages",
+    "Apollo": "https://www.apollopharmacy.in — Use public product search pages"
+  },
+  "prices": [
+    {
+      "id": "PRC001",
+      "medicine": "Paracetamol 500mg (15 tablets)",
+      "brand": "Crocin 500",
+      "platform": "Tata 1mg (indicative)",
+      "price_inr": 17.0,
+      "unit": "strip of 15",
+      "date_accessed": "2024-12-01",
+      "source_url": "https://www.1mg.com/drugs/crocin-500mg-tablet-5880",
+      "confidence_level": "INDICATIVE_ONLY"
+    },
+    {
+      "id": "PRC002",
+      "medicine": "Paracetamol 500mg (15 tablets)",
+      "brand": "Jan Aushadhi Generic",
+      "platform": "PMBJP",
+      "price_inr": 1.5,
+      "unit": "per tablet",
+      "date_accessed": "2024-12-01",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx",
+      "confidence_level": "INDICATIVE_ONLY"
+    },
+    {
+      "id": "PRC003",
+      "medicine": "Metformin 500mg (10 tablets)",
+      "brand": "Glycomet 500",
+      "platform": "PharmEasy (indicative)",
+      "price_inr": 26.0,
+      "unit": "strip of 10",
+      "date_accessed": "2024-12-01",
+      "source_url": "https://pharmeasy.in/online-medicine-order/glycomet-500-tablet-10s",
+      "confidence_level": "INDICATIVE_ONLY"
+    },
+    {
+      "id": "PRC004",
+      "medicine": "Metformin 500mg",
+      "brand": "Jan Aushadhi Generic",
+      "platform": "PMBJP",
+      "price_inr": 1.5,
+      "unit": "per tablet",
+      "date_accessed": "2024-12-01",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx",
+      "confidence_level": "INDICATIVE_ONLY"
+    },
+    {
+      "id": "PRC005",
+      "medicine": "Atorvastatin 10mg (10 tablets)",
+      "brand": "Atorva 10",
+      "platform": "Netmeds (indicative)",
+      "price_inr": 46.0,
+      "unit": "strip of 10",
+      "date_accessed": "2024-12-01",
+      "source_url": "https://www.netmeds.com/prescriptions/atorva-10mg-tablet-10s",
+      "confidence_level": "INDICATIVE_ONLY"
+    },
+    {
+      "id": "PRC006",
+      "medicine": "Atorvastatin 10mg",
+      "brand": "Jan Aushadhi Generic",
+      "platform": "PMBJP",
+      "price_inr": 2.0,
+      "unit": "per tablet",
+      "date_accessed": "2024-12-01",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx",
+      "confidence_level": "INDICATIVE_ONLY"
+    },
+    {
+      "id": "PRC007",
+      "medicine": "Telmisartan 40mg (14 tablets)",
+      "brand": "Telma 40",
+      "platform": "Tata 1mg (indicative)",
+      "price_inr": 90.0,
+      "unit": "strip of 14",
+      "date_accessed": "2024-12-01",
+      "source_url": "https://www.1mg.com/drugs/telma-40-tablet-4437",
+      "confidence_level": "INDICATIVE_ONLY"
+    },
+    {
+      "id": "PRC008",
+      "medicine": "Telmisartan 40mg",
+      "brand": "Jan Aushadhi Generic",
+      "platform": "PMBJP",
+      "price_inr": 3.0,
+      "unit": "per tablet",
+      "date_accessed": "2024-12-01",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx",
+      "confidence_level": "INDICATIVE_ONLY"
+    }
+  ]
+}

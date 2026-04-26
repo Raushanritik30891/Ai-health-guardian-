@@ -1,0 +1,200 @@
+[
+  {
+    "medicine_a": "Levothyroxine (Thyronorm / Eltroxin)",
+    "medicine_b_or_food": "Calcium supplements (Shelcal / Calcimax)",
+    "minimum_gap": "4 hours",
+    "severity": "high",
+    "reason": "Calcium chelates levothyroxine in the gut, forming insoluble complexes that dramatically reduce thyroid hormone absorption, leading to hypothyroidism.",
+    "recommendation": "Take levothyroxine on empty stomach 30–60 min before breakfast. Take calcium at lunch or evening. Never co-administer.",
+    "source_name": "DailyMed (FDA) — Levothyroxine label",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c7d65d4f-8b0e-4a8c-9f16-1a3c2ea72e96",
+    "confidence": "high"
+  },
+  {
+    "medicine_a": "Levothyroxine (Thyronorm / Eltroxin)",
+    "medicine_b_or_food": "Iron supplements (Ferrous sulphate / Orofer)",
+    "minimum_gap": "4 hours",
+    "severity": "high",
+    "reason": "Ferrous iron forms insoluble complexes with levothyroxine, reducing its absorption by up to 60–80% when taken together.",
+    "recommendation": "Always separate levothyroxine and iron by at least 4 hours. Administer levothyroxine at dawn, iron at midday or evening.",
+    "source_name": "DailyMed (FDA) — Levothyroxine label",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c7d65d4f-8b0e-4a8c-9f16-1a3c2ea72e96",
+    "confidence": "high"
+  },
+  {
+    "medicine_a": "Iron (Ferrous sulphate)",
+    "medicine_b_or_food": "Tea / Coffee / Tannin-rich drinks",
+    "minimum_gap": "1–2 hours",
+    "severity": "moderate",
+    "reason": "Tannins and polyphenols in tea and coffee bind dietary and supplemental iron, inhibiting non-haem iron absorption by 60–90%.",
+    "recommendation": "Take iron on empty stomach or 1–2 hours away from tea, coffee, or any tannin beverage. Vitamin C (orange juice) co-administration improves absorption.",
+    "source_name": "WHO — Iron Deficiency Anaemia Assessment, Prevention and Control",
+    "source_url": "https://www.who.int/publications/i/item/9241548649",
+    "confidence": "high"
+  },
+  {
+    "medicine_a": "Iron (Ferrous sulphate)",
+    "medicine_b_or_food": "Calcium supplements",
+    "minimum_gap": "2 hours",
+    "severity": "moderate",
+    "reason": "Calcium competes with iron for intestinal absorption via the same divalent metal transporter (DMT-1). Co-administration significantly reduces iron uptake.",
+    "recommendation": "Never take iron and calcium together. Stagger by at least 2 hours. Preferably take iron in the morning and calcium with evening meal.",
+    "source_name": "WHO — Iron Deficiency Anaemia Assessment, Prevention and Control",
+    "source_url": "https://www.who.int/publications/i/item/9241548649",
+    "confidence": "high"
+  },
+  {
+    "medicine_a": "Pantoprazole / Omeprazole (Pan 40 / Omez)",
+    "medicine_b_or_food": "Food (meals)",
+    "minimum_gap": "Take 30–60 min BEFORE food",
+    "severity": "moderate",
+    "reason": "PPIs are prodrugs that require acid to activate the canalicular proton pump. Taking with or after food reduces efficacy by up to 50% because active pumps are needed for activation.",
+    "recommendation": "Always take pantoprazole or omeprazole 30–60 minutes before the first meal of the day on an empty stomach.",
+    "source_name": "DailyMed (FDA) — Pantoprazole label",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6f2e66d7-cfd3-436d-9bc7-a9ebfac3e9de",
+    "confidence": "high"
+  },
+  {
+    "medicine_a": "Azithromycin (Azithral)",
+    "medicine_b_or_food": "Antacids containing aluminium or magnesium (Digene / Gelusil)",
+    "minimum_gap": "2 hours",
+    "severity": "moderate",
+    "reason": "Aluminium- and magnesium-containing antacids reduce peak azithromycin plasma concentration (Cmax) by approximately 24%, reducing antimicrobial effect.",
+    "recommendation": "Take azithromycin at least 2 hours before, or 2 hours after, antacid intake. Azithromycin is best taken on an empty stomach.",
+    "source_name": "DailyMed (FDA) — Azithromycin label",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b27a0b25-96ee-4d23-b0eb-1491bf56c8b8",
+    "confidence": "high"
+  },
+  {
+    "medicine_a": "Ciprofloxacin / Fluoroquinolones (Ciplox)",
+    "medicine_b_or_food": "Milk / Dairy products / Calcium-fortified juices",
+    "minimum_gap": "2 hours",
+    "severity": "high",
+    "reason": "Calcium and divalent cations (Ca2+, Mg2+, Al3+, Fe2+) chelate fluoroquinolones in the gut, forming poorly absorbed complexes. This can reduce ciprofloxacin bioavailability by 30–60%.",
+    "recommendation": "Do not take ciprofloxacin within 2 hours of any dairy product, calcium supplement, or antacid. Take with plain water on an empty stomach.",
+    "source_name": "DailyMed (FDA) — Ciprofloxacin label",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d5fb7e43-4b3d-4a88-85ef-0e1f2e09e97a",
+    "confidence": "high"
+  },
+  {
+    "medicine_a": "Metformin (Glycomet / Glucophage)",
+    "medicine_b_or_food": "Food (meals)",
+    "minimum_gap": "Take WITH or immediately after food",
+    "severity": "moderate",
+    "reason": "Metformin causes significant GI side effects (nausea, diarrhoea, abdominal pain) when taken on an empty stomach. Food slows absorption and improves tolerability without reducing efficacy.",
+    "recommendation": "Always take metformin with or immediately after meals. Starting at low dose (500 mg) and slowly titrating also helps GI tolerance.",
+    "source_name": "DailyMed (FDA) — Metformin label",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a9daa93-b3aa-4c18-bcff-9ee7b77f8a62",
+    "confidence": "high"
+  },
+  {
+    "medicine_a": "Warfarin (Warf / Coumadin)",
+    "medicine_b_or_food": "Alcohol",
+    "minimum_gap": "Avoid alcohol entirely during warfarin therapy",
+    "severity": "high",
+    "reason": "Acute alcohol intake inhibits warfarin metabolism (CYP2C9), increasing INR and bleeding risk. Chronic heavy use induces CYP enzymes, reducing warfarin effect and increasing clot risk. Both extremes are dangerous.",
+    "recommendation": "Avoid alcohol completely during warfarin therapy. If unavoidable, limit to 1–2 standard drinks, maintain consistent intake, and monitor INR more frequently.",
+    "source_name": "DailyMed (FDA) — Warfarin label",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0b3d0571-8c5e-4bc6-b3e5-89f09c6a08c1",
+    "confidence": "high"
+  },
+  {
+    "medicine_a": "Warfarin (Warf / Coumadin)",
+    "medicine_b_or_food": "Vitamin K-rich foods (green leafy vegetables: spinach, methi, coriander)",
+    "minimum_gap": "No gap — maintain consistent daily intake rather than avoiding",
+    "severity": "moderate",
+    "reason": "Warfarin acts by inhibiting vitamin K-dependent clotting factors. Large or erratic changes in vitamin K consumption significantly alter INR. Sudden increase in vitamin K reduces anticoagulant effect.",
+    "recommendation": "Do NOT eliminate vitamin K foods — eat consistent amounts daily. Avoid sudden large changes in intake. INR monitoring should guide dose adjustments.",
+    "source_name": "DailyMed (FDA) — Warfarin label",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0b3d0571-8c5e-4bc6-b3e5-89f09c6a08c1",
+    "confidence": "high"
+  },
+  {
+    "medicine_a": "Cetirizine (Zyrtec / Cetrizet)",
+    "medicine_b_or_food": "Alcohol",
+    "minimum_gap": "Avoid alcohol during treatment",
+    "severity": "moderate",
+    "reason": "Cetirizine is a second-generation antihistamine with CNS sedation potential. Alcohol potentiates CNS depression, increasing drowsiness, impaired motor function, and reaction time — particularly dangerous while driving.",
+    "recommendation": "Avoid alcohol while taking cetirizine, especially if driving or operating machinery. Even though cetirizine is 'less sedating', alcohol interaction remains clinically significant.",
+    "source_name": "DailyMed (FDA) — Cetirizine label",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d53bb1cc-9b8b-4edb-a66b-d33c3cdfcbe0",
+    "confidence": "high"
+  },
+  {
+    "medicine_a": "Metronidazole (Flagyl / Metrogyl)",
+    "medicine_b_or_food": "Alcohol",
+    "minimum_gap": "48 hours after last dose of metronidazole",
+    "severity": "high",
+    "reason": "Metronidazole inhibits aldehyde dehydrogenase, causing a disulfiram-like reaction with alcohol: severe nausea, vomiting, flushing, tachycardia, hypotension. Can be life-threatening.",
+    "recommendation": "Absolutely no alcohol during metronidazole therapy AND for 48 hours after the last dose. Warn patients explicitly. Also avoid alcohol-containing mouthwashes, sauces, and cough syrups.",
+    "source_name": "DailyMed (FDA) — Metronidazole label",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2de0b3a8-5634-4c13-99c1-c0ffd37c3b74",
+    "confidence": "high"
+  },
+  {
+    "medicine_a": "Antacids (Digene / Gelusil — Al/Mg-based)",
+    "medicine_b_or_food": "Any oral antibiotic (Amoxicillin, Ciprofloxacin, Azithromycin)",
+    "minimum_gap": "2 hours",
+    "severity": "moderate",
+    "reason": "Polyvalent cations in antacids (Al3+, Mg2+) form insoluble chelates with quinolones and reduce absorption of many oral antibiotics by altering gut pH and binding drug molecules.",
+    "recommendation": "As a general rule, take any oral antibiotic at least 2 hours before, or 2 hours after, any antacid. This is most critical for fluoroquinolones (ciprofloxacin) and tetracyclines.",
+    "source_name": "DailyMed (FDA) — Ciprofloxacin label",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d5fb7e43-4b3d-4a88-85ef-0e1f2e09e97a",
+    "confidence": "high"
+  },
+  {
+    "medicine_a": "Aspirin (Ecosprin 75)",
+    "medicine_b_or_food": "Ibuprofen (Brufen / Combiflam)",
+    "minimum_gap": "Take ibuprofen at least 30 min AFTER aspirin, or 8+ hours before the next aspirin dose",
+    "severity": "high",
+    "reason": "Ibuprofen competes with aspirin for COX-1 binding sites on platelets. If taken before aspirin, it blocks aspirin's irreversible platelet inhibition, negating cardioprotective antiplatelet effect.",
+    "recommendation": "Patients on daily low-dose aspirin (75–150 mg) for cardioprotection should take aspirin first, wait at least 30 minutes, then take ibuprofen if needed. Preferably avoid regular ibuprofen in patients on antiplatelet aspirin.",
+    "source_name": "openFDA — Ibuprofen drug interactions",
+    "source_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:advil&limit=1",
+    "confidence": "high"
+  },
+  {
+    "medicine_a": "Omeprazole (Omez)",
+    "medicine_b_or_food": "Clopidogrel (Clopilet / Plavix)",
+    "minimum_gap": "Avoid combination — use pantoprazole instead if PPI needed",
+    "severity": "high",
+    "reason": "Omeprazole is a strong CYP2C19 inhibitor. Clopidogrel requires CYP2C19 conversion to its active form. Co-administration reduces clopidogrel's antiplatelet effect by 30–60%, increasing risk of stent thrombosis and MI.",
+    "recommendation": "Use pantoprazole (weaker CYP2C19 inhibition) instead of omeprazole in patients on clopidogrel. If unavoidable, stagger timing: take clopidogrel in the morning and omeprazole at night (partial mitigation only).",
+    "source_name": "openFDA — Clopidogrel label",
+    "source_url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:plavix&limit=1",
+    "confidence": "high"
+  },
+  {
+    "medicine_a": "Calcium supplements (Shelcal / Calcimax)",
+    "medicine_b_or_food": "Bisphosphonates (Alendronate / Osteocare)",
+    "minimum_gap": "30–60 minutes (bisphosphonate must be taken first, on empty stomach)",
+    "severity": "high",
+    "reason": "Calcium (and food, or any medication) taken within 30–60 min of alendronate dramatically reduces bisphosphonate absorption from near-complete to near-zero. Must be taken with plain water only.",
+    "recommendation": "Take alendronate immediately upon waking with a full glass of plain water only. Remain upright (no lying down) for 30–60 min. Take calcium (and all other medications/food) only after this window.",
+    "source_name": "DailyMed (FDA) — Alendronate label",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1c6e23e7-6e7f-4b72-a95c-5c8d7cf8d3f5",
+    "confidence": "high"
+  },
+  {
+    "medicine_a": "Levothyroxine (Thyronorm)",
+    "medicine_b_or_food": "Soy-based foods / soy milk / soy supplements",
+    "minimum_gap": "4 hours",
+    "severity": "moderate",
+    "reason": "Dietary soy isoflavones may reduce levothyroxine absorption. High soy intake is associated with increased levothyroxine dose requirements, particularly in infants on soy formula.",
+    "recommendation": "Maintain a 4-hour gap between levothyroxine and high soy intake. Patients on high-soy diets may need TSH monitoring and dose adjustment.",
+    "source_name": "DailyMed (FDA) — Levothyroxine label",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c7d65d4f-8b0e-4a8c-9f16-1a3c2ea72e96",
+    "confidence": "moderate"
+  },
+  {
+    "medicine_a": "Tetracycline / Doxycycline (Doxinate)",
+    "medicine_b_or_food": "Milk / Dairy / Calcium-rich foods",
+    "minimum_gap": "2 hours",
+    "severity": "high",
+    "reason": "Divalent cations in dairy products (Ca2+) form insoluble chelate complexes with tetracyclines, reducing antibiotic absorption by up to 50–80%.",
+    "recommendation": "Take tetracycline/doxycycline with a full glass of water only, at least 1–2 hours before or 2–3 hours after dairy products. Never take with milk.",
+    "source_name": "DailyMed (FDA) — Doxycycline label",
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2d55a88e-e10e-4e95-b490-d2ab3b7a4f2c",
+    "confidence": "high"
+  }
+]

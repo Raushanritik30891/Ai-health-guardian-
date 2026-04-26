@@ -1,0 +1,86 @@
+{
+  "_schema_version": "1.0.0",
+  "_note": "Phrases collected from documented Indian government medicine supply schemes, PMBJP packaging guidelines, and National Health Mission supply documentation. OCR variants are empirically derived from common OCR misreads of these texts.",
+  "not_for_sale_keywords": [
+    {
+      "id": "NFS001",
+      "canonical_text": "NOT FOR SALE",
+      "context": "Government hospital supply — medicines not to be sold commercially",
+      "ocr_variants": ["NOT FOR SALE", "NOT F0R SALE", "N0T FOR SALE", "NOT FOR SAL E", "NOTFORSALE"],
+      "regex": "NOT\\s?F[O0]R\\s?SALE?",
+      "case_sensitive": false,
+      "source_reference": "Common on NHM and CGHS supply strips; visible on publicly documented government medicine packaging",
+      "confidence_level": "HIGH"
+    },
+    {
+      "id": "NFS002",
+      "canonical_text": "GOVT. SUPPLY",
+      "context": "Government supply indicator — not for retail sale",
+      "ocr_variants": ["GOVT. SUPPLY", "GOVT SUPPLY", "G0VT. SUPPLY", "GOVT.SUPPLY", "GOV'T SUPPLY"],
+      "regex": "G[O0]V[T.]?T?\\.?\\s?SUPPLY",
+      "case_sensitive": false,
+      "source_reference": "Standard label on Central Government Health Scheme (CGHS) and state health ministry supply strips",
+      "confidence_level": "HIGH"
+    },
+    {
+      "id": "NFS003",
+      "canonical_text": "GOVERNMENT OF INDIA SUPPLY",
+      "context": "Full form label on centrally procured medicine packs",
+      "ocr_variants": ["GOVERNMENT OF INDIA SUPPLY", "GOVT. OF INDIA SUPPLY", "GOI SUPPLY"],
+      "regex": "G[O0]V(ERN?MENT)?\\s?(OF)?\\s?INDIA\\s?SUPPLY",
+      "case_sensitive": false,
+      "source_reference": "Central procurement labels documented in National Health Mission guidelines",
+      "confidence_level": "HIGH"
+    },
+    {
+      "id": "NFS004",
+      "canonical_text": "JAN AUSHADHI",
+      "context": "Pradhan Mantri Bhartiya Janaushadhi Pariyojana — generic pharmacy scheme branded packs",
+      "ocr_variants": ["JAN AUSHADHI", "JANAUSHADHI", "JAN AUSHADI", "JAN AUSADHI"],
+      "regex": "JAN\\s?AUSH?ADH?I",
+      "case_sensitive": false,
+      "source_reference": "PMBJP official packaging — https://janaushadhi.gov.in",
+      "confidence_level": "HIGH"
+    },
+    {
+      "id": "NFS005",
+      "canonical_text": "FREE SUPPLY",
+      "context": "Medicines provided free of charge under government scheme",
+      "ocr_variants": ["FREE SUPPLY", "FREE SUPPL Y", "FREESUPPLY", "FR EE SUPPLY"],
+      "regex": "FR?EE\\s?SUPPLY",
+      "case_sensitive": false,
+      "source_reference": "Commonly printed on NHM Essential Drug List supplies",
+      "confidence_level": "HIGH"
+    },
+    {
+      "id": "NFS006",
+      "canonical_text": "HOSPITAL SUPPLY",
+      "context": "Medicines packaged exclusively for hospital dispensing",
+      "ocr_variants": ["HOSPITAL SUPPLY", "HOSP. SUPPLY", "HOSPITAL SUPPL", "H0SPITAL SUPPLY"],
+      "regex": "H[O0]SPITAL\\.?\\s?SUPPLY",
+      "case_sensitive": false,
+      "source_reference": "Standard label on institutional bulk packs",
+      "confidence_level": "HIGH"
+    },
+    {
+      "id": "NFS007",
+      "canonical_text": "NOT FOR RETAIL SALE",
+      "context": "Institutional packs — hospitals and dispensaries only",
+      "ocr_variants": ["NOT FOR RETAIL SALE", "NOT FOR RETAIL SAL E", "NOT F0R RETAIL SALE"],
+      "regex": "NOT\\s?F[O0]R\\s?RETAIL\\s?SALE?",
+      "case_sensitive": false,
+      "source_reference": "Common on bulk hospital packaging",
+      "confidence_level": "HIGH"
+    },
+    {
+      "id": "NFS008",
+      "canonical_text": "PMBJP",
+      "context": "Abbreviation on Jan Aushadhi branded packs",
+      "ocr_variants": ["PMBJP", "P M B J P", "PM8JP"],
+      "regex": "P\\s?M\\s?B\\s?J\\s?P",
+      "case_sensitive": false,
+      "source_reference": "PMBJP packaging standards — https://janaushadhi.gov.in",
+      "confidence_level": "HIGH"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "_schema_version": "1.0.0",
+  "rules": [
+    {
+      "id": "T001",
+      "med_a": "Thyroxine",
+      "med_b": "Calcium",
+      "min_gap_hours": 4,
+      "reason": "Calcium carbonate can bind levothyroxine (Thyroxine) in the GI tract, reducing its absorption by up to 30%.",
+      "reason_hindi": "कैल्शियम थायरोक्सिन के अवशोषण को कम कर सकता है।",
+      "recommendation": "Take Thyroxine on an empty stomach at least 4 hours before Calcium.",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "T002",
+      "med_a": "Antacid",
+      "med_b": "Ciprofloxacin",
+      "min_gap_hours": 2,
+      "reason": "Antacids containing Magnesium or Aluminum reduce the concentration of Ciprofloxacin.",
+      "reason_hindi": "एंटासिड सिप्रोफ्लोक्सासिन के असर को कम कर सकता है।",
+      "recommendation": "Maintain a 2-hour gap between these medicines.",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "T003",
+      "med_a": "Iron",
+      "med_b": "Milk",
+      "min_gap_hours": 2,
+      "reason": "Calcium in milk competes with Iron for absorption.",
+      "reason_hindi": "दूध आयरन के अवशोषण में बाधा डाल सकता है।",
+      "recommendation": "Do not take Iron tablets with milk. Keep 2 hours gap.",
+      "confidence": "MEDIUM"
+    },
+    {
+      "id": "T004",
+      "med_a": "Antibiotic",
+      "med_b": "Curd",
+      "min_gap_hours": 2,
+      "reason": "Probiotics in curd can be killed by antibiotics, and some dairy products interfere with absorption.",
+      "reason_hindi": "दही और एंटीबायोटिक के बीच अंतर रखें।",
+      "recommendation": "Wait 2 hours between Curd and Antibiotics.",
+      "confidence": "MEDIUM"
+    }
+  ]
+}

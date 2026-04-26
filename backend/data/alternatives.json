@@ -1,0 +1,337 @@
+{
+  "_schema_version": "1.0.0",
+  "_note": "Alternatives based on salt-match only. Jan Aushadhi equivalents taken from PMBJP official catalog. No therapeutic substitution suggested without physician approval.",
+  "alternatives": [
+    {
+      "id": "ALT001",
+      "brand_name": "Crocin 500",
+      "salt": "Paracetamol 500mg",
+      "alternatives": [
+        {
+          "brand": "Dolo 500",
+          "manufacturer": "Micro Labs"
+        },
+        {
+          "brand": "Calpol 500",
+          "manufacturer": "GSK"
+        },
+        {
+          "brand": "Pyrigesic 500",
+          "manufacturer": "East India Pharmaceuticals"
+        },
+        {
+          "brand": "Metacin",
+          "manufacturer": "Abbott India"
+        }
+      ],
+      "jan_aushadhi_equivalent": "Paracetamol Tablet IP 500mg",
+      "jan_aushadhi_price_approx_inr": 1.0,
+      "source_name": "PMBJP Catalog",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "id": "ALT002",
+      "brand_name": "Glycomet 500",
+      "salt": "Metformin Hydrochloride 500mg",
+      "alternatives": [
+        {
+          "brand": "Obimet 500",
+          "manufacturer": "Sun Pharma"
+        },
+        {
+          "brand": "Glucophage 500",
+          "manufacturer": "Merck"
+        },
+        {
+          "brand": "Carbophage 500",
+          "manufacturer": "Franco-Indian"
+        },
+        {
+          "brand": "Walaphage 500",
+          "manufacturer": "Walaplus"
+        }
+      ],
+      "jan_aushadhi_equivalent": "Metformin Hydrochloride Tablets IP 500mg",
+      "jan_aushadhi_price_approx_inr": 1.5,
+      "source_name": "PMBJP Catalog + PharmEasy",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "id": "ALT003",
+      "brand_name": "Ecosprin 75",
+      "salt": "Aspirin 75mg",
+      "alternatives": [
+        {
+          "brand": "Loprin 75",
+          "manufacturer": "Sun Pharma"
+        },
+        {
+          "brand": "Cardiopirin 75",
+          "manufacturer": "Cipla"
+        },
+        {
+          "brand": "Aspicot 75",
+          "manufacturer": "Intas"
+        }
+      ],
+      "jan_aushadhi_equivalent": "Aspirin Tablet IP 75mg",
+      "jan_aushadhi_price_approx_inr": 0.5,
+      "source_name": "PMBJP Catalog",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "id": "ALT004",
+      "brand_name": "Atorva 10",
+      "salt": "Atorvastatin Calcium 10mg",
+      "alternatives": [
+        {
+          "brand": "Storvas 10",
+          "manufacturer": "Sun Pharma"
+        },
+        {
+          "brand": "Tonact 10",
+          "manufacturer": "Lupin"
+        },
+        {
+          "brand": "Atorlip 10",
+          "manufacturer": "Cipla"
+        },
+        {
+          "brand": "Aztor 10",
+          "manufacturer": "Sun Pharma"
+        },
+        {
+          "brand": "Lipvas 10",
+          "manufacturer": "Cipla"
+        }
+      ],
+      "jan_aushadhi_equivalent": "Atorvastatin Tablet IP 10mg",
+      "jan_aushadhi_price_approx_inr": 2.0,
+      "source_name": "PMBJP Catalog + Tata 1mg",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "id": "ALT005",
+      "brand_name": "Telma 40",
+      "salt": "Telmisartan 40mg",
+      "alternatives": [
+        {
+          "brand": "Telmikind 40",
+          "manufacturer": "Mankind"
+        },
+        {
+          "brand": "Telsar 40",
+          "manufacturer": "Sun Pharma"
+        },
+        {
+          "brand": "Telsartan 40",
+          "manufacturer": "Dr. Reddy's"
+        },
+        {
+          "brand": "Telday 40",
+          "manufacturer": "Lupin"
+        }
+      ],
+      "jan_aushadhi_equivalent": "Telmisartan Tablet IP 40mg",
+      "jan_aushadhi_price_approx_inr": 3.0,
+      "source_name": "PMBJP Catalog",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "id": "ALT006",
+      "brand_name": "Pan 40",
+      "salt": "Pantoprazole Sodium 40mg",
+      "alternatives": [
+        {
+          "brand": "Pantocid 40",
+          "manufacturer": "Sun Pharma"
+        },
+        {
+          "brand": "Nexpro 40",
+          "manufacturer": "Torrent"
+        },
+        {
+          "brand": "Pantodac 40",
+          "manufacturer": "Zydus"
+        },
+        {
+          "brand": "Pantop 40",
+          "manufacturer": "Aristo"
+        }
+      ],
+      "jan_aushadhi_equivalent": "Pantoprazole Tablet IP 40mg",
+      "jan_aushadhi_price_approx_inr": 2.5,
+      "source_name": "PMBJP Catalog",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "id": "ALT007",
+      "brand_name": "Thyronorm 50mcg",
+      "salt": "Levothyroxine Sodium 50mcg",
+      "alternatives": [
+        {
+          "brand": "Eltroxin 50",
+          "manufacturer": "GSK"
+        },
+        {
+          "brand": "Thyrox 50",
+          "manufacturer": "Zydus"
+        },
+        {
+          "brand": "Levotas 50",
+          "manufacturer": "Intas"
+        }
+      ],
+      "jan_aushadhi_equivalent": "Levothyroxine Tablet IP 50mcg",
+      "jan_aushadhi_price_approx_inr": 1.0,
+      "source_name": "PMBJP Catalog",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "id": "ALT008",
+      "brand_name": "Clopivas 75",
+      "salt": "Clopidogrel Bisulfate 75mg",
+      "alternatives": [
+        {
+          "brand": "Deplatt 75",
+          "manufacturer": "Torrent"
+        },
+        {
+          "brand": "Clopilet 75",
+          "manufacturer": "Sun Pharma"
+        },
+        {
+          "brand": "Plagril 75",
+          "manufacturer": "Sun Pharma"
+        },
+        {
+          "brand": "Clopicard 75",
+          "manufacturer": "Intas"
+        }
+      ],
+      "jan_aushadhi_equivalent": "Clopidogrel Tablet IP 75mg",
+      "jan_aushadhi_price_approx_inr": 3.5,
+      "source_name": "PMBJP Catalog",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "id": "ALT009",
+      "brand_name": "Ciprofloxacin 500",
+      "salt": "Ciprofloxacin Hydrochloride 500mg",
+      "alternatives": [
+        {
+          "brand": "Ciplox 500",
+          "manufacturer": "Cipla"
+        },
+        {
+          "brand": "Cifran 500",
+          "manufacturer": "Sun Pharma"
+        },
+        {
+          "brand": "Quinflox 500",
+          "manufacturer": "Elder"
+        }
+      ],
+      "jan_aushadhi_equivalent": "Ciprofloxacin Tablet IP 500mg",
+      "jan_aushadhi_price_approx_inr": 3.0,
+      "source_name": "PMBJP Catalog",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "id": "ALT010",
+      "brand_name": "Omez 20",
+      "salt": "Omeprazole 20mg",
+      "alternatives": [
+        {
+          "brand": "Ocid 20",
+          "manufacturer": "Cipla"
+        },
+        {
+          "brand": "Omiflux 20",
+          "manufacturer": "Mankind"
+        },
+        {
+          "brand": "Prilosec 20",
+          "manufacturer": "AstraZeneca"
+        },
+        {
+          "brand": "Omepure 20",
+          "manufacturer": "PMBJP"
+        }
+      ],
+      "jan_aushadhi_equivalent": "Omeprazole Capsule IP 20mg",
+      "jan_aushadhi_price_approx_inr": 1.5,
+      "source_name": "PMBJP Catalog",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "id": "ALT011",
+      "brand_name": "Azithral 500",
+      "salt": "Azithromycin Dihydrate 500mg",
+      "alternatives": [
+        {
+          "brand": "Azax 500",
+          "manufacturer": "Sun Pharma"
+        },
+        {
+          "brand": "Azifast 500",
+          "manufacturer": "Glenmark"
+        },
+        {
+          "brand": "Zithromax 500",
+          "manufacturer": "Pfizer"
+        }
+      ],
+      "jan_aushadhi_equivalent": "Azithromycin Tablet IP 500mg",
+      "jan_aushadhi_price_approx_inr": 8.0,
+      "source_name": "PMBJP Catalog",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "id": "ALT012",
+      "brand_name": "Metoprolol XL 25",
+      "salt": "Metoprolol Succinate 25mg",
+      "alternatives": [
+        {
+          "brand": "Seloken XL 25",
+          "manufacturer": "AstraZeneca"
+        },
+        {
+          "brand": "Metolar XR 25",
+          "manufacturer": "Cipla"
+        },
+        {
+          "brand": "Betaloc 25",
+          "manufacturer": "AstraZeneca"
+        }
+      ],
+      "jan_aushadhi_equivalent": "Metoprolol Succinate Tablet IP 25mg",
+      "jan_aushadhi_price_approx_inr": 2.5,
+      "source_name": "PMBJP Catalog",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    },
+    {
+      "id": "ALT013",
+      "brand_name": "Cetirizine 10",
+      "salt": "Cetirizine Hydrochloride 10mg",
+      "alternatives": [
+        {
+          "brand": "Cetzine 10",
+          "manufacturer": "Cipla"
+        },
+        {
+          "brand": "Alerid 10",
+          "manufacturer": "Cipla"
+        },
+        {
+          "brand": "Okacet 10",
+          "manufacturer": "Cipla"
+        }
+      ],
+      "jan_aushadhi_equivalent": "Cetirizine Tablet IP 10mg",
+      "jan_aushadhi_price_approx_inr": 0.5,
+      "source_name": "PMBJP Catalog",
+      "source_url": "https://janaushadhi.gov.in/ProductList.aspx"
+    }
+  ]
+}
