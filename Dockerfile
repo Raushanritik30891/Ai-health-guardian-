@@ -16,12 +16,17 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # Python dependencies
-COPY requirements.txt .
+# Copy from backend directory
+COPY backend/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # App code
-COPY . .
+# Copy everything from backend directory into /app
+COPY backend/ .
 
 EXPOSE 8000
+
+# Set environment variable for python path
+ENV PYTHONPATH=/app
 
 CMD uvicorn main:app --host 0.0.0.0 --port ${PORT:-8000} --workers 2
